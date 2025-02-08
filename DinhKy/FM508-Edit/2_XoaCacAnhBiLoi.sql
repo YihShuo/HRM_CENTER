@@ -1,0 +1,21 @@
+SELECT *
+FROM empphoto
+WHERE empid IN ('320191','336007','336007','314455','336007','336004','311317')
+
+--UPDATE empphoto
+SET photo = Null
+WHERE empid IN ('320191','336007','336007','314455','336007','336004','311317')
+
+SELECT *
+FROM t_DeviceEmp
+WHERE emp_id IN ('320191','336007','336007','314455','336007','336004','311317')
+AND  itype = 1
+
+--UPDATE t_DeviceEmp
+SET itype = '0'
+WHERE emp_id IN ('320191','336007','336007','314455','336007','336004','311317')
+AND  itype = 1
+
+
+
+

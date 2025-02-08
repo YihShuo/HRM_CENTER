@@ -1,0 +1,30 @@
+﻿----------------------Thống Kê Tổng A Của Từng Đơn vị
+SELECT a.DV_Ma,ISNULL(b.Tong,0) AS TongA,COUNT(ISNULL(BB_MA,1)) AS TongNV
+FROM ST_BINHBAUTHANG a LEFT JOIN (SELECT DV_Ma,COUNT(BB_MA) AS Tong
+									FROM ST_BINHBAUTHANG
+									WHERE T_MA = '10-2023' AND BB_MA='A'
+									GROUP BY DV_Ma
+								  ) b ON a.DV_Ma=b.DV_Ma
+WHERE a.T_MA = '11-2023'
+	AND a.DV_Ma IS NOT NULL
+GROUP BY a.DV_Ma,b.Tong
+ORDER BY a.DV_Ma
+
+
+
+--SELECT DV_Ma,COUNT(ISNULL(BB_MA,1)) 
+--FROM ST_BINHBAUTHANG
+--WHERE T_MA = '10-2023'
+--	AND DV_Ma IS NOT NULL
+--GROUP BY DV_Ma
+
+--SELECT *
+--FROM ST_BINHBAUTHANG
+--WHERE T_MA = '10-2023'
+--	AND DV_Ma = 'A-L01A'
+
+----------------------Thống Kê Toàn ĐV
+SELECT a.NV_MA,b.NV_Ten,a.DV_Ma,a.BB_MA
+FROM ST_BINHBAUTHANG a INNER JOIN ST_NHANVIEN b ON a.NV_MA = b.NV_Ma
+WHERE T_MA = '10-2023'
+ORDER BY DV_Ma
