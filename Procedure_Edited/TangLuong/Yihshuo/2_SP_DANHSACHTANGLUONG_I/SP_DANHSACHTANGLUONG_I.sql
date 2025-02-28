@@ -351,13 +351,13 @@ WHERE NOT EXISTS (SELECT NV_Ma FROM ST_NHANVIENTHOIVIEC WHERE ST_NHANVIEN.NV_Ma 
 				  Nâng lương tối thiểu vùng thì tấc cả đểu nâng lương cần bỏ qua cả 2 điều kiện TH1,TH2 bên dưới
 				*/
 
-				-------------------TH1: Tăng lương thâm niên hằng tháng
-				--AND NV_Ngayvao  > '2018-06-30' -- Mốc time này phải luôn giữ nguyên đến sau vì trước đó chưa áp dụng luật mới
-				--AND DATEDIFF (MM,NV_Ngayvao,@NGAY) >= 11 -- Năm đang xét có tháng làm việc từ 11 tháng trở lên
-				--AND (MONTH(HD_NgayKy) = MONTH(@NGAY) AND YEAR(HD_NgayKy) = YEAR(@NGAY) -- Tháng,năm ký HĐ của NLD phải bằng tháng năm của thời điểm đang xét
-				--	OR 
-				--	 MONTH(HD_NgayKy) = MONTH(@NGAY) AND YEAR(HD_NgayKy) < YEAR(@NGAY) --Hoặc cùng tháng nhưng năm sớm hơn
-				--	) 
+				-----------------TH1: Tăng lương thâm niên hằng tháng
+				AND NV_Ngayvao  > '2018-06-30' -- Mốc time này phải luôn giữ nguyên đến sau vì trước đó chưa áp dụng luật mới
+				AND DATEDIFF (MM,NV_Ngayvao,@NGAY) >= 11 -- Năm đang xét có tháng làm việc từ 11 tháng trở lên
+				AND (MONTH(HD_NgayKy) = MONTH(@NGAY) AND YEAR(HD_NgayKy) = YEAR(@NGAY) -- Tháng,năm ký HĐ của NLD phải bằng tháng năm của thời điểm đang xét
+					OR 
+					 MONTH(HD_NgayKy) = MONTH(@NGAY) AND YEAR(HD_NgayKy) < YEAR(@NGAY) --Hoặc cùng tháng nhưng năm sớm hơn
+					) 
 
 				--------------------TH2: Tăng lương tháng 2 hằng năm
 				--AND	(NV_Ngayvao <='2018-06-30' --Thuc hien theo cong van 2019 doi voi LD ngay vao tu 30/06/2018

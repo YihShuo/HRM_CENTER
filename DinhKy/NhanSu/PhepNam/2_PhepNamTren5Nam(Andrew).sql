@@ -1,7 +1,7 @@
 ﻿-------Nhân viên có thêm 5 năm làm việc thì được cộng 1 ngày phép năm------------------------
 ----------Khai Báo---------
 Declare @NGAYHIENTAI Date
-Set @NGAYHIENTAI='2025-02-16'
+Set @NGAYHIENTAI='2025-03-16'
 -----------B1:Select các đối tượng để kiểm tra
 ---TH: Được 1 ngày phép năm ( 5<= Năm làm <10)
 Select *

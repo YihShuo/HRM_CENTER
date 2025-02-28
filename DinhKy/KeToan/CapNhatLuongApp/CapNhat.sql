@@ -32,8 +32,8 @@ WHERE LEFT(Month_Year,2) IN( DATEPART(MONTH,GETDATE())-1,DATEPART(MONTH,GETDATE(
 ----------------------------------------------------------------
 SELECT FORMAT(ThucLanh,'#,###'),FORMAT(TIENLAMTHEM,'#,###'),* 
 FROM Data_Salary_Person 
-WHERE Month_Year = '09-2024'
-	--AND Department_ID = 'TVKTX'
+WHERE Month_Year = '01-2025'
+	AND Department_ID = 'HCM-TONGVU' AND Person_ID IN ('339967','339968','340055','340056','318366','318787')
 	--AND Person_ID=''
 ORDER BY Data_Salary_Person.ThucLanh DESC
 ---------------------------------------------------------------------------------THƯỞNG-------------------------------------------------------------------------

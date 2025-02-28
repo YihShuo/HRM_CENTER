@@ -3,7 +3,7 @@
 -------
 Declare @NgayHienTai As Date,
 		@NgayDauNam As Date
-Set @NgayHienTai='2025-02-16'
+Set @NgayHienTai='2025-03-16'
 Set @NgayDauNam=Cast(Year(@NgayHienTai) As varchar(4))+'-01-01'
 ------------------------------------------------------------------------------------------
 -------------------Cập nhật nhân viên mới ký hợp đồng vào ST_PHEPNAM----------------------
@@ -25,7 +25,7 @@ Where a.NV_Ma not in (Select NV_Ma From ST_PhepNam Where PN_Nam=YEAR(@NgayDauNam
 -------------------------------------------------------------------------------------------
 Declare @NgayHienTai As Date,
 		@NgayDauNam As Date
-Set @NgayHienTai='2025-02-16'
+Set @NgayHienTai='2025-03-16'
 Set @NgayDauNam=Cast(Year(@NgayHienTai) As varchar(4))+'-01-01'
 
 Update a
