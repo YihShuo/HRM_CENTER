@@ -8,11 +8,11 @@ DECLARE @QuetThe AS NVARCHAR(30)
 DECLARE @MaTu AS NVARCHAR(50)
 DECLARE @XuLy AS INT
 
-SET @MaNV = '313582'
+SET @MaNV = '314844'
 --------
 SET @XuLy = '2' -- 1 là thêm giờ; 0 là xóa giờ； 2 là xem
-SET @Ngay = '2025-01-06'
-SET @Gio  = '15:44:10'
+SET @Ngay = '2025-04-17'
+SET @Gio  = '16:41:10'
 --------
 SET @NgaySau = CONVERT(DATETIME,@Ngay,102) + 1
 SET @QuetThe = @Ngay + ' ' + @Gio

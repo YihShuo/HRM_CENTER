@@ -7,19 +7,19 @@ Select Distinct a.NV_MA,a.NV_Ten,a.DV_Ma,Thang1= T1.BB_MA,Thang2= T2.BB_MA,Thang
 						,Tong_C=Sum(Case When b.BB_MA='C'then 1 else 0  end)
 						,Tong_D=Sum(Case When b.BB_MA='D'then 1 else 0  end)	
 						,Tong_OX=Sum(Case When b.BB_MA='OX'then 1 else 0  end)	
-From ST_NHANVIEN a  Left Join ST_BINHBAUTHANG b on a.NV_Ma=b.NV_MA and b.T_MA like '%2024'
-					Left Join (Select NV_Ma,T_Ma,BB_Ma From ST_BinhBauThang Where  T_MA='01-2024') T1 on a.NV_MA=T1.NV_MA
-					Left Join (Select NV_Ma,T_Ma,BB_Ma From ST_BinhBauThang Where  T_MA='02-2024') T2 on a.NV_MA=T2.NV_MA
-					Left Join (Select NV_Ma,T_Ma,BB_Ma From ST_BinhBauThang Where  T_MA='03-2024') T3 on a.NV_MA=T3.NV_MA
-					Left Join (Select NV_Ma,T_Ma,BB_Ma From ST_BinhBauThang Where  T_MA='04-2024') T4 on a.NV_MA=T4.NV_MA
-					Left Join (Select NV_Ma,T_Ma,BB_Ma From ST_BinhBauThang Where  T_MA='05-2024') T5 on a.NV_MA=T5.NV_MA
-					Left Join (Select NV_Ma,T_Ma,BB_Ma From ST_BinhBauThang Where  T_MA='06-2024') T6 on a.NV_MA=T6.NV_MA
-					Left Join (Select NV_Ma,T_Ma,BB_Ma From ST_BinhBauThang Where  T_MA='07-2024') T7 on a.NV_MA=T7.NV_MA
-					Left Join (Select NV_Ma,T_Ma,BB_Ma From ST_BinhBauThang Where  T_MA='08-2024') T8 on a.NV_MA=T8.NV_MA
-					Left Join (Select NV_Ma,T_Ma,BB_Ma From ST_BinhBauThang Where  T_MA='09-2024') T9 on a.NV_MA=T9.NV_MA
-					Left Join (Select NV_Ma,T_Ma,BB_Ma From ST_BinhBauThang Where  T_MA='10-2024') T10 on a.NV_MA=T10.NV_MA
-					Left Join (Select NV_Ma,T_Ma,BB_Ma From ST_BinhBauThang Where  T_MA='11-2024') T11 on a.NV_MA=T11.NV_MA
-					Left Join (Select NV_Ma,T_Ma,BB_Ma From ST_BinhBauThang Where  T_MA='12-2024') T12 on a.NV_MA=T12.NV_MA
+From ST_NHANVIEN a  Left Join ST_BINHBAUTHANG b on a.NV_Ma=b.NV_MA and b.T_MA like '%2025'
+					Left Join (Select NV_Ma,T_Ma,BB_Ma From ST_BinhBauThang Where  T_MA='01-2025') T1 on a.NV_MA=T1.NV_MA
+					Left Join (Select NV_Ma,T_Ma,BB_Ma From ST_BinhBauThang Where  T_MA='02-2025') T2 on a.NV_MA=T2.NV_MA
+					Left Join (Select NV_Ma,T_Ma,BB_Ma From ST_BinhBauThang Where  T_MA='03-2025') T3 on a.NV_MA=T3.NV_MA
+					Left Join (Select NV_Ma,T_Ma,BB_Ma From ST_BinhBauThang Where  T_MA='04-2025') T4 on a.NV_MA=T4.NV_MA
+					Left Join (Select NV_Ma,T_Ma,BB_Ma From ST_BinhBauThang Where  T_MA='05-2025') T5 on a.NV_MA=T5.NV_MA
+					Left Join (Select NV_Ma,T_Ma,BB_Ma From ST_BinhBauThang Where  T_MA='06-2025') T6 on a.NV_MA=T6.NV_MA
+					Left Join (Select NV_Ma,T_Ma,BB_Ma From ST_BinhBauThang Where  T_MA='07-2025') T7 on a.NV_MA=T7.NV_MA
+					Left Join (Select NV_Ma,T_Ma,BB_Ma From ST_BinhBauThang Where  T_MA='08-2025') T8 on a.NV_MA=T8.NV_MA
+					Left Join (Select NV_Ma,T_Ma,BB_Ma From ST_BinhBauThang Where  T_MA='09-2025') T9 on a.NV_MA=T9.NV_MA
+					Left Join (Select NV_Ma,T_Ma,BB_Ma From ST_BinhBauThang Where  T_MA='10-2025') T10 on a.NV_MA=T10.NV_MA
+					Left Join (Select NV_Ma,T_Ma,BB_Ma From ST_BinhBauThang Where  T_MA='11-2025') T11 on a.NV_MA=T11.NV_MA
+					Left Join (Select NV_Ma,T_Ma,BB_Ma From ST_BinhBauThang Where  T_MA='12-2025') T12 on a.NV_MA=T12.NV_MA
 Where  a.DV_MA not in ('CGX','BGD')	and a.DV_MA not like 'NV%' 
 		AND a.DV_MA LIKE 'IT' 
 		--AND a.NV_Ma='310148'
