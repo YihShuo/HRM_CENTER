@@ -4,7 +4,7 @@
 -------
 Declare @NgayHienTai As Date,
 		@NgayDauNam As Date
-Set @NgayHienTai='2024-11-16'--Ngày phải từ giửa tháng trở lên
+Set @NgayHienTai='2025-06-16'--Ngày phải từ giửa tháng trở lên
 Set @NgayDauNam=Cast(Year(@NgayHienTai) As varchar(4))+'-01-01'
 
 ---------------------------------------Update Table ST_PhepNam
