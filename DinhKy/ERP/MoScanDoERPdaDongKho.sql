@@ -47,7 +47,9 @@ ddzl set yn=1 where ddbh='JHS2502-110'
 						CGZL: là bảng đặt mua hàng của cty đối với NCU
 						Chú ý:
 							CGDate không được sửa ngày, do kiểm toán yêu cầu
-							Cập nhật lại USERDate để không quá 7 ngày, từ đó có thể scan lại
+							USERDate: Nếu quá 7 ngày tính kể từ ngày này thì pm ERP sẽ khóa không cho chỉnh sửa đơn hàng. Nêu nếu muốn chỉnh sửa 
+								đơn hàng thì phải nhờ IT cập nhật ngày này lại trong 7 ngày đổ lại. Sau đó kho phải xuất ra hết các đơn rồi nhập lại vào mới.
+								Khi xuất ra lại thì sau khi confirm YN sẽ trở về từ 5 thành 1. (Do thường IT tiện tay cập cập nhật luôn YS =1 nên kho không cần phải scan ra lại, mà trực tiếp vào trong chỉnh sửa  đơn hàng luôn)
 							YN: 1 tức là mở scan chưa nhập kho
 								5 tức là khóa scan do hàng đã vào kho
 
