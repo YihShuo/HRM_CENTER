@@ -1,6 +1,6 @@
 ﻿------------------------------------------Thêm Máy Chấm Công
 ---------------------------------------------------------KHU VỰC YIHSHUO----------------------------------------------------
-----------------------------------------------------------------Mã seri dán trên máy dễ nhầm lẫn chữ I với l. (Thường là l)-------------------------------------------------------
+----------------------------------------------------------------Mã seri dán trên máy dễ nhầm lẫn số 1 với chữ l khi dùng font TimeNewRoman. (Thường là chữ l)-------------------------------------------------------
 SELECT   Clock_ID, Clock_name, Clock_type, TCPIP_Address, TCPIP_Port, TCPIP_PassWord, isonLine, State, SerialNo
 FROM      t_Clocks
 -------------Máy IT
@@ -291,6 +291,107 @@ N'DC_2',
 '0',
 '0',
 N'Ig0ujHOJ55zsYq9pRmXVjQ=='
+)
+-------------Máy 12 (NEW)
+INSERT INTO t_Clocks( Clock_ID, Clock_name,Clock_type, TCPIP_Address, TCPIP_Port, TCPIP_PassWord, isonLine, State, SerialNo)
+VALUES
+('12',
+N'NEW12',
+'0',
+'192.168.79.12',
+'5005',
+'0',
+'0',
+'0',
+N'Xy+NBhlPm0AfhtN3/RfhEQ=='
+)
+-------------Máy 23 (NEW)
+INSERT INTO t_Clocks( Clock_ID, Clock_name,Clock_type, TCPIP_Address, TCPIP_Port, TCPIP_PassWord, isonLine, State, SerialNo)
+VALUES
+('23',
+N'NEW23',
+'0',
+'192.168.79.23',
+'5005',
+'0',
+'0',
+'0',
+N'Xy+NBhlPm0COFbpUpXAcNQ=='
+)
+-------------Máy 25 (NEW)
+INSERT INTO t_Clocks( Clock_ID, Clock_name,Clock_type, TCPIP_Address, TCPIP_Port, TCPIP_PassWord, isonLine, State, SerialNo)
+VALUES
+('25',
+N'NEW25',
+'0',
+'192.168.79.25',
+'5005',
+'0',
+'0',
+'0',
+N'Xy+NBhlPm0BN4cFTlz6NNA=='
+)
+-------------Máy 27 (NEW)
+INSERT INTO t_Clocks( Clock_ID, Clock_name,Clock_type, TCPIP_Address, TCPIP_Port, TCPIP_PassWord, isonLine, State, SerialNo)
+VALUES
+('27',
+N'NEW27',
+'0',
+'192.168.79.27',
+'5005',
+'0',
+'0',
+'0',
+N'Xy+NBhlPm0BEfOXUFR6tVg=='
+)
+-------------Máy 30 (NEW)
+INSERT INTO t_Clocks( Clock_ID, Clock_name,Clock_type, TCPIP_Address, TCPIP_Port, TCPIP_PassWord, isonLine, State, SerialNo)
+VALUES
+('30',
+N'NEW30',
+'0',
+'192.168.79.30',
+'5005',
+'0',
+'0',
+'0',
+N'Xy+NBhlPm0BLF8vV2r8BIw=='
+)-------------Máy 35 (NEW)
+INSERT INTO t_Clocks( Clock_ID, Clock_name,Clock_type, TCPIP_Address, TCPIP_Port, TCPIP_PassWord, isonLine, State, SerialNo)
+VALUES
+('35',
+N'NEW35',
+'0',
+'192.168.79.35',
+'5005',
+'0',
+'0',
+'0',
+N'Xy+NBhlPm0Ci3fKELh5Nxg=='
+)-------------Máy 38 (NEW)
+INSERT INTO t_Clocks( Clock_ID, Clock_name,Clock_type, TCPIP_Address, TCPIP_Port, TCPIP_PassWord, isonLine, State, SerialNo)
+VALUES
+('38',
+N'NEW38',
+'0',
+'192.168.79.38',
+'5005',
+'0',
+'0',
+'0',
+N'Xy+NBhlPm0CtIcL/mDH5Bg=='
+)-------------Máy 42 (NEW)
+INSERT INTO t_Clocks( Clock_ID, Clock_name,Clock_type, TCPIP_Address, TCPIP_Port, TCPIP_PassWord, isonLine, State, SerialNo)
+VALUES
+('42',
+N'NEW42',
+'0',
+'192.168.79.42',
+'5005',
+'0',
+'0',
+'0',
+N'Xy+NBhlPm0DSxsYHhPWdMQ=='
 )
 
 ----------------------------Sửa Thông Tin

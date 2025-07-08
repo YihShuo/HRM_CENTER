@@ -14,9 +14,9 @@ SELECT * FROM it_pnmt_khamthai WHERE NV_MA='315823' AND NGAYMANGTHAI='2023-08-28
 ------------------------------------thì sẽ không còn được tình đủ công khi về sớm-------------
 SELECT *
 FROM IT_THAITHANGTHU7
-WHERE NV_MA = '336866'
+WHERE NV_MA = '340240'
 
 --DELETE IT_THAITHANGTHU7
-WHERE NV_MA = '336866'
+WHERE NV_MA = '340240'
 
 
