@@ -1,6 +1,26 @@
 ﻿USE FM508;
 GO
+-- Khoi tao bien JOB
+DECLARE @JobName NVARCHAR(128) = 'A_AutoFM508-P0104';
 
+-- ====== KIEM TRA JOB DANG CHAY ======
+/*Nếu job từng lỗi và quên gỡ cờ →  có thể reset bằng tay: UPDATE dbo.JobLock SET IsRunning = 0 WHERE JobName = 'A_AutoFM508-P0104'*/
+IF EXISTS (SELECT 1 FROM dbo.JobLock WHERE JobName = @JobName AND IsRunning = 1)
+BEGIN
+    PRINT 'Job Dang Chay!!! Bo qua lan nay';
+    RETURN;
+END
+
+-- ====== ĐÁNH DẤU LÀ ĐANG CHẠY ======
+MERGE dbo.JobLock AS target
+USING (SELECT @JobName AS JobName) AS source
+ON target.JobName = source.JobName
+WHEN MATCHED THEN 
+    UPDATE SET IsRunning = 1, StartTime = GETDATE()
+WHEN NOT MATCHED THEN
+    INSERT (JobName, IsRunning, StartTime) VALUES (@JobName, 1, GETDATE());
+
+-- ====== XỬ LÝ HÀNG ĐỢI ======
 DECLARE @UserNo NVARCHAR(50), 
         @CardNo NVARCHAR(50), 
         @RecTime DATETIME, 
@@ -69,3 +89,9 @@ WHILE EXISTS (SELECT 1 FROM t_mf_RecData1 WHERE Processed = 0)
 			WHERE ID = @Id;
 		END CATCH
 	END
+-- ====== Go Bo Co (Flag) JOB sau khi chay xong ======
+UPDATE dbo.JobLock
+SET IsRunning = 0
+WHERE JobName = @JobName;
+
+PRINT 'JOB xu ly hang doi hoang tat';
