@@ -11,7 +11,8 @@ DECLARE @XuLy AS INT
 SET @MaNV = '313582'
 --------
 SET @XuLy = '2' -- 1 là thêm giờ; 0 là xóa giờ； 2 là xem
-SET @Ngay = '2025-04-24'
+SET @Ngay =CONVERT(DATE,GETDATE(),102)
+--SET @Ngay = '2025-08-26'
 SET @Gio  = '16:41:10'
 --------
 SET @NgaySau = CONVERT(DATETIME,@Ngay,102) + 1

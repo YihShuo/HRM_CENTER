@@ -12,11 +12,13 @@ SELECT * FROM it_pnmt_khamthai WHERE NV_MA='315823' AND NGAYMANGTHAI='2023-08-28
 ----------------------------------Xử lý trường hợp Nhập Sai Giờ Về Sớm 15h30 - Hoặc được về sớm do mang thai nhưng sau đó sẩy thai, và hủy bỏ chế độ này-----------
 ------------------------------------sau khi xóa trong IT_THAITHANGTHU7------------
 ------------------------------------thì sẽ không còn được tình đủ công khi về sớm-------------
+---------------------------------------Lưu ý: 1 số trường hợp cần phải xóa thêm IT_NUOICONDUOI12THANG-----
+-------------------------------------------thì mới có tác dụng-----------------------------------------
 SELECT *
 FROM IT_THAITHANGTHU7
-WHERE NV_MA = '340240'
+WHERE NV_MA = '316159' AND BATDAUTU = '2025-04-04 00:00:00.000'
 
 --DELETE IT_THAITHANGTHU7
-WHERE NV_MA = '340240'
+WHERE NV_MA = '316159' AND BATDAUTU = '2025-04-04 00:00:00.000'
 
 
