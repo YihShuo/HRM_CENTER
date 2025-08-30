@@ -23,10 +23,10 @@ FROM t_mf_RecData1 a INNER JOIN employee b ON a.UserNo = b.EmpID
 WHERE CAST(a.RecTime AS DATE) = CAST(GETDATE() AS DATE) 
 ORDER BY RecTime DESC
 
---Theo thứ tự chấm trễ nhất trong ngày
+--Theo thứ tự chấm lâu nhất trong ngày
 SELECT c.Clock_name,a.*,b.empname,b.DeptID,CASE 
 								WHEN DATEDIFF(MINUTE,a.RecTime,a.CopyTime) < '60'
-									THEN Cast(DATEDIFF(MINUTE,a.RecTime,a.CopyTime) AS NVARCHAR) + N' phút'
+									THEN CAST(DATEDIFF(MINUTE,a.RecTime,a.CopyTime) AS NVARCHAR) + N' phút'
 								ELSE
 									CAST((DATEDIFF(MINUTE,a.RecTime,a.CopyTime)/60)AS NVARCHAR) + N' tiếng'
 									+
@@ -34,7 +34,7 @@ SELECT c.Clock_name,a.*,b.empname,b.DeptID,CASE
 								END AS N'Time Copy'
 								,CASE 
 								WHEN DATEDIFF(MINUTE,a.RecTime,a.ProcessedTime) < '60'
-									THEN Cast(DATEDIFF(MINUTE,a.RecTime,a.ProcessedTime) AS NVARCHAR) + N' phút'
+									THEN CAST(DATEDIFF(MINUTE,a.RecTime,a.ProcessedTime) AS NVARCHAR) + N' phút'
 								ELSE
 									CAST((DATEDIFF(MINUTE,a.RecTime,a.ProcessedTime)/60)AS NVARCHAR) + N' tiếng'
 									+

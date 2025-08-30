@@ -15,13 +15,13 @@ From ST_NHANVIEN a  Left Join ST_BINHBAUTHANG b on a.NV_Ma=b.NV_MA and b.T_MA li
 					Left Join (Select NV_Ma,T_Ma,BB_Ma From ST_BinhBauThang Where  T_MA='05-2025') T5 on a.NV_MA=T5.NV_MA
 					Left Join (Select NV_Ma,T_Ma,BB_Ma From ST_BinhBauThang Where  T_MA='06-2025') T6 on a.NV_MA=T6.NV_MA
 					Left Join (Select NV_Ma,T_Ma,BB_Ma From ST_BinhBauThang Where  T_MA='07-2025') T7 on a.NV_MA=T7.NV_MA
-					Left Join (Select NV_Ma,T_Ma,BB_Ma From ST_BinhBauThang Where  T_MA='08-2025') T8 on a.NV_MA=T8.NV_MAA
+					Left Join (Select NV_Ma,T_Ma,BB_Ma From ST_BinhBauThang Where  T_MA='08-2025') T8 on a.NV_MA=T8.NV_MA
 					Left Join (Select NV_Ma,T_Ma,BB_Ma From ST_BinhBauThang Where  T_MA='09-2025') T9 on a.NV_MA=T9.NV_MA
 					Left Join (Select NV_Ma,T_Ma,BB_Ma From ST_BinhBauThang Where  T_MA='10-2025') T10 on a.NV_MA=T10.NV_MA
 					Left Join (Select NV_Ma,T_Ma,BB_Ma From ST_BinhBauThang Where  T_MA='11-2025') T11 on a.NV_MA=T11.NV_MA
 					Left Join (Select NV_Ma,T_Ma,BB_Ma From ST_BinhBauThang Where  T_MA='12-2025') T12 on a.NV_MA=T12.NV_MA
 Where  a.DV_MA not in ('CGX','BGD')	and a.DV_MA not like 'NV%' 
-		AND a.DV_MA LIKE 'TV' 
+		AND a.DV_MA LIKE 'IT' 
 		--AND a.NV_Ma='310148'
 Group by a.NV_Ma,a.NV_Ten,a.DV_MA,T1.BB_MA,T2.BB_MA,T3.BB_MA,T4.BB_MA,T5.BB_MA,T6.BB_MA,T7.BB_MA,T8.BB_MA,T9.BB_MA,T10.BB_MA,T11.BB_MA,T12.BB_MA
 Order by a.DV_MA 
