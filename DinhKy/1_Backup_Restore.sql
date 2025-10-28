@@ -67,16 +67,26 @@
 --B4:Phục Hồi LOG  phải phục hồi tấc cả các Log từ Diff gần Log cần phục hồi nhất rồi mới tới Log cần phục hồi
 
 		--BatDauLog
-		RESTORE DATABASE [ECUS5VNACCS]
+		RESTORE LOG [ECUS5VNACCS]
 		FROM DISK = 'C:\Users\Administrator\Downloads\PublicShare\ECUS5VNACCS_LOG_2025-10-19_033000.trn'
 		WITH NORECOVERY, STATS = 5;
 		GO
 		--KetThuc LOG
-		RESTORE DATABASE [ECUS5VNACCS]
-		FROM DISK = 'C:\Users\Administrator\Downloads\PublicShare\ECUS5VNACCS_LOG_2025-10-19_040000.trn'
-		WITH STOPAT = '2025-10-19T02:38:00',  -- bỏ dòng này nếu muốn tới cuối file log
-		NORECOVERY, STATS = 5;
-		GO
+			--Nếu muốn xem giữa chừng
+				-- LOG 04:00, dừng tại 03:38 và CHO PHÉP XEM (read-only) bằng STANDB
+				RESTORE LOG [ECUS5VNACCS]
+				FROM DISK = 'C:\Users\Administrator\Downloads\PublicShare\ECUS5VNACCS_LOG_2025-10-19_040000.trn'
+				WITH 
+					STOPAT = '2025-10-19T03:38:00',  -- bỏ dòng này nếu muốn tới cuối file log
+					STANDBY = 'C:\Temp\LYS_ERP_undo.bak',   -- file undo, SQL tạo & dùng lại
+				    STATS = 5;
+				GO
+			--Nếu quyết định kết thúc
+				RESTORE LOG [ECUS5VNACCS]
+				FROM DISK = 'C:\Users\Administrator\Downloads\PublicShare\ECUS5VNACCS_LOG_2025-10-19_040000.trn'
+				WITH 
+				NORECOVERY, STATS = 5;
+				GO
 		
 --B5: Kết thúc chế độ NORECOVERY và đưa cơ sở dữ liệu vào trạng thái ONLINE (Nếu trước đó chưa đưa)
 		RESTORE DATABASE ECUS5VNACCS WITH RECOVERY;
