@@ -3,22 +3,22 @@ SELECT * FROM IT_TABLE_BBCT WHERE NAM ='2025'
 --Cập nhật lên các Table loại BB lưu ý và BBB phải chạy cuối cùng
 -------------Bước A: Cập nhật---------------
 
-EXEC [dbo].[SP_BINHBAUA] '2025','01-2025','09-2025'      --Lưu ý chỉnh trong SP Mốc Thời Gian Lấy là 9 và 3 chổ: chỉnh số xét số tháng làm việc; chỉnh điều kiện đánh liệt số ngày nghỉ; chỉnh điều kiện xét tổng A
-Exec [dbo].[SP_BINHBAUANEW]'2025','01-2025','09-2025'    --Lưu ý chỉnh trong SP Mốc Thời Gian Lấy là 9 và 3 chổ: chỉnh số xét số tháng làm việc; chỉnh điều kiện đánh liệt số ngày nghỉ; chỉnh điều kiện chọn loại bỏ tháng bị OX
-EXEC [dbo].[SP_BINHBAUC] '2025','01-2025','09-2025'      --Lưu ý chỉnh trong SP Mốc Thời Gian Lấy là 9 và 3 chổ:  chỉnh số xét số tháng làm việc; chỉnh điều kiện tổng số loại bình bầu bị đánh liệt; chỉnh điều kiện tổng số ngày nghỉ bị đánh liệt
-EXEC [dbo].[SP_BINHBAUCNEW] '2025','01-2025','09-2025'   --Lưu ý chỉnh trong SP Mốc Thời Gian Lấy là 9 và 2 chổ:  chỉnh số xét số tháng làm việc； chỉnh điều kiện chọn loại bỏ tháng bị OX
-EXEC [dbo].[SP_BINHBAUOx] '2025','01-2025','09-2025'
-EXEC [dbo].[SP_BINHBAUB] '2025','01-2025','09-2025'
+EXEC [dbo].[SP_BINHBAUA] '2025','01-2025','12-2025'      --Lưu ý chỉnh trong SP Mốc Thời Gian Lấy là 9 và 3 chổ: chỉnh số xét số tháng làm việc; chỉnh điều kiện đánh liệt số ngày nghỉ; chỉnh điều kiện xét tổng A
+Exec [dbo].[SP_BINHBAUANEW]'2025','01-2025','12-2025'    --Lưu ý chỉnh trong SP Mốc Thời Gian Lấy là 9 và 3 chổ: chỉnh số xét số tháng làm việc; chỉnh điều kiện đánh liệt số ngày nghỉ; chỉnh điều kiện chọn loại bỏ tháng bị OX
+EXEC [dbo].[SP_BINHBAUC] '2025','01-2025','12-2025'      --Lưu ý chỉnh trong SP Mốc Thời Gian Lấy là 9 và 3 chổ:  chỉnh số xét số tháng làm việc; chỉnh điều kiện tổng số loại bình bầu bị đánh liệt; chỉnh điều kiện tổng số ngày nghỉ bị đánh liệt
+EXEC [dbo].[SP_BINHBAUCNEW] '2025','01-2025','12-2025'   --Lưu ý chỉnh trong SP Mốc Thời Gian Lấy là 9 và 2 chổ:  chỉnh số xét số tháng làm việc； chỉnh điều kiện chọn loại bỏ tháng bị OX
+EXEC [dbo].[SP_BINHBAUOx] '2025','01-2025','12-2025'
+EXEC [dbo].[SP_BINHBAUB] '2025','01-2025','12-2025'
 -------------Bước B: Cập nhật lên table tạm "IT_Table_BB_2013" để NS so chiếu từ CN (Phần mềm:Đánh giá hiệu quả công việc\Nhân sự\Bình Bầu\Danh Sách Bình Bầu Cuối Năm\Bình Bầu Tổng Hợp( rp_BB2011_CT_CB_CNV_DV.rpt )
 SELECT * FROM IT_TABLE_BB2013 WHERE NAM = '2025' --AND DV_MA = 'IT'
 --DELETE FROM IT_TABLE_BB2013 WHERE NAM = '2025'
 EXEC [dbo].[SP_BINHBAUTONG] '2025'
-EXEC [dbo].[SP_BINHBAUCT] '2025','09-2025'              -- Thể hiện bình bầu chi tiết từng tháng của nhân viên(trên HRM là sau khi click "Bình bầu chi tiết và bấm nút XEM"
+EXEC [dbo].[SP_BINHBAUCT] '2025','12-2025'              -- Thể hiện bình bầu chi tiết từng tháng của nhân viên(trên HRM là sau khi click "Bình bầu chi tiết và bấm nút XEM"
 
 ----------Xem Chấm Trùng Dẫn Đến Không Thể Chạy Cập Nhật Vào Bình Bầu Tổng ([dbo].[SP_BINHBAUTONG]) -------
 DECLARE @NAM INT,@NVMA NVARCHAR(6)
 SET @NAM='2025'
-SET @NVMA = '312252'
+SET @NVMA = '310765'
 SELECT STT AS BinhBau_A,* FROM IT_Table_BBA WHERE NAM = @NAM AND NV_MA = @NVMA
 SELECT STT AS BinhBau_ANew,* FROM IT_TABLE_BBANEW WHERE  NAM = @NAM AND NV_MA = @NVMA
 SELECT STT AS BinhBau_C,* FROM IT_TABLE_BBC WHERE  NAM = @NAM AND NV_MA = @NVMA
@@ -65,7 +65,7 @@ Close Cur_PhongIT
 Deallocate Cur_PhongIT
 ---------------Cập Nhật Vào BB Tổng và BB Chi Tiết
 EXEC [dbo].[SP_BINHBAUTONG] '2025'
-EXEC [dbo].[SP_BINHBAUCT] '2025','09-2025'              -- Thể hiện bình bầu chi tiết từng tháng của nhân viên
+EXEC [dbo].[SP_BINHBAUCT] '2025','12-2025'              -- Thể hiện bình bầu chi tiết từng tháng của nhân viên
 -------------------------------------------------------------------------------
 
 */

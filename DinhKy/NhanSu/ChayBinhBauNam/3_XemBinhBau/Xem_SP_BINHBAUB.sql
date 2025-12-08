@@ -1,15 +1,20 @@
 ﻿
-DECLARE @NAM_ char(4),@TUNGAY char(7),@DENNGAY char(7)
-SET @NAM_ = '2024'
-SET @TUNGAY = '01-2024'
-SET @DENNGAY = '12-2024'
-
 	DECLARE @NAM char(4),
 	@NAMSAU CHAR(4),
 	@NAMTHANGNGAYVAO CHAR(10),
 	@NAMTHANGNGAYKHD CHAR(10),
 	@NAMTHANGNGAYTV CHAR(10),
-	@SOTHANG INT
+	@SOTHANG INT,
+
+	@NAM_ char(4),
+	@TUNGAY char(7),
+	@DENNGAY char(7)
+
+			
+	SET @NAM_='2025'
+	SET @TUNGAY='01-2025'
+	SET @DENNGAY = '12-2025'
+
 	SET @NAM = @NAM_
 	SET @NAMSAU = @NAM + 1 
 	SET @NAMTHANGNGAYVAO = @NAM + '-'+ '01'+ '-'+'15'
@@ -17,8 +22,9 @@ SET @DENNGAY = '12-2024'
 	SET @NAMTHANGNGAYTV = @NAM + '-'+'12'+'-'+'31'
 	SET @NAMTHANGNGAYKHD = @NAMSAU + '-'+ '02' + '-' + '15'
 	SET @SOTHANG = CONVERT(INT,LEFT(@DENNGAY,2))
-	
-	SELECT  NV_SOTHANG,STT=0,
+
+
+	SELECT  STT=0,
 			NAM = @NAM_,
 			dbo.ST_NHANVIEN.NV_Ten ,
 			dbo.ST_NHANVIEN.NV_Ngayvao, 
@@ -68,23 +74,24 @@ SET @DENNGAY = '12-2024'
 				AND dbo.ST_NHANVIEN.NV_MA NOT IN(SELECT NV_MA FROM IT_TABLE_BBCNEW WHERE ST_NHANVIEN .NV_Ma = IT_TABLE_BBCNEW.NV_MA AND NAM = @NAM_)
 				AND dbo.ST_NHANVIEN.NV_Ma NOT IN(SELECT NV_MA FROM IT_TABLE_BBA WHERE ST_NHANVIEN .NV_Ma = IT_TABLE_BBA.NV_MA AND NAM = @NAM_) 
 				AND dbo.ST_NHANVIEN.NV_Ma NOT IN(SELECT NV_MA FROM IT_TABLE_BBOX  WHERE ST_NHANVIEN .NV_Ma = IT_TABLE_BBOX.NV_MA AND NAM = @NAM_)
-				AND dbo.ST_NHANVIEN.NV_NGAYKHD_ < @NAMTHANGNGAYKHD 
-				AND ST_NHANVIEN.NV_SOTHANG >=1 
+				AND dbo.ST_NHANVIEN.NV_NGAYKHD_ < @NAMTHANGNGAYKHD AND ST_NHANVIEN.NV_SOTHANG >=1 
 				AND (--Điều Kiện lấy bình bầu tường hợp làm không đủ tháng (CN mới) hoặc làm trọn đủ tháng (CN cũ)
-									(--Nếu số tháng làm < Tháng đang xét thì lấy các bình bầu của những tháng từ tháng NV_NGAYKHD_
-										(	--NV Ký HD sau ngày 15 thì từ NgayKHD_ trích tháng về dạng T_Ma + thêm 1 tháng
+									(--Điều kiện này sẽ dựa vào ngày KHD được chuyển về cùng định dạng T_MA để xét từng tháng bình bầu nào thỏa điều kiện xét cuối năm
+										(	
+												----NV Ký HD sau ngày 15 thì các T_MA được xét tính sẽ dựa vào ngày HDD KHÔNG ĐƯỢC LÀM TRÒN tháng, được chuyển về cùng định dạng T_MA (MM_yyyy)
 											t_ma >= (substring(convert(char(10),DATEADD(M,1,NV_NGAYKHD_),105),4,7))  AND DAY(NV_NGAYKHD_) > 15 		
-											OR ----NV Ký HD sau ngày 15 thì từ NgayKHD_ trích tháng ra đúng về dạng T_Ma
-											t_ma >= (substring(convert(char(10),NV_NGAYKHD_,105),4,7))               AND DAY(NV_NGAYKHD_) <= 15
-										) 
+											OR ----NV Ký HD trước ngày 15 thì các T_MA được xét tính sẽ dựa vào ngày HDD ĐƯỢC LÀM TRÒN tháng, được chuyển về cùng định dạng T_MA (MM_yyyy)
+											t_ma >=	(substring(CONVERT(char(10), CAST(NV_NGAYKHD_ AS DATETIME), 105),4,7))  AND DAY(NV_NGAYKHD_) <= 15
+										)  
 										AND NV_SOTHANG < @SOTHANG
 									) 
 									OR NV_SOTHANG = @SOTHANG
 					)
 				AND ST_NHANVIEN.NV_TEN <>'' 
-				AND ST_NHANVIEN.NV_Ma NOT IN ('325070')
-				AND ST_NHANVIEN.NV_MA = '339691'
-				--AND BB_MA <> 'OX' -- Không tính nhưng tháng bị chấm OX
+				AND ST_BINHBAUTHANG.NV_MA = '340202'
+				AND BB_MA <> 'OX' -- Không tính nhưng tháng bị chấm OX
 	GROUP BY  dbo.ST_NHANVIEN.NV_Ten , dbo.ST_NHANVIEN.NV_Ngayvao, PN_Songaynamtruoc ,CASE WHEN NV_GIOITINH=1 THEN 'X' ELSE '' END,  
-				CASE WHEN NV_GIOITINH=0 THEN 'X' ELSE '' END,   dbo.ST_BINHBAUTHANG.NV_MA
-				,NV_SOTHANG, dbo.ST_NHANVIEN.DV_MA,HA_BB2011.NV_MA, ST_NHANVIEN.NV_Ngaysinh
+				CASE WHEN NV_GIOITINH=0 THEN 'X' ELSE '' END,   dbo.ST_BINHBAUTHANG.NV_MA, dbo.ST_NHANVIEN.DV_MA,HA_BB2011.NV_MA, ST_NHANVIEN.NV_Ngaysinh
+	
+
+
