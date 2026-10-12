@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<form>
+	<attributes>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+
+  </attributes>
+	<controls>
+
+    <dgrMayChamCong>
+      <coldgrNghiPhep tblColName="STT" title="STT" hide="false" formatCell="" width="100" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="0"/>
+      
+      <coldgrNghiPhep tblColName="NV_Ma" title="Số thẻ" hide="false" formatCell="" width="100" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1"/>
+
+      <coldgrNghiPhep tblColName="NV_Ten" title="Họ tên" hide="false" formatCell="" width="200" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2"/>
+
+      <coldgrNghiPhep tblColName="DV_MA" title="Đơn Vị" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3"/>
+
+      <coldgrNghiPhep tblColName="GIOITINH" title="Giới tính nhân viên" hide="false" formatCell="" width="100" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4"/>
+      
+      <coldgrNghiPhep tblColName="NV_Ngayvao" title="Ngày vào" hide="false" formatCell="" width="100" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5"/>
+  
+      <coldgrNghiPhep tblColName="NV_CMND" title="Số CMND" hide="false" formatCell="" width="110" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="6"/>
+
+      <coldgrNghiPhep tblColName="NV_NGAYSINH" title="Ngày sinh" hide="false" formatCell="" width="100" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="7"/>
+      
+      <coldgrNghiPhep tblColName="DT_Ten" title="Dân tộc" hide="false" formatCell="" width="80" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="8"/>
+
+      <coldgrNghiPhep tblColName="QT_Ten" title="Quốc tịch" hide="true" formatCell="" width="80" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="9"/>
+
+
+      <coldgrNghiPhep tblColName="NV_NgayCapCMND" title="Ngày cấp CMND" hide="false" formatCell="" width="100" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="10"/>
+
+      <coldgrNghiPhep tblColName="NV_NoiCapCMND" title="Nơi cấp CMND" hide="false" formatCell="" width="110" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="11"/>
+
+      <coldgrNghiPhep tblColName="NV_DCSoNha_HOKHAU" title="Số nhà-ấp (địa chỉ)" hide="false" formatCell="" width="200" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="12"/>
+
+      <coldgrNghiPhep tblColName="XA_HOKHAU" title="Xã (địa chỉ)" hide="false" formatCell="" width="200" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="13"/>
+
+      <coldgrNghiPhep tblColName="HUYEN_HOKHAU" title="Huyện (địa chỉ)" hide="false" formatCell="" width="200" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="14"/>
+
+      <coldgrNghiPhep tblColName="TINH_HOKHAU" title="Tỉnh (địa chỉ)" hide="false" formatCell="" width="200" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="15"/>
+      
+      <coldgrNghiPhep tblColName="XA_KHAISINH" title="Xã (quê quán)" hide="false" formatCell="" width="200" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="16"/>
+
+      <coldgrNghiPhep tblColName="HUYEN_KHAISINH" title="Huyện (quê quán)" hide="false" formatCell="" width="200" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="17"/>
+
+      <coldgrNghiPhep tblColName="TINH_KHAISINH" title="Tỉnh (quê quán)" hide="false" formatCell="" width="200" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="18"/>
+
+      <coldgrNghiPhep tblColName="NOI1" title="" hide="true" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="19"/>
+      
+      <coldgrNghiPhep tblColName="TENCHAQH" title="Họ tên cha" hide="false" formatCell="" width="200" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="20"/>
+      <coldgrNghiPhep tblColName="QHCHUHO1" title="Quan hệ với chủ hộ" hide="false" formatCell="" width="200" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="21"/>
+
+      <coldgrNghiPhep tblColName="TENMEQH" title="Họ tên mẹ" hide="false" formatCell="" width="200" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="22"/>
+      <coldgrNghiPhep tblColName="QHCHUHO2" title="Quan hệ với chủ hộ" hide="false" formatCell="" width="200" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="23"/>
+
+      
+      <coldgrNghiPhep tblColName="TENCHONGQH" title="Họ tên chồng" hide="false" formatCell="" width="200" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="24"/>
+      <coldgrNghiPhep tblColName="QHCHUHO3" title="Quan hệ với chủ hộ" hide="false" formatCell="" width="200" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="25"/>
+
+      
+      <coldgrNghiPhep tblColName="TENVOQH" title="Họ tên vợ" hide="false" formatCell="" width="200" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="26"/>
+      <coldgrNghiPhep tblColName="QHCHUHO4" title="Quan hệ với chủ hộ" hide="false" formatCell="" width="200" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="27"/>
+
+      
+      <coldgrNghiPhep tblColName="TENCHAMEQH" title="Cha/mẹ người giám hộ" hide="false" formatCell="" width="200" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="28"/>
+
+      <coldgrNghiPhep tblColName="THANNHAN_KHAC" title="Thân nhân khác" hide="false" formatCell="" width="200" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="29"/>
+
+      <coldgrNghiPhep tblColName="NOI" title="" hide="true" formatCell="" width="200" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="30"/>
+
+      <coldgrNghiPhep tblColName="TEN_CHUHO" title="Họ tên chủ hộ" hide="false" formatCell="" width="200" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="31"/>
+
+      <coldgrNghiPhep tblColName="GIOITINH_CHUHO" title="Giới tính (chủ hộ)" hide="false" formatCell="" width="200" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="32"/>
+
+      <coldgrNghiPhep tblColName="DT_CHUHO" title="Số điện thoại" hide="false" formatCell="" width="200" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="33"/>
+
+      <coldgrNghiPhep tblColName="SOHK_TAMTRU_CHUHO" title="Sổ hộ khẩu hoặc tạm trú" hide="false" formatCell="" width="200" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="34"/>
+
+      <coldgrNghiPhep tblColName="DIACHI" title="Địa chỉ (Thôn, bản, tổ dân phố)" hide="false" formatCell="" width="200" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="35"/>
+
+      <coldgrNghiPhep tblColName="XAPHUONGTHITRAN" title="Xã (phường, thị trấn)" hide="false" formatCell="" width="200" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="36"/>
+
+      <coldgrNghiPhep tblColName="HUYEN_QUAN_TPTINH" title="Huyện (quận, thị xã, Tp thuộc tỉnh)" hide="false" formatCell="" width="200" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="37"/>
+
+      <coldgrNghiPhep tblColName="TINH_TP" title="Tỉnh (Tp)" hide="false" formatCell="" width="200" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="38"/>
+
+      <coldgrNghiPhep tblColName="NOICAPKHAISINH_CHUHO" title="Nơi cấp giấy khai sinh" hide="false" formatCell="" width="200" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="39"/>
+
+      <coldgrNghiPhep tblColName="CMND_CHUHO" title="Số CMND/Thẻ căn cước/Hộ chiếu (chủ hộ)" hide="false" formatCell="" width="200" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="40"/>
+
+    </dgrMayChamCong>
+	</controls>
+</form>

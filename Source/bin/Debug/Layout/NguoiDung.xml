@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<form>
+	<attributes>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+  </attributes>
+
+	<controls>
+		<dgrchucvu>
+      <coldgrNguoiDung tblColName="Ten_DangNhap" title="Tên Đăng Nhập" hide="false" formatCell="" width="100"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1" />
+
+      <coldgrNguoiDung tblColName="MK_DN" title="Mật Khẩu" hide="false" formatCell="" width="100"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2" />
+
+      <coldgrNguoiDung tblColName="Ma_NV" title="Mã Nhân Viên" hide="false" formatCell="" width="100"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3" />
+
+      <coldgrNguoiDung tblColName="Ten_NV" title="Tên Nhân Viên" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4" />
+
+      <coldgrNguoiDung tblColName="IP_Address" title="Đia Chỉ IP Máy" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5" />
+
+      <coldgrNguoiDung tblColName="Admin" title="Admin" hide="false" formatCell="" width="10"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="6" />
+
+</dgrchucvu>
+	</controls>
+</form>

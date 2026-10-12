@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<form>
+	<attributes>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+                <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		
+	</attributes>
+	<controls>
+		<dgrMayChamCong>
+
+			<colKCB tblColName="NV_MA" title="Số Thẻ" hide="false" formatCell="" width="60" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1"/>
+
+			<colKCB tblColName="NV_TEN" title="Họ Tên" hide="false" formatCell="" width="200" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2"/>
+
+     			<colKCB tblColName="DV_MA" title="Đơn Vị" hide="false" formatCell="" width="200" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3"/>
+					
+			<colKCB tblColName="KCB_NGAY" title="Ngày" hide="false" formatCell="" width="100" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4"/>
+
+			<colKCB tblColName="KCB_TEN" title="Nơi KCB" hide="false" formatCell="" width="300" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5"/>
+
+     			<colKCB tblColName="KCB_CHANDOAN" title="Chẩn Đoán" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="6"/>
+			
+ 			<colKCB tblColName="KCB_GHICHU" title="Ghi Chú" hide="false" formatCell="" width="200" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="7"/>
+                        
+                        <colKCB tblColName="KCB_NOIKCB" title="Ghi Chú" hide="TRUE" formatCell="" width="200" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="7"/>
+
+			
+
+		</dgrMayChamCong>
+	</controls>
+</form>

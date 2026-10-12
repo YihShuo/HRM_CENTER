@@ -1,0 +1,753 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="1frmBangTheoDoiNgayPhepCuaCBCNV" xml:space="preserve">
+    <value>Bảng Theo Dõi Ngày Phép Của CB-CNV</value>
+  </data>
+  <data name="1frmBangThongKeKyLuat" xml:space="preserve">
+    <value>Bảng Thống Kê Kỷ Luật</value>
+  </data>
+  <data name="1frmBaocaochitietgiocong" xml:space="preserve">
+    <value>Thống Kê Chi Tiết Giờ Công</value>
+  </data>
+  <data name="1frmBaocaogioconghangngay" xml:space="preserve">
+    <value>Thống Kê Giờ Công Theo Đơn Vị</value>
+  </data>
+  <data name="1frmBaoCaoGioCongNgay" xml:space="preserve">
+    <value>Thống Kê Giờ Công Tuần</value>
+  </data>
+  <data name="1frmBaocaogiocongxuong" xml:space="preserve">
+    <value>Thống Kê Giờ Công Bảng Tổng Theo Xưởng</value>
+  </data>
+  <data name="1frmBaoCaoGioVaoRa" xml:space="preserve">
+    <value>Báo Cáo Giờ Vào Ra</value>
+  </data>
+  <data name="1frmBaoCaoMucLuong" xml:space="preserve">
+    <value>Báo Cáo Mức Lương CB-CNV</value>
+  </data>
+  <data name="1frmBaoCaoTongHop" xml:space="preserve">
+    <value>Báo cáo tổng hợp</value>
+  </data>
+  <data name="1frmBBThang" xml:space="preserve">
+    <value>Bình Bầu Cho Cán Bộ</value>
+  </data>
+  <data name="1frmBBThangchoCNV" xml:space="preserve">
+    <value>Bình Bầu Cho Công Nhân Viên</value>
+  </data>
+  <data name="1frmBinhBauA" xml:space="preserve">
+    <value>Danh Sách Bình Bầu Cuối Năm</value>
+  </data>
+  <data name="1frmBinhBauChucVu" xml:space="preserve">
+    <value>Bình Bầu Chức Vụ</value>
+  </data>
+  <data name="1frmBinhBauNam_" xml:space="preserve">
+    <value>Bình Bầu Năm</value>
+  </data>
+  <data name="1frmBinhBauThang" xml:space="preserve">
+    <value>Bình Bầu Tháng</value>
+  </data>
+  <data name="1frmCaLamViec" xml:space="preserve">
+    <value>Ca Làm Việc</value>
+  </data>
+  <data name="1frmCapNhatCongViec" xml:space="preserve">
+    <value>Cập Nhật Công Việc</value>
+  </data>
+  <data name="1frmCapNhatHoSoNhanSu" xml:space="preserve">
+    <value>Cập Nhật Hồ Sơ Nhân Sự</value>
+  </data>
+  <data name="1frmCapnhatMSTSTK" xml:space="preserve">
+    <value>Cập nhật mã số thuế, số tài khoản</value>
+  </data>
+  <data name="1frmCapNhatNhaXuong" xml:space="preserve">
+    <value>Cập Nhật Nhà Xưởng</value>
+  </data>
+  <data name="1frmCapNhatNVNgoaiNguPhienDich" xml:space="preserve">
+    <value>Cập nhật nhân viên ngoại ngữ-phiên dịch</value>
+  </data>
+  <data name="1frmCapNhatSoSoBH" xml:space="preserve">
+    <value>Cập nhật số sổ bảo hiểm</value>
+  </data>
+  <data name="1frmCBCNV_VayVonNganHang" xml:space="preserve">
+    <value>Vay vốn ngân hàng</value>
+  </data>
+  <data name="1frmChamcongMain" xml:space="preserve">
+    <value>Chấm Công Máy</value>
+  </data>
+  <data name="1frmChamCongTay" xml:space="preserve">
+    <value>Chấm Công</value>
+  </data>
+  <data name="1frmChuaKyHDLD" xml:space="preserve">
+    <value>Chưa Ký Hợp Đồng Lao Động</value>
+  </data>
+  <data name="1frmChucVu" xml:space="preserve">
+    <value>Thống Kê Chức Vụ</value>
+  </data>
+  <data name="1frmChucVuDM" xml:space="preserve">
+    <value>Chức Vụ</value>
+  </data>
+  <data name="1frmChungChiK" xml:space="preserve">
+    <value>Chứng Chỉ Khác</value>
+  </data>
+  <data name="1frmChuyenCongViec" xml:space="preserve">
+    <value>Chuyển Công Việc</value>
+  </data>
+  <data name="1frmChuyenDonVi" xml:space="preserve">
+    <value>Cập Nhật Nhanh Nhân Viên</value>
+  </data>
+  <data name="1frmChuyenDV" xml:space="preserve">
+    <value>Chuyển Đơn Vị</value>
+  </data>
+  <data name="1frmChuyenMon" xml:space="preserve">
+    <value>Trình Độ Chuyên Môn</value>
+  </data>
+  <data name="1frmCongTac" xml:space="preserve">
+    <value>Quá Trình Công Tác</value>
+  </data>
+  <data name="1frmCongViec" xml:space="preserve">
+    <value>Công Việc</value>
+  </data>
+  <data name="1frmCongViecNNDH" xml:space="preserve">
+    <value>Theo Dõi Công Việc Nặng Nhọc Độc Hại</value>
+  </data>
+  <data name="1frmCVHDLD" xml:space="preserve">
+    <value>Cập nhật công việc HDLD</value>
+  </data>
+  <data name="1frmCVNhanVien" xml:space="preserve">
+    <value>Depart and Func</value>
+  </data>
+  <data name="1frmDanhSachCBCNVChuyenDonVi" xml:space="preserve">
+    <value>Danh Sách CB-CNV Chuyển Đơn Vị</value>
+  </data>
+  <data name="1frmDanhSachCBCNVDongBHXH" xml:space="preserve">
+    <value>Danh Sách CB-CNV Đóng BHXH</value>
+  </data>
+  <data name="1frmDanhSachCBCNVDonVi" xml:space="preserve">
+    <value>Danh Sách CB-CNV</value>
+  </data>
+  <data name="1frmDanhSachCBCNVNghiPhep" xml:space="preserve">
+    <value>Danh Sách CB-CNV Nghỉ Phép</value>
+  </data>
+  <data name="1frmDanhSachCBCNVTheoChucVu" xml:space="preserve">
+    <value>Danh Sách CB-CNV Theo Chúc Vụ</value>
+  </data>
+  <data name="1frmDanhSachCB_CNVBinhBauNam" xml:space="preserve">
+    <value>Danh sách CB_CNV bình bầu năm</value>
+  </data>
+  <data name="1frmDanhSachCB_CNVhethanHDLD" xml:space="preserve">
+    <value>Danh Sách CB-CNV hết hạn hợp động</value>
+  </data>
+  <data name="1frmDanhSachCNNghiKhongPhepTheoThang" xml:space="preserve">
+    <value>Danh Sách Công Nhân Viên Nghỉ Phép Theo Tháng</value>
+  </data>
+  <data name="1frmDanhSachCNNghiKPTheoNam" xml:space="preserve">
+    <value>Danh Sách Công Nhân Nghĩ Không Phép Theo Năm</value>
+  </data>
+  <data name="1frmDanhSachCongViec" xml:space="preserve">
+    <value>Danh Sách Phiên Dịch - Cán Bộ - CB_CNV Ký HDLD</value>
+  </data>
+  <data name="1frmDanhSachHetHangHDKyLai" xml:space="preserve">
+    <value>Danh Sách CB-CNV hết hạn HD Ký Lại</value>
+  </data>
+  <data name="1frmDanhSachNhanVienTheoTrinhDo" xml:space="preserve">
+    <value>Danh Sách Nhân Viên Theo Trình Độ</value>
+  </data>
+  <data name="1frmDanhSachNhanVienThoiViec" xml:space="preserve">
+    <value>Danh Sách Nhân Viên Thôi Việc</value>
+  </data>
+  <data name="1frmDanhSachNhanVienTrungTuyen" xml:space="preserve">
+    <value>Danh Sách Nhân Viên Trúng Tuyển</value>
+  </data>
+  <data name="1frmDanhSachNVChuaCoThe" xml:space="preserve">
+    <value>Báo cáo danh sách chưa có thẻ</value>
+  </data>
+  <data name="1frmDanToc" xml:space="preserve">
+    <value>Dân Tộc</value>
+  </data>
+  <data name="1frmDaoTao" xml:space="preserve">
+    <value>Quá Trình Đào Tạo</value>
+  </data>
+  <data name="1frmDBLPromaz" xml:space="preserve">
+    <value>Diễn Biến Lương Promaz</value>
+  </data>
+  <data name="1frmDBLuong" xml:space="preserve">
+    <value>Diễn Biến Lương</value>
+  </data>
+  <data name="1frmDiCaKhacThuong" xml:space="preserve">
+    <value>Đi ca khác thường</value>
+  </data>
+  <data name="1frmDiemDanhHangNgay" xml:space="preserve">
+    <value>Điểm Danh Hàng Ngày</value>
+  </data>
+  <data name="1frmDiemDanhHangNgay_Client" xml:space="preserve">
+    <value>Điểm Danh Hàng Ngày Client</value>
+  </data>
+  <data name="1frmDienBienLuong" xml:space="preserve">
+    <value>Thống Kê Diễn Biến Lương</value>
+  </data>
+  <data name="1frmDieuChinhLuong" xml:space="preserve">
+    <value>Điều Chỉnh Lương</value>
+  </data>
+  <data name="1frmDiTre" xml:space="preserve">
+    <value>Báo cáo danh sách đi trễ</value>
+  </data>
+  <data name="1frmDocHaiNangNhoc" xml:space="preserve">
+    <value>Công Nhân Sản Xuất Thuộc Loại Độc Hại Nặng Nhọc</value>
+  </data>
+  <data name="1frmDSCNKhongNghi" xml:space="preserve">
+    <value>Thống Kê DSCN Không Nghỉ Phép Trong Năm</value>
+  </data>
+  <data name="1frmDSCNVKhongQuetTheVaoRa" xml:space="preserve">
+    <value>Danh sách CB_CNV không quét thẻ vào ra</value>
+  </data>
+  <data name="1frmDSCongNhanMay" xml:space="preserve">
+    <value>Thống Kê Danh Sách Công Nhân May</value>
+  </data>
+  <data name="1frmEmployees" xml:space="preserve">
+    <value>Employees' Working</value>
+  </data>
+  <data name="1frmGioCongTieuChuanThang" xml:space="preserve">
+    <value>Thống Kê Giờ Công Tiêu Chuẩn Theo Tháng</value>
+  </data>
+  <data name="1frmGiocongtrong_ngoaitieuchuan" xml:space="preserve">
+    <value>Thống Kê Giờ Công Tiêu Chuẩn Theo Tuần</value>
+  </data>
+  <data name="1frmGioiTinh" xml:space="preserve">
+    <value>Thống Kê Giới Tính</value>
+  </data>
+  <data name="1frmGiotangcathang" xml:space="preserve">
+    <value>Thống Kê Giờ Tăng Ca Toàn Công Ty Năm</value>
+  </data>
+  <data name="1frmGioVaoRa" xml:space="preserve">
+    <value>Báo cáo giờ vào ra</value>
+  </data>
+  <data name="1frmHDLD" xml:space="preserve">
+    <value>Hợp Đồng Lao Động</value>
+  </data>
+  <data name="1frmHieuChinhLuong" xml:space="preserve">
+    <value>Hiệu Chỉnh Lương</value>
+  </data>
+  <data name="1frmHocVan" xml:space="preserve">
+    <value>Thống Kê Học Vấn</value>
+  </data>
+  <data name="1frmHocVanDM" xml:space="preserve">
+    <value>Trình Độ Học Vấn</value>
+  </data>
+  <data name="1frmKhamBenhNgheNghiep" xml:space="preserve">
+    <value>Thống Kê Bệnh Nghề Nghiệp</value>
+  </data>
+  <data name="1frmKhenThuong" xml:space="preserve">
+    <value>Quá Trình Khen Thưởng</value>
+  </data>
+  <data name="1frmKhenThuongDM" xml:space="preserve">
+    <value>Khen Thưởng</value>
+  </data>
+  <data name="1frmKhoanCongKhac" xml:space="preserve">
+    <value>Khoản Cộng Khác</value>
+  </data>
+  <data name="1frmKhoanTruKhac" xml:space="preserve">
+    <value>Khoản Trừ Khác</value>
+  </data>
+  <data name="1frmKhoanTruMobivi" xml:space="preserve">
+    <value>Khoản thu Mobivi</value>
+  </data>
+  <data name="1frmKhoaSoLuong" xml:space="preserve">
+    <value>Khóa Sổ Lương</value>
+  </data>
+  <data name="1frmKhongHuongPC" xml:space="preserve">
+    <value>CB.CNV Không hưởng phụ cấp</value>
+  </data>
+  <data name="1frmKhuVuc" xml:space="preserve">
+    <value>Thống Kê Khu Vực</value>
+  </data>
+  <data name="1frmKiemTraCMND" xml:space="preserve">
+    <value>Kiểm tra số CMND</value>
+  </data>
+  <data name="1frmKiemTraPhepNam" xml:space="preserve">
+    <value>Nghỉ Phép</value>
+  </data>
+  <data name="1frmKyHDSau1Thang" xml:space="preserve">
+    <value>Ký Hợp Đồng Lao Động Sau 1 Tháng</value>
+  </data>
+  <data name="1frmKyLuat" xml:space="preserve">
+    <value>Kỷ Luật</value>
+  </data>
+  <data name="1frmKyNang" xml:space="preserve">
+    <value>Kỹ Năng</value>
+  </data>
+  <data name="1frmLoaiBinhBau" xml:space="preserve">
+    <value>Loại Bình Bầu</value>
+  </data>
+  <data name="1frmLoaiHopDong" xml:space="preserve">
+    <value>Loại Hợp Đồng</value>
+  </data>
+  <data name="1frmLoaiThoiViec" xml:space="preserve">
+    <value>Loại Thôi Việc</value>
+  </data>
+  <data name="1frmLuongThang" xml:space="preserve">
+    <value>Lương tháng 1, 2</value>
+  </data>
+  <data name="1frmLyLichNhanVien" xml:space="preserve">
+    <value>Lý lịch nhân viên</value>
+  </data>
+  <data name="1frmMayChamCong" xml:space="preserve">
+    <value>Máy Quẹt Thẻ</value>
+  </data>
+  <data name="1frmNgayLe" xml:space="preserve">
+    <value>Ngày Lễ</value>
+  </data>
+  <data name="1frmNghiPhep" xml:space="preserve">
+    <value>Loại Nghỉ Phép</value>
+  </data>
+  <data name="1frmNgoaiNgu" xml:space="preserve">
+    <value>Trình Độ Ngoại Ngữ</value>
+  </data>
+  <data name="2frmNguoiDung" xml:space="preserve">
+    <value>Người Dùng</value>
+  </data>
+  <data name="1frmNhanVienKyLuatNghiKhongPhep" xml:space="preserve">
+    <value>Nhân Viên Nghỉ Không Phép</value>
+  </data>
+  <data name="1frmNuoiConDuoi6Tuoi" xml:space="preserve">
+    <value>Trợ cấp nuôi con nhỏ dưới 6 tuổi</value>
+  </data>
+  <data name="1frmPhepNam" xml:space="preserve">
+    <value>Thống Kê Phép Năm</value>
+  </data>
+  <data name="1frmPhepNamConLai" xml:space="preserve">
+    <value>Thống Kê Phép Năm Còn lại</value>
+  </data>
+  <data name="1frmPhuCapKhac" xml:space="preserve">
+    <value>Phụ Cấp Khác</value>
+  </data>
+  <data name="1frmPhuNuMangThai_KThai" xml:space="preserve">
+    <value>Phụ Nữ Mang Thai Khám Thai</value>
+  </data>
+  <data name="1frmQTKhacThuongLC_Thang" xml:space="preserve">
+    <value>Quẹt Thẻ Sai Qui Định Bảng Tổng Tháng</value>
+  </data>
+  <data name="1frmQTSaiQuiDinh" xml:space="preserve">
+    <value>Quẹt Thẻ Sai Qui Định Bảng Chi Tiết</value>
+  </data>
+  <data name="1frmQTSaiQuiDinhBangTong" xml:space="preserve">
+    <value>Quẹt Thẻ Sai Qui Định Bảng Tổng</value>
+  </data>
+  <data name="1frmQuaTrinhDieuDong" xml:space="preserve">
+    <value>Quá Trình Điều Động Nhân Viên</value>
+  </data>
+  <data name="1frmQuocTich" xml:space="preserve">
+    <value>Quốc Tịch</value>
+  </data>
+  <data name="1frmReportHDLD" xml:space="preserve">
+    <value>Danh Sách CB-CNV Ký Hợp Đồng</value>
+  </data>
+  <data name="1frmSoNguoiTrongCongTy" xml:space="preserve">
+    <value>Kiểm Tra Số Người Trong Công Ty</value>
+  </data>
+  <data name="1frmSoYeuLyLich" xml:space="preserve">
+    <value>Sơ Yếu Lý Lịch CB-CNV</value>
+  </data>
+  <data name="1frmTamUng" xml:space="preserve">
+    <value>Tạm Ứng</value>
+  </data>
+  <data name="1frmTangLuongThang2" xml:space="preserve">
+    <value>Tăng Lương Tháng 2</value>
+  </data>
+  <data name="1frmThaiThangThu7" xml:space="preserve">
+    <value>Nhân Viên Mang Thai Trên 7 Tháng</value>
+  </data>
+  <data name="1frmThamNien" xml:space="preserve">
+    <value>Thống Kê Thâm Niên</value>
+  </data>
+  <data name="1frmTheoDoiLuongBB_NVTV" xml:space="preserve">
+    <value>Theo Dõi Lương, Bình Bầu CNV Thôi Việc</value>
+  </data>
+  <data name="1frmTheoDoiMangThaiDenNC12Thang" xml:space="preserve">
+    <value>Theo dõi mang thai đến 12 tháng</value>
+  </data>
+  <data name="1frmTheodoiNVNghiTS" xml:space="preserve">
+    <value>Theo Dõi Nhân Viên Nghỉ Thai Sản</value>
+  </data>
+  <data name="1frmThoiViec" xml:space="preserve">
+    <value>Thôi Việc</value>
+  </data>
+  <data name="1frmThongKeCN_TT_GT" xml:space="preserve">
+    <value>Thống Kê Công Nhân Làm Việc Trực Tiếp Và Gián Tiếp</value>
+  </data>
+  <data name="1frmThongKeDanhSachCanBo" xml:space="preserve">
+    <value>Thống Kê Danh Sách Cán Bộ Theo Công Việc</value>
+  </data>
+  <data name="1frmThongKeDanhSachCB_CNVBiKyLuat" xml:space="preserve">
+    <value>Danh Sách CB-CNV Bị Kỷ Luật</value>
+  </data>
+  <data name="1frmThongKeHD" xml:space="preserve">
+    <value>Thống Kê Hợp Đồng</value>
+  </data>
+  <data name="1frmThongKeLuongTTGT" xml:space="preserve">
+    <value>Thống kê lương công nhân trực tiếp và gián tiếp</value>
+  </data>
+  <data name="1frmThongKeNghiPhep" xml:space="preserve">
+    <value>Thống Kê Nghỉ Phép</value>
+  </data>
+  <data name="1frmThongKeSoNgayNghi" xml:space="preserve">
+    <value>Thống Kê Số Ngày Nghỉ </value>
+  </data>
+  <data name="1frmThongKeSoNgayNghiDonVi" xml:space="preserve">
+    <value>Thống Kê Số Ngày Nghỉ Đơn Vị</value>
+  </data>
+  <data name="1FrmThongKeTheomqh" xml:space="preserve">
+    <value>Thống Kê Theo Mối Quan Hệ</value>
+  </data>
+  <data name="1frmThongKeTheoTinhThanhVaDoTuoi" xml:space="preserve">
+    <value>Thống Kê Theo Tỉnh Thành Và Độ Tuổi</value>
+  </data>
+  <data name="1frmThueTNCN" xml:space="preserve">
+    <value>Thuế TNCN</value>
+  </data>
+  <data name="1frmThuongABC" xml:space="preserve">
+    <value>Tiền Thưởng ABC</value>
+  </data>
+  <data name="1frmTieuChiSanLoc" xml:space="preserve">
+    <value>Tiêu Chí Sàn Lọc</value>
+  </data>
+  <data name="1frmTieuChuan_" xml:space="preserve">
+    <value>Xếp Loại Tiêu Chuẩn</value>
+  </data>
+  <data name="1frmTinhLuong" xml:space="preserve">
+    <value>Tính Lương Ngoài Giờ</value>
+  </data>
+  <data name="1frmTinhLuongChinh" xml:space="preserve">
+    <value>Tính Lương Chính</value>
+  </data>
+  <data name="1frmTinHoc" xml:space="preserve">
+    <value>Trình Độ Tin Học</value>
+  </data>
+  <data name="1frmTinhThanh" xml:space="preserve">
+    <value>Tỉnh Thành</value>
+  </data>
+  <data name="1frmTKCongViecHDLD" xml:space="preserve">
+    <value>Thống Kê Công Việc HDLD</value>
+  </data>
+  <data name="1frmTongHopComThang" xml:space="preserve">
+    <value>Tổng Hợp Cơm Tháng</value>
+  </data>
+  <data name="1frmTraCuuNhanhNV" xml:space="preserve">
+    <value>Tra Cứu</value>
+  </data>
+  <data name="1frmTuoi" xml:space="preserve">
+    <value>Thống Kê Tuổi</value>
+  </data>
+  <data name="1frmVangMat" xml:space="preserve">
+    <value>Báo cáo danh sách vắng mặt</value>
+  </data>
+  <data name="1frmVeSom" xml:space="preserve">
+    <value>Báo cáo danh sách về sớm</value>
+  </data>
+  <data name="1frmXaPhuong" xml:space="preserve">
+    <value>Xã Phường</value>
+  </data>
+  <data name="1frm_nghiop" xml:space="preserve">
+    <value>Nhân viên nghỉ không phép (O) trong tháng</value>
+  </data>
+  <data name="1mnThoat" xml:space="preserve">
+    <value>Thoát Chương Trình</value>
+  </data>
+  <data name="1ThamGiaBHXH" xml:space="preserve">
+    <value>Tham gia BHXH</value>
+  </data>
+  <data name="1ThoiViecKhongThamGiaBHTN" xml:space="preserve">
+    <value>Trợ Cấp Thôi Việc</value>
+  </data>
+  <data name="1TongSoNguoi" xml:space="preserve">
+    <value>Tổng Số Người Trong Đơn Vị Theo Bảng Điểm Danh</value>
+  </data>
+  <data name="1Weeklyovertime" xml:space="preserve">
+    <value>Weekly Overtime hours</value>
+  </data>
+  <data name="mnBaocao" xml:space="preserve">
+    <value>Báo Cáo</value>
+  </data>
+  <data name="mnBaocaochamcong" xml:space="preserve">
+    <value>Báo Cáo Chấm Công</value>
+  </data>
+  <data name="mnBinhbau" xml:space="preserve">
+    <value>Bình Bầu</value>
+  </data>
+  <data name="mnChamcong" xml:space="preserve">
+    <value>Chấm công</value>
+  </data>
+  <data name="mnDanhmuc" xml:space="preserve">
+    <value>Danh Mục</value>
+  </data>
+  <data name="mnHethong" xml:space="preserve">
+    <value>Hệ Thống</value>
+  </data>
+  <data name="mnNhansu" xml:space="preserve">
+    <value>Nhân Sự</value>
+  </data>
+  <data name="mnThongkegiocong" xml:space="preserve">
+    <value>Thống Kê Giờ Công</value>
+  </data>
+  <data name="mnTinhluong" xml:space="preserve">
+    <value>Tính lương</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Ngôn Ngữ</value>
+  </data>
+  <data name="1Anh" xml:space="preserve">
+    <value>Tiếng Anh</value>
+  </data>
+  <data name="1Viet" xml:space="preserve">
+    <value>Tiếng Việt</value>
+  </data>
+  <data name="mnThongKeGioCongTieuChuan" xml:space="preserve">
+    <value>Thống Kê Giờ Công Tiêu Chuẩn</value>
+  </data>
+  <data name="Báo Cáo Thống Kê" xml:space="preserve">
+    <value>Báo cáo thống kê</value>
+  </data>
+  <data name="mnThongKeThaiSan" xml:space="preserve">
+    <value>Thống Kê Thai Sản</value>
+  </data>
+  <data name="mnThongKeGioCongChiTiet" xml:space="preserve">
+    <value>Thống Kê Quẹt Thẻ Chi Tiết</value>
+  </data>
+  <data name="mnBaocaonhansu" xml:space="preserve">
+    <value>Báo Cáo Nhân Sự</value>
+  </data>
+  <data name="1frmTonGiao" xml:space="preserve">
+    <value>Tôn Giáo</value>
+  </data>
+  <data name="1mnThoat_activeMdifom" xml:space="preserve">
+    <value>Thoát</value>
+  </data>
+  <data name="1frmNguoiDung" xml:space="preserve">
+    <value>Người Dùng</value>
+  </data>
+  <data name="1frmThongKeTinhHinhNghiViec" xml:space="preserve">
+    <value>Thống Kê Tình Hình Nghỉ Việc</value>
+  </data>
+  <data name="1frmCapNhatHoSoQuanHe" xml:space="preserve">
+    <value>Cập nhật hồ sơ nhân viên quan hệ</value>
+  </data>
+  <data name="1frmCapNhatNhomCV_MTCV_PTCV" xml:space="preserve">
+    <value>Cập nhật nhóm công việc MTCV_PTCV</value>
+  </data>
+  <data name="1frmDanhMucQLMTCV_PTCV" xml:space="preserve">
+    <value>Danh mục nhóm MTCV_PTCV</value>
+  </data>
+  <data name="1frmKinhNghiemLamViec" xml:space="preserve">
+    <value>Kinh Nghiệm Làm Việc</value>
+  </data>
+  <data name="1FrmBaoCaoSLTongPhanComCuoiThang" xml:space="preserve">
+    <value>Báo cáo số lượng tổng phần cơm cuối tháng</value>
+  </data>
+  <data name="1frmDanhSachThongKeNgayCong" xml:space="preserve">
+    <value>Danh sách thống kê ngày công</value>
+  </data>
+  <data name="1frmPhuNuHanhKinh" xml:space="preserve">
+    <value>Theo dõi lao động nữ nghỉ hành kinh</value>
+  </data>
+  <data name="1frmPhuNuHanhKinhTinhNV" xml:space="preserve">
+    <value>Tính hành kinh đơn vị NV</value>
+  </data>
+  <data name="1frmPhuNuMangThaiKThaiYte" xml:space="preserve">
+    <value>Theo dõi lao động nữ mang thai</value>
+  </data>
+  <data name="1frmThongKeGioTangCaNam" xml:space="preserve">
+    <value>Thống kê giờ tăng ca toàn công ty</value>
+  </data>
+  <data name="1frmThongKeSoNgayNghiOMCOTrongNam" xml:space="preserve">
+    <value>Thống kê số ngày nghỉ ốm-con ốm trong năm</value>
+  </data>
+  <data name="1frmTinhLuong13" xml:space="preserve">
+    <value>Tính Thưởng Tháng 13</value>
+  </data>
+  <data name="1frmTraCuuThongTinThamGiaBH" xml:space="preserve">
+    <value>Tra cứu thông tin để tham gia BHXH-BHYT</value>
+  </data>
+  <data name="mnBaoCaoTongHop" xml:space="preserve">
+    <value>Báo cáo thống kê</value>
+  </data>
+  <data name="1frmThongKeGioTangCaXuongNam" xml:space="preserve">
+    <value>Thống kê tổng giờ tăng ca các xưởng</value>
+  </data>
+  <data name="1frmThongKePNMTTheoThang" xml:space="preserve">
+    <value>Thống kê phụ nữ mang thai theo tháng</value>
+  </data>
+  <data name="1frmGioCongHangNgayDonVi" xml:space="preserve">
+    <value>Giờ công hằng ngày đơn vị</value>
+  </data>
+  <data name="1frmTKSOLUONGKYHDLD" xml:space="preserve">
+    <value>Thống kê Thời hạn HĐ - ThamGia BH</value>
+  </data>
+  <data name="1frmDSLaoDongNghiKhongPhep" xml:space="preserve">
+    <value>Danh sách lao động nghỉ không phép</value>
+  </data>
+  <data name="1frmSoLuongKyLuat" xml:space="preserve">
+    <value>Số lượng kỷ luật</value>
+  </data>
+  <data name="1frmTheoDoiTienDoThucHienKyLuat" xml:space="preserve">
+    <value>Theo dõi tiến độ thực hiện kỹ luật</value>
+  </data>
+  <data name="1frmThongkecongnhandilamvangmat" xml:space="preserve">
+    <value>Thống kê công nhân đi làm vắng mặt</value>
+  </data>
+  <data name="1frmThongKeNguyenNhanKyLuat" xml:space="preserve">
+    <value>Thống kê nguyên nhân kỷ luật</value>
+  </data>
+  <data name="1frmThongKeNhanSuTheoXuong" xml:space="preserve">
+    <value>Thống kê nhân sự theo xưởng</value>
+  </data>
+  <data name="1frmThongKeTroCapHDLD" xml:space="preserve">
+    <value>Thống kê tổng hợp HĐLĐ</value>
+  </data>
+  <data name="1frmThongKeDanhSachCanBoThang" xml:space="preserve">
+    <value>Thống kê cán bộ</value>
+  </data>
+  <data name="1frmThongKeSLCVNNHD" xml:space="preserve">
+    <value>Thống kê số lượng CV NHĐH</value>
+  </data>
+  <data name="1frmThongKeSoLaoDongDangNCNho" xml:space="preserve">
+    <value>Thống kê lao động đang nuôi con nhỏ</value>
+  </data>
+  <data name="1frmThongKeTroCapNgoaiNgu" xml:space="preserve">
+    <value>Thống kê phiên dịch</value>
+  </data>
+  <data name="1frmThongKeTroCapThoRap" xml:space="preserve">
+    <value>Thống kê thợ rập - mức tay nghề</value>
+  </data>
+  <data name="1frmThongKeTroCapUDMay" xml:space="preserve">
+    <value>Thống kê công nhân may - mức tay nghề</value>
+  </data>
+  <data name="mnTongHopBaoCaoHDLD" xml:space="preserve">
+    <value>Tổng hợp thống kê HĐLĐ</value>
+  </data>
+  <data name="1frmBCGioCongTieuChuanThang" xml:space="preserve">
+    <value>Thống kê giờ công tiêu chuẩn adidas</value>
+  </data>
+  <data name="1frmThongKeCoCongCoPhep" xml:space="preserve">
+    <value>Thống kê có công có phép</value>
+  </data>
+  <data name="1frmTienVuotSanLuong" xml:space="preserve">
+    <value>Tiền Vượt Sản Lượng</value>
+  </data>
+  <data name="1frmChamCom" xml:space="preserve">
+    <value>Chấm Cơm</value>
+  </data>
+</root>

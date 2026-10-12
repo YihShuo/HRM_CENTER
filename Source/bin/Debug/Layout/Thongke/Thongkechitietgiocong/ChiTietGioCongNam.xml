@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<form>
+	<attributes>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	</attributes>
+
+	<controls>
+		<dgrchucvu>
+			<coldgrKhacThuong tblColName="NAM" title="Năm" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1" />
+
+			<coldgrKhacThuong tblColName="X_MA_" title="Xưởng 廠別" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2" />
+			
+			<coldgrKhacThuong tblColName="DV_Ma" title="Đơn Vị 單位" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3" />
+
+			<coldgrKhacThuong tblColName="NV_Ma" title="Số Thẻ 工號" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4" />
+
+			<coldgrKhacThuong tblColName="NV_Ten" title="Họ Tên 姓名" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5" />
+
+			<coldgrKhacThuong tblColName="THANG1" title="Tháng 1_1月" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="6" />
+
+			<coldgrKhacThuong tblColName="THANG2" title="Tháng 2_2月" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="7" />
+
+			<coldgrKhacThuong tblColName="THANG3" title="Tháng 3_3月" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="8" />
+
+			<coldgrKhacThuong tblColName="THANG4" title="Tháng 4_4月" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="9" />
+
+			<coldgrKhacThuong tblColName="THANG5" title="Tháng 5_5月" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="10" />
+
+			<coldgrKhacThuong tblColName="THANG6" title="Tháng 6_6月" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="11" />
+
+			<coldgrKhacThuong tblColName="THANG7" title="Tháng 7_7月" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="12" />
+
+			<coldgrKhacThuong tblColName="THANG8" title="Tháng 8_8月" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="13" />
+
+			<coldgrKhacThuong tblColName="THANG9" title="Tháng 9_9月" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="14" />
+
+			<coldgrKhacThuong tblColName="THANG10" title="Tháng 10_10月" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="15" />
+
+			<coldgrKhacThuong tblColName="THANG11" title="Tháng 11_11月" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="16" />
+
+			<coldgrKhacThuong tblColName="THANG12" title="Tháng 12_12月" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="17" />
+
+			<coldgrKhacThuong tblColName="TONG" title="Tổng 合計" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="18" />
+
+			<coldgrKhacThuong tblColName="TONGGIOVUOTQUA" title="Tổng Giờ Vượt Quá 超出工時" hide="false" formatCell="" width="180"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="19" />
+
+		</dgrchucvu>
+	</controls>
+</form>

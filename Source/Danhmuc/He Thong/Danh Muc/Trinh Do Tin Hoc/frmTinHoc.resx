@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="txtTen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>151, 56</value>
+  </data>
+  <data name="txtTen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 21</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txtTen.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtTen.Name" xml:space="preserve">
+    <value>txtTen</value>
+  </data>
+  <data name="&gt;&gt;txtTen.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics2.Win.UltraWinEditors.v8.2, Version=8.2.20082.1000, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;txtTen.Parent" xml:space="preserve">
+    <value>UltraTabControl2</value>
+  </data>
+  <data name="&gt;&gt;txtTen.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtMa.Location" type="System.Drawing.Point, System.Drawing">
+    <value>151, 25</value>
+  </data>
+  <data name="txtMa.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 21</value>
+  </data>
+  <data name="txtMa.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtMa.Name" xml:space="preserve">
+    <value>txtMa</value>
+  </data>
+  <data name="&gt;&gt;txtMa.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics2.Win.UltraWinEditors.v8.2, Version=8.2.20082.1000, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;txtMa.Parent" xml:space="preserve">
+    <value>UltraTabControl2</value>
+  </data>
+  <data name="&gt;&gt;txtMa.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Appearance16.TextHAlignAsString" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="Appearance16.TextVAlignAsString" xml:space="preserve">
+    <value>Middle</value>
+  </data>
+  <data name="UltraLabel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="UltraLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 54</value>
+  </data>
+  <data name="UltraLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="UltraLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="UltraLabel2.Text" xml:space="preserve">
+    <value>Tên Tin Học:</value>
+  </data>
+  <data name="&gt;&gt;UltraLabel2.Name" xml:space="preserve">
+    <value>UltraLabel2</value>
+  </data>
+  <data name="&gt;&gt;UltraLabel2.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraLabel, Infragistics2.Win.Misc.v8.2, Version=8.2.20082.1000, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;UltraLabel2.Parent" xml:space="preserve">
+    <value>UltraTabControl2</value>
+  </data>
+  <data name="&gt;&gt;UltraLabel2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Appearance17.TextHAlignAsString" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="Appearance17.TextVAlignAsString" xml:space="preserve">
+    <value>Middle</value>
+  </data>
+  <data name="UltraLabel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="UltraLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 25</value>
+  </data>
+  <data name="UltraLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="UltraLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="UltraLabel1.Text" xml:space="preserve">
+    <value>Mã Tin Học:</value>
+  </data>
+  <data name="&gt;&gt;UltraLabel1.Name" xml:space="preserve">
+    <value>UltraLabel1</value>
+  </data>
+  <data name="&gt;&gt;UltraLabel1.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraLabel, Infragistics2.Win.Misc.v8.2, Version=8.2.20082.1000, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;UltraLabel1.Parent" xml:space="preserve">
+    <value>UltraTabControl2</value>
+  </data>
+  <data name="&gt;&gt;UltraLabel1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="UltraTabControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 21</value>
+  </data>
+  <data name="UltraTabControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>393, 131</value>
+  </data>
+  <data name="&gt;&gt;UltraTabControl2.Name" xml:space="preserve">
+    <value>UltraTabControl2</value>
+  </data>
+  <data name="&gt;&gt;UltraTabControl2.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics2.Win.UltraWinTabControl.v8.2, Version=8.2.20082.1000, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;UltraTabControl2.Parent" xml:space="preserve">
+    <value>UltraTabControl1</value>
+  </data>
+  <data name="&gt;&gt;UltraTabControl2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnXoa.Text" xml:space="preserve">
+    <value>Xóa </value>
+  </data>
+  <data name="btnSua.Text" xml:space="preserve">
+    <value>Sửa</value>
+  </data>
+  <data name="UltraTabSharedControlsPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="UltraTabSharedControlsPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>393, 131</value>
+  </data>
+  <data name="&gt;&gt;UltraTabSharedControlsPage1.Name" xml:space="preserve">
+    <value>UltraTabSharedControlsPage1</value>
+  </data>
+  <data name="&gt;&gt;UltraTabSharedControlsPage1.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabSharedControlsPage, Infragistics2.Win.UltraWinTabControl.v8.2, Version=8.2.20082.1000, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;UltraTabSharedControlsPage1.Parent" xml:space="preserve">
+    <value>UltraTabControl1</value>
+  </data>
+  <data name="&gt;&gt;UltraTabSharedControlsPage1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnThem.Text" xml:space="preserve">
+    <value>Thêm</value>
+  </data>
+  <data name="Appearance14.TextHAlignAsString" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dgrBC.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="dgrBC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 61</value>
+  </data>
+  <data name="dgrBC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>397, 154</value>
+  </data>
+  <data name="dgrBC.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="dgrBC.Text" xml:space="preserve">
+    <value>UltraGrid1</value>
+  </data>
+  <data name="&gt;&gt;dgrBC.Name" xml:space="preserve">
+    <value>dgrBC</value>
+  </data>
+  <data name="&gt;&gt;dgrBC.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinGrid.UltraGrid, Infragistics2.Win.UltraWinGrid.v8.2, Version=8.2.20082.1000, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;dgrBC.Parent" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;dgrBC.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnLuu.Text" xml:space="preserve">
+    <value>Lưu</value>
+  </data>
+  <data name="btnIn.Text" xml:space="preserve">
+    <value>In</value>
+  </data>
+  <metadata name="ImageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="ImageList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAAS
+        DQAAAk1TRnQBSQFMAgEBBgEAAQwBAAEMAQABEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABQAMAASADAAEBAQABCAYAAQgYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD/wEAAe8BrgKGAa4G7wGu
+        BIYwAAG0As8CrgH3AbUBvAH0AfMB8gHPAoYBzwGGBQABnSoAAbQCzwGuAc8BtQHPAbUB8gL0Ac8ChgHP
+        AYYEAAFxAncpAAG0As8BrgK1Aa4BtQEHAfIB9AHPAoYBzwGGAwACdwGdAXcpAAG0As8BrgK1Ac8BtQHv
+        AQcB8gHPAoYBzwGGAgABmAF3ApcCdygAAbQDzwe1Ac8BhgLPAYYCAAF3A5cBnQJ3JwABtA7PAYYBAAGd
+        AXcClwKdAZcCdyYAAbQCzwq1As8BhgEAAXcBnQGXAZ0BmAGSApcCdyUAAbQBzwG1AfAI/wG8As8BhgEA
+        A50BmAIAAZ0BlwF3AXEBdyQAAbQBzwG1AfAB8ga8AfMBvALPAYYCAAGdAZgEAAF3AZ0BdwFxAXcjAAG0
+        Ac8BtQHwAfQC8wH0AfMB9AHzAf8BvALPAYYJAAGdAZcBdwFJAXciAAG0Ac8BtQHwAfIB8QG8BPEB8wG8
+        As8BhgoAAZ0BlwF3AUkBdyEAAbQBzwG1AfAB8wHxA/IB8QHyAfQBvALPAYYLAAHAAZ0BdwFJIQABtAHP
+        AbUBvAHyAfMD8gHzAfIB8wEHAs8BrgwAAZgBwQF3IQAB7QGuAe0B9wjvAfcB7QHsAfcNAAEHbQAB/AQA
+        A/kBATYAAvwEAAH5AfsC+QEBCgAB+QIAAZkBHAF0AhwBcwHrAm0B7AoAAQcC7BAAB/wBAAH5AfsB+QEB
+        CQAB+QIAAewBcwF5AZoBoATDARoBmQFzAewBEgUAAe8BBwHrAgAB7AHrDwAC/AMAAfwCAAH5AfsB+QEB
+        BwAB+QEBAgABdAEUAUoBeQaZARoCwwHrAwACBwLrAbwC9wIAAewB6w4AAfwDAAH8AwAC+QEBBgAB+QEB
+        AwAB5QF5ARQBcwiZARoBbQIAAewC6wK8AQcB9wGSAe0B7AIAAesFAAr5BwAC+QEBBAAB+QEBBQAB5QFR
+        ARQBHAeZARoBbQEAAewB6wHwArwCBwH3AZIC7QLsGAAC+QEBAgAB+QEBBQAB9gF5AeUBUQFKCJkBbQEA
+        AewB/wK8AgcB/wGSAfcB7QLsAesB7AHrFwAC+QEBAfkBAQYAAfYBeQFYAXoBSgFtB5kBbQEAAewB/wIH
+        Av8DvALtAuwC6xgAAvkBAQcAAfYBcwF0AVgBeQFKAXMGmQFtAQAB7AP/AvAB+QFAArwBBwPsAesXAAL5
+        AQEB+QEBBgAB9gF5AXQBeQJYAUoBcwWZAW0BAAHsAf8C8QH6AS8CvAHwAesB7AEAAQcC6xYAAvkBAQIA
+        AfkBAQYAAXkBdAGZAXkB5QFRAUoBHAGZAXQBeQGZAeoCAALsAf8B8QLwAewB6wIHAQABBwLrFAAD+QEB
+        BAAB+QEBBQABeQF0AXkBmQF5AeUBUQHqAZkBdAFRAVIBEgQAAuwB/wHrAgcB8QHyAfEVAAL5AfsB+QEB
+        BgAB+QEBBAABeQF0AXkCmQF5AXoBSgFtAXMBbQFuAesGAALsAfAB8QLzAfQB8RMAAfkB+wL5AQEIAAH5
+        AQEDAAF0AVIBegOaAeUBHAETAa4B3QG1CQAB7AHyAfMB9AL/AfESAAH7AvkBAQsAAfkCAAKaAZkBmgGZ
+        AnoBBwFuAe8BvAsAAewC9AH/AuwSAAL5AQEWAALDAbwNAAPsBAABQgFNAT4HAAE+AwABKAMAAUADAAEg
+        AwABAQEAAQEGAAEBFgAD/wMAAv8GAAH7Af8GAAHxAf8GAAHhAf8GAAHAAf8GAAHAAX8GAAGAAT8GAAGA
+        AR8GAAGGAQ8GAAHPAQcGAAH/AYMGAAH/AcEGAAH/AeEGAAH/AfEGAAH/AfsEAAT/BAAB/wHvAQ8D/wH8
+        AX8B/wHPAQcB/gHAAQ8B8AEfAf8BgAGHAf0BgAEBAcABBwH/Ac4BwwH5AYABAQGAAQEB/wHuAeMB8wGA
+        AQEBgAEBAeABBwHxAecBwAEBAQABAQG/Af0B+AHPAYABAQIAAaABhQH8AR8BgAEBAgABvwH9Af4BPwGA
+        AQECAAGgAYUB/AEfAYABAQIAAb8B/QH4Ac8BwAEBAYABAQGgAYUB4QHnAcABAQHgAQcBvwH9AYMB8wHA
+        AQEB+AEDAaABhQEHAfkBwAEDAf4BAAG/Af0BDwH+AcABBwH/AQMC/wEfAv8BjwH/AY8L
+</value>
+  </data>
+  <data name="ToolBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 35</value>
+  </data>
+  <data name="ToolBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>397, 26</value>
+  </data>
+  <data name="ToolBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ToolBar1.Text" xml:space="preserve">
+    <value>ToolBar1</value>
+  </data>
+  <data name="&gt;&gt;ToolBar1.Name" xml:space="preserve">
+    <value>ToolBar1</value>
+  </data>
+  <data name="&gt;&gt;ToolBar1.Type" xml:space="preserve">
+    <value>TD.SandBar.ToolBar, SandBar, Version=1.0.13.0, Culture=neutral, PublicKeyToken=75b7ec17dd7c14c3</value>
+  </data>
+  <data name="&gt;&gt;ToolBar1.Parent" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;ToolBar1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="XpCaption2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="XpCaption2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="XpCaption2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 8</value>
+  </data>
+  <data name="XpCaption2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>397, 27</value>
+  </data>
+  <data name="XpCaption2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="XpCaption2.Text" xml:space="preserve">
+    <value>Danh Sách</value>
+  </data>
+  <data name="&gt;&gt;XpCaption2.Name" xml:space="preserve">
+    <value>XpCaption2</value>
+  </data>
+  <data name="&gt;&gt;XpCaption2.Type" xml:space="preserve">
+    <value>SteepValley.Windows.Forms.XPCaption, XPCommonControls, Version=2.0.2.37967, Culture=neutral, PublicKeyToken=825f5955c0dc55e8</value>
+  </data>
+  <data name="&gt;&gt;XpCaption2.Parent" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;XpCaption2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="UltraTabControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="UltraTabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 27</value>
+  </data>
+  <data name="UltraTabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>397, 154</value>
+  </data>
+  <data name="UltraTabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="UltraTab1.Text" xml:space="preserve">
+    <value>Thông Tin Nhập Liệu</value>
+  </data>
+  <data name="&gt;&gt;UltraTabControl1.Name" xml:space="preserve">
+    <value>UltraTabControl1</value>
+  </data>
+  <data name="&gt;&gt;UltraTabControl1.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabControl, Infragistics2.Win.UltraWinTabControl.v8.2, Version=8.2.20082.1000, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;UltraTabControl1.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;UltraTabControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="XpCaption1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="XpCaption1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="XpCaption1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="XpCaption1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>397, 27</value>
+  </data>
+  <data name="XpCaption1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="XpCaption1.Text" xml:space="preserve">
+    <value>Nhập Liệu</value>
+  </data>
+  <data name="&gt;&gt;XpCaption1.Name" xml:space="preserve">
+    <value>XpCaption1</value>
+  </data>
+  <data name="&gt;&gt;XpCaption1.Type" xml:space="preserve">
+    <value>SteepValley.Windows.Forms.XPCaption, XPCommonControls, Version=2.0.2.37967, Culture=neutral, PublicKeyToken=825f5955c0dc55e8</value>
+  </data>
+  <data name="&gt;&gt;XpCaption1.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;XpCaption1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="Panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>397, 181</value>
+  </data>
+  <data name="Panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Name" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Panel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splDetail.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="splDetail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="splDetail.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splDetail.Name" xml:space="preserve">
+    <value>splDetail</value>
+  </data>
+  <data name="&gt;&gt;splDetail.Type" xml:space="preserve">
+    <value>NJFLib.Controls.CollapsibleSplitter, CollapsibleSplitter, Version=1.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;splDetail.Parent" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;splDetail.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 181</value>
+  </data>
+  <data name="Panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>397, 215</value>
+  </data>
+  <data name="Panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Panel2.Name" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Panel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>397, 396</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>TRÌNH ĐỘ TIN HỌC</value>
+  </data>
+  <data name="&gt;&gt;btnXoa.Name" xml:space="preserve">
+    <value>btnXoa</value>
+  </data>
+  <data name="&gt;&gt;btnXoa.Type" xml:space="preserve">
+    <value>TD.SandBar.ButtonItem, SandBar, Version=1.0.13.0, Culture=neutral, PublicKeyToken=75b7ec17dd7c14c3</value>
+  </data>
+  <data name="&gt;&gt;btnSua.Name" xml:space="preserve">
+    <value>btnSua</value>
+  </data>
+  <data name="&gt;&gt;btnSua.Type" xml:space="preserve">
+    <value>TD.SandBar.ButtonItem, SandBar, Version=1.0.13.0, Culture=neutral, PublicKeyToken=75b7ec17dd7c14c3</value>
+  </data>
+  <data name="&gt;&gt;btnThem.Name" xml:space="preserve">
+    <value>btnThem</value>
+  </data>
+  <data name="&gt;&gt;btnThem.Type" xml:space="preserve">
+    <value>TD.SandBar.ButtonItem, SandBar, Version=1.0.13.0, Culture=neutral, PublicKeyToken=75b7ec17dd7c14c3</value>
+  </data>
+  <data name="&gt;&gt;btnLuu.Name" xml:space="preserve">
+    <value>btnLuu</value>
+  </data>
+  <data name="&gt;&gt;btnLuu.Type" xml:space="preserve">
+    <value>TD.SandBar.ButtonItem, SandBar, Version=1.0.13.0, Culture=neutral, PublicKeyToken=75b7ec17dd7c14c3</value>
+  </data>
+  <data name="&gt;&gt;btnIn.Name" xml:space="preserve">
+    <value>btnIn</value>
+  </data>
+  <data name="&gt;&gt;btnIn.Type" xml:space="preserve">
+    <value>TD.SandBar.ButtonItem, SandBar, Version=1.0.13.0, Culture=neutral, PublicKeyToken=75b7ec17dd7c14c3</value>
+  </data>
+  <data name="&gt;&gt;ImageList1.Name" xml:space="preserve">
+    <value>ImageList1</value>
+  </data>
+  <data name="&gt;&gt;ImageList1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmTinHoc</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

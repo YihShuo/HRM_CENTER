@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<form>
+	<attributes>
+		
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+  	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+
+	</attributes>
+
+	<controls>
+    <dgrchucvu>
+      <coldgrchucvu tblColName="STT" title="STT" hide="false" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1" />
+
+      <coldgrchucvu tblColName="NV_MA" title="SỐ THẺ" hide="false" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2" />
+
+      <coldgrchucvu tblColName="NV_TEN" title="HỌ VÀ TÊN" hide="false" formatCell="" width="200"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3" />
+
+      <coldgrchucvu tblColName="DV_MA" title="ĐƠN VỊ" hide="false" formatCell="" width="100"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4" />
+
+      <coldgrchucvu tblColName="NV_GIOITINH" title="GIỚI TÍNH" hide="false" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5" />
+
+      <coldgrchucvu tblColName="NV_Thuongtru" title="ĐỊA CHỈ" hide="false" formatCell="" width="200"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="6" />
+
+      <coldgrchucvu tblColName="NV_Ngayvao" title="NGÀY VÀO" hide="false" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="7" />
+
+      <coldgrchucvu tblColName="NGAY_KB" title="NGÀY KHÁM" hide="false" formatCell="" width="90"
+  HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="7" />
+      
+      <coldgrchucvu tblColName="THAMNIEN" title="THÂM NIÊN" hide="true" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="8" />
+
+      <coldgrchucvu tblColName="CV_HIENTAI" title="CÔNG VIỆC KHI KHÁM BỆNH" hide="false" formatCell="" width="100"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="9" />
+
+      <coldgrchucvu tblColName="CV_TEN" title="CÔNG VIỆC HIỆN TẠI" hide="false" formatCell="" width="100"
+  HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="10" />
+		
+		<coldgrchucvu tblColName="CVU_TEN" title="CHỨC VỤ" hide="false" formatCell="" width="100"
+	 HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="11" />
+
+		<coldgrchucvu tblColName="NV_NGAYSINH" title="NGÀY SINH" hide="false" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="12" />
+
+		<coldgrchucvu tblColName="NV_NAMSINH" title="Chỉ có NS" hide="true" formatCell="" width="90"
+		  HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="13" />
+
+      <coldgrchucvu tblColName="NAMSINHNAM" title="NĂM SINH NỮ" hide="true" formatCell="" width="100"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="14" />
+
+      <coldgrchucvu tblColName="NAMSINHNU" title="NĂM SINH NAM" hide="true" formatCell="" width="100"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="15" />
+
+      <coldgrchucvu tblColName="LD_CVBT" title="KHÁM SKĐK" hide="false" formatCell="" width="100"
+         HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="16" />
+
+      <coldgrchucvu tblColName="LD_CNNNDH_L1" title="LĐ LÀM CVNNĐH- LẦN 1" hide="false" formatCell="" width="100"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="17" />
+      
+      <coldgrchucvu tblColName="LD_CNNNDH_NGUYCO" title="LĐ LÀM VIỆC TRONG ĐK CÓ QUY CƠ MẮC BNN" hide="false" formatCell="" width="100"
+  HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="18" />
+      
+
+      <coldgrchucvu tblColName="LD_CNNNDH_L2" title="LĐ LÀM CVNNĐH- LẦN 2" hide="false" formatCell="" width="100"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="19" />
+
+
+      <coldgrchucvu tblColName="TINHHINHBENH" title="TÌNH HÌNH BỆNH" hide="false" formatCell="" width="100"
+  HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="20" />
+
+      <coldgrchucvu tblColName="HUONGDIEUTRI" title="HƯỚNG ĐIỀU TRỊ" hide="false" formatCell="" width="100"
+  HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="21" />
+
+      <coldgrchucvu tblColName="CV_CHUYEN_KHAMSK" title="CÔNG VIỆC CHUYỂN ĐỔI" hide="false" formatCell="" width="100"
+  HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="22" />
+
+      <coldgrchucvu tblColName="PHANLOAI" title="PHÂN LOẠI" hide="false" formatCell="" width="100"
+  HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="23" />
+
+      <coldgrchucvu tblColName="KQ_HOHAP" title="KQ HÔ HẤP" hide="false" formatCell="" width="150"
+  HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="24" />
+
+      <coldgrchucvu tblColName="KQ_THINHLUC" title="KQ THÍNH LỰC" hide="false" formatCell="" width="150"
+  HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="25" />
+      
+      <coldgrchucvu tblColName="NAM_PHATHIEN" title="NĂM PHÁT HIỆN" hide="false" formatCell="" width="100"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="26" />
+
+      <coldgrchucvu tblColName="NGAYKHAMLAI" title="NGÀY KHÁM LẠI" hide="false" formatCell="" width="100"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="27" />
+
+      <coldgrchucvu tblColName="KQ_KHAMLAI" title="KẾT QUẢ KHÁM LẠI" hide="false" formatCell="" width="100"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="28" />
+
+      <coldgrchucvu tblColName="CV_CHUYEN_KHAMBNN" title="CHUYỂN ĐỔI CÔNG ViỆC (nếu cần)" hide="false" formatCell="" width="100"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="29" />
+      
+      <coldgrchucvu tblColName="KL_KHAMNGHENGHIEP" title="KẾT LUẬN" hide="false" formatCell="" width="100"
+            HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="30" />
+
+      <coldgrchucvu tblColName="GHICHU" title="GHI CHÚ" hide="true" formatCell="" width="100"
+      HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="31" />
+
+      <coldgrchucvu tblColName="CHK_KHAMSAN" title="Có khám sản-pkhoa" hide="true" formatCell="" width="100"
+     HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="32" />
+
+      <coldgrchucvu tblColName="TINHHINHBENH_SANKHOA" title="Tình hình bệnh SK" hide="true" formatCell="" width="100"
+      HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="33" />
+
+      <coldgrchucvu tblColName="KL_KHAMSAN" title="Kết luận khám sản" hide="true" formatCell="" width="100"
+      HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="34" />
+
+      <coldgrchucvu tblColName="GHICHU_SANKHOA" title="GHI CHÚ (Khám sản khoa)" hide="true" formatCell="" width="100"
+      HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="35" />
+      
+    </dgrchucvu>
+  </controls>
+</form>

@@ -1,0 +1,720 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="1Anh" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="1frmThongKeTinhHinhNghiViec" xml:space="preserve">
+    <value>Resignation statistics</value>
+  </data>
+  <data name="1Viet" xml:space="preserve">
+    <value>Vietnamese</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="1frmBangTheoDoiNgayPhepCuaCBCNV" xml:space="preserve">
+    <value>Format to track annual leaves of employees</value>
+  </data>
+  <data name="1frmBangThongKeKyLuat" xml:space="preserve">
+    <value>Discipline statistic</value>
+  </data>
+  <data name="1frmBaocaochitietgiocong" xml:space="preserve">
+    <value>Detailed working hour statistics</value>
+  </data>
+  <data name="1frmBaocaogioconghangngay" xml:space="preserve">
+    <value>Working hours statistics by depts</value>
+  </data>
+  <data name="1frmBaoCaoGioCongNgay" xml:space="preserve">
+    <value>Statistic on weekly working hours</value>
+  </data>
+  <data name="1frmBaocaogiocongxuong" xml:space="preserve">
+    <value>Total working hour statistics of workshops</value>
+  </data>
+  <data name="1frmBaoCaoGioVaoRa" xml:space="preserve">
+    <value>Time in/ time out report</value>
+  </data>
+  <data name="1frmBaoCaoMucLuong" xml:space="preserve">
+    <value>Report on employees' salary</value>
+  </data>
+  <data name="1frmBaoCaoTongHop" xml:space="preserve">
+    <value>HR metric reports</value>
+  </data>
+  <data name="1frmBBThang" xml:space="preserve">
+    <value>Performance evaluation for local supervisors</value>
+  </data>
+  <data name="1frmBBThangchoCNV" xml:space="preserve">
+    <value>Performance evaluation for workers and staffs</value>
+  </data>
+  <data name="1frmBinhBauA" xml:space="preserve">
+    <value>Year-end performance evaluation list</value>
+  </data>
+  <data name="1frmBinhBauChucVu" xml:space="preserve">
+    <value>Performance evaluation classified by positions</value>
+  </data>
+  <data name="1frmBinhBauNam_" xml:space="preserve">
+    <value>Yearly performance evaluation</value>
+  </data>
+  <data name="1frmBinhBauThang" xml:space="preserve">
+    <value>Monthly performance evaluation</value>
+  </data>
+  <data name="1frmCaLamViec" xml:space="preserve">
+    <value>Working shift</value>
+  </data>
+  <data name="1frmCapNhatCongViec" xml:space="preserve">
+    <value>Job Update</value>
+  </data>
+  <data name="1frmCapNhatHoSoNhanSu" xml:space="preserve">
+    <value>Personnel Record Update</value>
+  </data>
+  <data name="1frmCapnhatMSTSTK" xml:space="preserve">
+    <value>Update tax code and account number</value>
+  </data>
+  <data name="1frmCapNhatNhaXuong" xml:space="preserve">
+    <value>Workshop Update</value>
+  </data>
+  <data name="1frmCapNhatNVNgoaiNguPhienDich" xml:space="preserve">
+    <value>Update foreign language employees, assisstants</value>
+  </data>
+  <data name="1frmCapNhatSoSoBH" xml:space="preserve">
+    <value>Update number of Social Insurance Book</value>
+  </data>
+  <data name="1frmCBCNV_VayVonNganHang" xml:space="preserve">
+    <value>Loan from bank</value>
+  </data>
+  <data name="1frmChamcongMain" xml:space="preserve">
+    <value>Computerized attendance</value>
+  </data>
+  <data name="1frmChamCongTay" xml:space="preserve">
+    <value>Attendance</value>
+  </data>
+  <data name="1frmChuaKyHDLD" xml:space="preserve">
+    <value>List of employees not yet signed labor contracts</value>
+  </data>
+  <data name="1frmChucVu" xml:space="preserve">
+    <value>Position statistic </value>
+  </data>
+  <data name="1frmChucVuDM" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="1frmChungChiK" xml:space="preserve">
+    <value>Other Certificates</value>
+  </data>
+  <data name="1frmChuyenCongViec" xml:space="preserve">
+    <value>Job transformation</value>
+  </data>
+  <data name="1frmChuyenDonVi" xml:space="preserve">
+    <value>Quick update employees' information</value>
+  </data>
+  <data name="1frmChuyenDV" xml:space="preserve">
+    <value>Dept transformation</value>
+  </data>
+  <data name="1frmChuyenMon" xml:space="preserve">
+    <value>Qualification</value>
+  </data>
+  <data name="1frmCongTac" xml:space="preserve">
+    <value>Working Experience</value>
+  </data>
+  <data name="1frmCongViec" xml:space="preserve">
+    <value>Job</value>
+  </data>
+  <data name="1frmCongViecNNDH" xml:space="preserve">
+    <value>Tracking hazardous and heavy jobs</value>
+  </data>
+  <data name="1frmCVHDLD" xml:space="preserve">
+    <value>Update jobs in labor contracts</value>
+  </data>
+  <data name="1frmCVNhanVien" xml:space="preserve">
+    <value>Departments and functions</value>
+  </data>
+  <data name="1frmDanhSachCBCNVChuyenDonVi" xml:space="preserve">
+    <value>List of transferred employees</value>
+  </data>
+  <data name="1frmDanhSachCBCNVDongBHXH" xml:space="preserve">
+    <value>List of employees joining social insurance</value>
+  </data>
+  <data name="1frmDanhSachCBCNVDonVi" xml:space="preserve">
+    <value>List of employees</value>
+  </data>
+  <data name="1frmDanhSachCBCNVNghiPhep" xml:space="preserve">
+    <value>List of employees taking leaves</value>
+  </data>
+  <data name="1frmDanhSachCBCNVTheoChucVu" xml:space="preserve">
+    <value>List of Supervisor-staff base on position</value>
+  </data>
+  <data name="1frmDanhSachCB_CNVBinhBauNam" xml:space="preserve">
+    <value>List of employees - yearly ABC evaluation</value>
+  </data>
+  <data name="1frmDanhSachCB_CNVhethanHDLD" xml:space="preserve">
+    <value>List of employees with going-to-expire labor contracts</value>
+  </data>
+  <data name="1frmDanhSachCNNghiKhongPhepTheoThang" xml:space="preserve">
+    <value>List of employees taking annual leave monthly</value>
+  </data>
+  <data name="1frmDanhSachCNNghiKPTheoNam" xml:space="preserve">
+    <value>Yearly absenteeism list</value>
+  </data>
+  <data name="1frmDanhSachCongViec" xml:space="preserve">
+    <value>List of assisstants - local supervisors - employees signing labor contracts</value>
+  </data>
+  <data name="1frmDanhSachHetHangHDKyLai" xml:space="preserve">
+    <value>List of employees resigning new labor contracts</value>
+  </data>
+  <data name="1frmDanhSachNhanVienTheoTrinhDo" xml:space="preserve">
+    <value>List of employees classified by educational background</value>
+  </data>
+  <data name="1frmDanhSachNhanVienThoiViec" xml:space="preserve">
+    <value>Resigned employee list</value>
+  </data>
+  <data name="1frmDanhSachNhanVienTrungTuyen" xml:space="preserve">
+    <value>List of qualified cadidates</value>
+  </data>
+  <data name="1frmDanhSachNVChuaCoThe" xml:space="preserve">
+    <value>List of employees not yet get ID badges</value>
+  </data>
+  <data name="1frmDanToc" xml:space="preserve">
+    <value>Nation</value>
+  </data>
+  <data name="1frmDaoTao" xml:space="preserve">
+    <value>Training history</value>
+  </data>
+  <data name="1frmDBLPromaz" xml:space="preserve">
+    <value>Salary History in Promaz system</value>
+  </data>
+  <data name="1frmDBLuong" xml:space="preserve">
+    <value>Salary History</value>
+  </data>
+  <data name="1frmDiCaKhacThuong" xml:space="preserve">
+    <value>Track unusual shifts</value>
+  </data>
+  <data name="1frmDiemDanhHangNgay" xml:space="preserve">
+    <value>Daily attendance</value>
+  </data>
+  <data name="1frmDiemDanhHangNgay_Client" xml:space="preserve">
+    <value>Daily attendance-Client</value>
+  </data>
+  <data name="1frmDienBienLuong" xml:space="preserve">
+    <value>Statistics on salary history</value>
+  </data>
+  <data name="1frmDieuChinhLuong" xml:space="preserve">
+    <value>Adjust salary</value>
+  </data>
+  <data name="1frmDiTre" xml:space="preserve">
+    <value>List of employees being late</value>
+  </data>
+  <data name="1frmDocHaiNangNhoc" xml:space="preserve">
+    <value>Employees in charge of heavy and hazardous jobs</value>
+  </data>
+  <data name="1frmDSCNKhongNghi" xml:space="preserve">
+    <value>List of employee taking no annual leaves</value>
+  </data>
+  <data name="1frmDSCNVKhongQuetTheVaoRa" xml:space="preserve">
+    <value>Employees do not swipe ID badges</value>
+  </data>
+  <data name="1frmDSCongNhanMay" xml:space="preserve">
+    <value>List of stitching workers</value>
+  </data>
+  <data name="1frmEmployees" xml:space="preserve">
+    <value>Employees</value>
+  </data>
+  <data name="1frmGioCongTieuChuanThang" xml:space="preserve">
+    <value>Standard working hour statistics - monthly</value>
+  </data>
+  <data name="1frmGiocongtrong_ngoaitieuchuan" xml:space="preserve">
+    <value>Standard working hour statistics - weekly</value>
+  </data>
+  <data name="1frmGioiTinh" xml:space="preserve">
+    <value>Gender statistics</value>
+  </data>
+  <data name="1frmGiotangcathang" xml:space="preserve">
+    <value>Yearly OT statistic whole company overtime</value>
+  </data>
+  <data name="1frmGioVaoRa" xml:space="preserve">
+    <value>Time in/ time out report</value>
+  </data>
+  <data name="1frmHDLD" xml:space="preserve">
+    <value>Labor Contract</value>
+  </data>
+  <data name="1frmHieuChinhLuong" xml:space="preserve">
+    <value>Adjust salary</value>
+  </data>
+  <data name="1frmHocVan" xml:space="preserve">
+    <value>Education statistic </value>
+  </data>
+  <data name="1frmHocVanDM" xml:space="preserve">
+    <value>Educational background</value>
+  </data>
+  <data name="1frmKhamBenhNgheNghiep" xml:space="preserve">
+    <value>Occupational disease report</value>
+  </data>
+  <data name="1frmKhenThuong" xml:space="preserve">
+    <value>Rewarding history</value>
+  </data>
+  <data name="1frmKhenThuongDM" xml:space="preserve">
+    <value>Remuneration and rewarding</value>
+  </data>
+  <data name="1frmKhoanCongKhac" xml:space="preserve">
+    <value>Other additional payment</value>
+  </data>
+  <data name="1frmKhoanTruKhac" xml:space="preserve">
+    <value>Other deduction payment</value>
+  </data>
+  <data name="1frmKhoanTruMobivi" xml:space="preserve">
+    <value>Mobivi payment</value>
+  </data>
+  <data name="1frmKhoaSoLuong" xml:space="preserve">
+    <value>Finalize salary log</value>
+  </data>
+  <data name="1frmKhongHuongPC" xml:space="preserve">
+    <value>Employees without allowance</value>
+  </data>
+  <data name="1frmKhuVuc" xml:space="preserve">
+    <value>Region statistic </value>
+  </data>
+  <data name="1frmKiemTraCMND" xml:space="preserve">
+    <value>Checking personnal ID card number</value>
+  </data>
+  <data name="1frmKiemTraPhepNam" xml:space="preserve">
+    <value>Leaves</value>
+  </data>
+  <data name="1frmKyHDSau1Thang" xml:space="preserve">
+    <value>sign labor contract after 1 month</value>
+  </data>
+  <data name="1frmKyLuat" xml:space="preserve">
+    <value>Discipline</value>
+  </data>
+  <data name="1frmKyNang" xml:space="preserve">
+    <value>Skills</value>
+  </data>
+  <data name="1frmLoaiBinhBau" xml:space="preserve">
+    <value>Types of rating</value>
+  </data>
+  <data name="1frmLoaiHopDong" xml:space="preserve">
+    <value>Types of contracts</value>
+  </data>
+  <data name="1frmLoaiThoiViec" xml:space="preserve">
+    <value>Types of resignation</value>
+  </data>
+  <data name="1frmLuongThang" xml:space="preserve">
+    <value>Salary in Jan and Feb</value>
+  </data>
+  <data name="1frmLyLichNhanVien" xml:space="preserve">
+    <value>Employee résumé</value>
+  </data>
+  <data name="1frmMayChamCong" xml:space="preserve">
+    <value>Timekeeping Machine</value>
+  </data>
+  <data name="1frmNgayLe" xml:space="preserve">
+    <value>Holiday</value>
+  </data>
+  <data name="1frmNghiPhep" xml:space="preserve">
+    <value>Kinds of leaves</value>
+  </data>
+  <data name="1frmNgoaiNgu" xml:space="preserve">
+    <value>Foreign language ability</value>
+  </data>
+  <data name="1frmNguoiDung" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="1frmNhanVienKyLuatNghiKhongPhep" xml:space="preserve">
+    <value>List of employees absent without permission</value>
+  </data>
+  <data name="1frmNuoiConDuoi6Tuoi" xml:space="preserve">
+    <value>Childcare allowance</value>
+  </data>
+  <data name="1frmPhepNam" xml:space="preserve">
+    <value>Annual leave statistic</value>
+  </data>
+  <data name="1frmPhepNamConLai" xml:space="preserve">
+    <value>Statistics on annual leave left </value>
+  </data>
+  <data name="1frmPhuCapKhac" xml:space="preserve">
+    <value>Other allowances</value>
+  </data>
+  <data name="1frmPhuNuMangThai_KThai" xml:space="preserve">
+    <value>Pregnancy check</value>
+  </data>
+  <data name="1frmQTKhacThuongLC_Thang" xml:space="preserve">
+    <value>Employees swiping ID badges at wrong time - monthly genaral list</value>
+  </data>
+  <data name="1frmQTSaiQuiDinh" xml:space="preserve">
+    <value>Employees swiping ID badges at wrong time - detailed list</value>
+  </data>
+  <data name="1frmQTSaiQuiDinhBangTong" xml:space="preserve">
+    <value>Employees swiping ID badges at wrong time - genaral list</value>
+  </data>
+  <data name="1frmQuaTrinhDieuDong" xml:space="preserve">
+    <value>Employee transformation process</value>
+  </data>
+  <data name="1frmQuocTich" xml:space="preserve">
+    <value>Nationality</value>
+  </data>
+  <data name="1frmReportHDLD" xml:space="preserve">
+    <value>List of employees signing labor contracts</value>
+  </data>
+  <data name="1frmSoNguoiTrongCongTy" xml:space="preserve">
+    <value>Check factory manpower quantity</value>
+  </data>
+  <data name="1frmSoYeuLyLich" xml:space="preserve">
+    <value>Employee résumé</value>
+  </data>
+  <data name="1frmTamUng" xml:space="preserve">
+    <value>Advance money</value>
+  </data>
+  <data name="1frmTangLuongThang2" xml:space="preserve">
+    <value>Adjust salary in Feb</value>
+  </data>
+  <data name="1frmThaiThangThu7" xml:space="preserve">
+    <value>Employees geeting pregnant over 7 months</value>
+  </data>
+  <data name="1frmThamNien" xml:space="preserve">
+    <value>Seniority statistic </value>
+  </data>
+  <data name="1frmTheoDoiLuongBB_NVTV" xml:space="preserve">
+    <value>Track salary, performance evaluation of resigned employees</value>
+  </data>
+  <data name="1frmTheoDoiMangThaiDenNC12Thang" xml:space="preserve">
+    <value>Tracking pregnancy until 12 months</value>
+  </data>
+  <data name="1frmTheodoiNVNghiTS" xml:space="preserve">
+    <value>Manage employeestaking maternity leave</value>
+  </data>
+  <data name="1frmThoiViec" xml:space="preserve">
+    <value>Termination and resignation</value>
+  </data>
+  <data name="1frmThongKeCN_TT_GT" xml:space="preserve">
+    <value>Statistic of direct and indirect workers</value>
+  </data>
+  <data name="1frmThongKeDanhSachCanBo" xml:space="preserve">
+    <value>Supervisor list classified by jobs</value>
+  </data>
+  <data name="1frmThongKeDanhSachCB_CNVBiKyLuat" xml:space="preserve">
+    <value>List of employees in disciplinary actions</value>
+  </data>
+  <data name="1frmThongKeHD" xml:space="preserve">
+    <value>Labor contract statistics</value>
+  </data>
+  <data name="1frmThongKeLuongTTGT" xml:space="preserve">
+    <value>Statistic on salary of direct and indirect workers</value>
+  </data>
+  <data name="1frmThongKeNghiPhep" xml:space="preserve">
+    <value>Leave statistics</value>
+  </data>
+  <data name="1frmThongKeSoNgayNghi" xml:space="preserve">
+    <value>Statistics on days off</value>
+  </data>
+  <data name="1frmThongKeSoNgayNghiDonVi" xml:space="preserve">
+    <value>Statistics on days off by individual dept.</value>
+  </data>
+  <data name="1FrmThongKeTheomqh" xml:space="preserve">
+    <value>Relationship classification</value>
+  </data>
+  <data name="1frmThongKeTheoTinhThanhVaDoTuoi" xml:space="preserve">
+    <value>Statistics on provinces/cities and ages</value>
+  </data>
+  <data name="1frmThueTNCN" xml:space="preserve">
+    <value>Personal income tax</value>
+  </data>
+  <data name="1frmThuongABC" xml:space="preserve">
+    <value>ABC bonus</value>
+  </data>
+  <data name="1frmTieuChiSanLoc" xml:space="preserve">
+    <value>Screening criteria</value>
+  </data>
+  <data name="1frmTieuChuan_" xml:space="preserve">
+    <value>Year-end bonus criteria</value>
+  </data>
+  <data name="1frmTinhLuong" xml:space="preserve">
+    <value>Calculate extra salary</value>
+  </data>
+  <data name="1frmTinhLuongChinh" xml:space="preserve">
+    <value>Calculate basic salary</value>
+  </data>
+  <data name="1frmTinHoc" xml:space="preserve">
+    <value>Computer skills</value>
+  </data>
+  <data name="1frmTinhThanh" xml:space="preserve">
+    <value>City/Province</value>
+  </data>
+  <data name="1frmTKCongViecHDLD" xml:space="preserve">
+    <value>Job statistics based on labor contracts</value>
+  </data>
+  <data name="1frmTongHopComThang" xml:space="preserve">
+    <value>Meal monthly report</value>
+  </data>
+  <data name="1frmTonGiao" xml:space="preserve">
+    <value>Religions</value>
+  </data>
+  <data name="1frmTraCuuNhanhNV" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="1frmTuoi" xml:space="preserve">
+    <value>Age statistic</value>
+  </data>
+  <data name="1frmVangMat" xml:space="preserve">
+    <value>Absent list</value>
+  </data>
+  <data name="1frmVeSom" xml:space="preserve">
+    <value>report list of employees being soon when go out factory</value>
+  </data>
+  <data name="1frmXaPhuong" xml:space="preserve">
+    <value>Communes/Wards</value>
+  </data>
+  <data name="1frm_nghiop" xml:space="preserve">
+    <value>Absent without permission list</value>
+  </data>
+  <data name="1mnThoat" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="1mnThoat_activeMdifom" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="1ThamGiaBHXH" xml:space="preserve">
+    <value>Social Insurance</value>
+  </data>
+  <data name="1ThoiViecKhongThamGiaBHTN" xml:space="preserve">
+    <value>Severance payment</value>
+  </data>
+  <data name="1TongSoNguoi" xml:space="preserve">
+    <value>List of employees according to attendance sheet</value>
+  </data>
+  <data name="1Weeklyovertime" xml:space="preserve">
+    <value>Weekly OT hours</value>
+  </data>
+  <data name="2frmNguoiDung" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="mnThongKeGioCongTieuChuan" xml:space="preserve">
+    <value>Standard working hour statistics</value>
+  </data>
+  <data name="mnBaocao" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="mnBaocaochamcong" xml:space="preserve">
+    <value>Attendance report</value>
+  </data>
+  <data name="mnBaocaonhansu" xml:space="preserve">
+    <value>Attendance report</value>
+  </data>
+  <data name="mnBinhbau" xml:space="preserve">
+    <value>Performance evaluation</value>
+  </data>
+  <data name="mnChamcong" xml:space="preserve">
+    <value>Attendance</value>
+  </data>
+  <data name="mnDanhmuc" xml:space="preserve">
+    <value>List</value>
+  </data>
+  <data name="mnHethong" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="mnNhansu" xml:space="preserve">
+    <value>Personnels</value>
+  </data>
+  <data name="mnThongkegiocong" xml:space="preserve">
+    <value>Working hour statistics</value>
+  </data>
+  <data name="mnTinhluong" xml:space="preserve">
+    <value>Calculate salary</value>
+  </data>
+  <data name="Báo Cáo Thống Kê" xml:space="preserve">
+    <value>Statistics report</value>
+  </data>
+  <data name="mnThongKeThaiSan" xml:space="preserve">
+    <value>Pregnancy statistics</value>
+  </data>
+  <data name="mnThongKeGioCongChiTiet" xml:space="preserve">
+    <value>Swipe ID badges - detailed report</value>
+  </data>
+  <data name="1frmCapNhatHoSoQuanHe" xml:space="preserve">
+    <value>Update employee profiles-relationship</value>
+  </data>
+  <data name="1frmCapNhatNhomCV_MTCV_PTCV" xml:space="preserve">
+    <value>Update groups of jobs in JD and JA</value>
+  </data>
+  <data name="1frmDanhMucQLMTCV_PTCV" xml:space="preserve">
+    <value>Job categories in JD and JA</value>
+  </data>
+  <data name="1frmKinhNghiemLamViec" xml:space="preserve">
+    <value>Kinh Nghiệm Làm Việc</value>
+  </data>
+  <data name="1FrmBaoCaoSLTongPhanComCuoiThang" xml:space="preserve">
+    <value>Báo cáo số lượng tổng phần cơm cuối tháng</value>
+  </data>
+  <data name="1frmDanhSachThongKeNgayCong" xml:space="preserve">
+    <value>Danh sách thống kê ngày công</value>
+  </data>
+  <data name="1frmPhuNuHanhKinh" xml:space="preserve">
+    <value>Theo dõi lao động nữ nghỉ hành kinh</value>
+  </data>
+  <data name="1frmPhuNuHanhKinhTinhNV" xml:space="preserve">
+    <value>Tính hành kinh đơn vị NV</value>
+  </data>
+  <data name="1frmPhuNuMangThaiKThaiYte" xml:space="preserve">
+    <value>Theo dõi lao động nữ mang thai</value>
+  </data>
+  <data name="1frmThongKeGioTangCaNam" xml:space="preserve">
+    <value>Thống kê giờ tăng ca toàn công ty</value>
+  </data>
+  <data name="1frmThongKeSoNgayNghiOMCOTrongNam" xml:space="preserve">
+    <value>Thống kê số ngày nghỉ ốm-con ốm trong năm</value>
+  </data>
+  <data name="1frmTinhLuong13" xml:space="preserve">
+    <value>Tính Thưởng Tháng 13</value>
+  </data>
+  <data name="1frmTraCuuThongTinThamGiaBH" xml:space="preserve">
+    <value>Tra cứu thông tin để tham gia BHXH-BHYT</value>
+  </data>
+  <data name="mnBaoCaoTongHop" xml:space="preserve">
+    <value>Báo cáo thông kê</value>
+  </data>
+  <data name="1frmTKSOLUONGKYHDLD" xml:space="preserve">
+    <value>Labor contracts</value>
+  </data>
+  <data name="1frmDSLaoDongNghiKhongPhep" xml:space="preserve">
+    <value>Danh sách lao động nghỉ không phép</value>
+  </data>
+  <data name="1frmSoLuongKyLuat" xml:space="preserve">
+    <value>Số lượng kỷ luật</value>
+  </data>
+  <data name="1frmTheoDoiTienDoThucHienKyLuat" xml:space="preserve">
+    <value>Theo dõi tiến độ thực hiện kỹ luật</value>
+  </data>
+  <data name="1frmThongkecongnhandilamvangmat" xml:space="preserve">
+    <value>Thống kê công nhân đi làm vắng mặt</value>
+  </data>
+  <data name="1frmThongKeNguyenNhanKyLuat" xml:space="preserve">
+    <value>Thống kê nguyên nhân kỷ luật</value>
+  </data>
+  <data name="1frmThongKeNhanSuTheoXuong" xml:space="preserve">
+    <value>Thống kê nhân sự theo xưởng</value>
+  </data>
+  <data name="1frmThongKeTroCapHDLD" xml:space="preserve">
+    <value>Contact </value>
+  </data>
+  <data name="1frmThongKeCoCongCoPhep" xml:space="preserve">
+    <value>Thong ke co cong co phep</value>
+  </data>
+  <data name="1frmTienVuotSanLuong" xml:space="preserve">
+    <value>tien vuot san luong</value>
+  </data>
+  <data name="1frmChamCom" xml:space="preserve">
+    <value>Chấm Cơm</value>
+  </data>
+</root>

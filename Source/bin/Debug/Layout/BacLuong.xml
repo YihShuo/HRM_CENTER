@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<form>
+	<attributes>
+		
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+  </attributes>
+
+	<controls>
+		<dgrchucvu>
+      <coldgrhoso tblColName="BL_MA" title="Bảng lương" hide="false" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1" />
+
+      <coldgrhoso tblColName="B_MA" title="Ngạch bậc" hide="false" formatCell="" width="100"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2" />
+
+      <coldgrhoso tblColName="B_HSLUONG" title="Hệ số" hide="false" formatCell="" width="100"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3" />
+
+      <coldgrhoso tblColName="B_MUCLUONG" title="Mức lương cũ" hide="false" formatCell="" width="120"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4" />
+
+      <coldgrhoso tblColName="B_MUCLUONGMOI" title="Mức lương mới" hide="false" formatCell="" width="120"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5" />
+
+      <coldgrhoso tblColName="B_PCCM" title="Phụ cấp chuyên môn" hide="FALSE" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="6" />
+
+      <coldgrhoso tblColName="B_TEN" title="Tên bậc" hide="false" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="7" />
+
+      
+     
+    </dgrchucvu>
+	</controls>
+</form>

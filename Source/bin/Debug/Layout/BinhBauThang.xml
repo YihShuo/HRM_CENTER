@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<form>
+	<attributes>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+
+  </attributes>
+
+	<controls>
+		<dgrchucvu>
+      <coldgrbinhbauthang tblColName="THANG" title="Tháng" hide="false" formatCell="" width="60"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1" />
+      
+      <coldgrbinhbauthang tblColName="XUONG" title="Xưởng" hide="true" formatCell="" width="50"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2" />
+
+      <coldgrbinhbauthang tblColName="DONVI" title="Đơn Vị" hide="false" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3" />
+
+      <coldgrbinhbauthang tblColName="HOTEN" title="Họ Tên" hide="false" formatCell="" width="180"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4" />
+
+      <coldgrbinhbauthang tblColName="MASO" title="Số Thẻ" hide="false" formatCell="" width="70"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5" />
+
+      <coldgrbinhbauthang tblColName="NGAYVAO" title="Ngày Vào" hide="false" formatCell="" width="70"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="6" />
+
+      <coldgrbinhbauthang tblColName="NGAYKHD" title="Ngày KHD" hide="true" formatCell="" width="70"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="7" />
+
+      <coldgrbinhbauthang tblColName="CHUCVU" title="Chức Vụ" hide="true" formatCell="" width="40"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="8" />
+
+      <coldgrbinhbauthang tblColName="P" title="P" hide="true" formatCell="" width="40"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="9" />
+
+      <coldgrbinhbauthang tblColName="Ro" title="Ro" hide="false" formatCell="" width="40"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="12" />
+
+      <coldgrbinhbauthang tblColName="R" title="R" hide="true" formatCell="" width="40"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="11" />
+
+      <coldgrbinhbauthang tblColName="O" title="O" hide="false" formatCell="" width="40"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="10" />
+
+      <coldgrbinhbauthang tblColName="OM" title="OM" hide="false" formatCell="" width="40"
+       HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="13" />
+
+      <coldgrbinhbauthang tblColName="No" title="No" hide="true" formatCell="" width="40"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="14" />
+
+      <coldgrbinhbauthang tblColName="CO" title="CO" hide="false" formatCell="" width="40"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="15" />
+
+      <coldgrbinhbauthang tblColName="KThai" title="KThai" hide="false" formatCell="" width="40"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="16" />
+
+      <coldgrbinhbauthang tblColName="TSan" title="TSan" hide="false" formatCell="" width="40"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="17" />
+
+      <coldgrbinhbauthang tblColName="HauSan" title="Hậu Sản" hide="false" formatCell="" width="40"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="18" />
+
+      <coldgrbinhbauthang tblColName="SThai" title="Sảy Thai" hide="false" formatCell="" width="40"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="19" />
+
+      <coldgrbinhbauthang tblColName="TNLD" title="TNLD" hide="false" formatCell="" width="40"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="20" />
+
+      <coldgrbinhbauthang tblColName="Tre" title="Trể" hide="false" formatCell="" width="40"
+        HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="21" />
+
+      <coldgrbinhbauthang tblColName="BB_MATT" title="BB Tháng Trước" hide="true" formatCell="" width="50"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="22" />
+
+      <coldgrbinhbauthang tblColName="T1" title="Tuần 1" hide="true" formatCell="" width="30"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="23" />
+
+      <coldgrbinhbauthang tblColName="T2" title="Tuần 2" hide="true" formatCell="" width="30"
+      HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="24" />
+
+      <coldgrbinhbauthang tblColName="T3" title="Tuần 3" hide="true" formatCell="" width="30"
+      HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="25" />
+
+      <coldgrbinhbauthang tblColName="T4" title="Tuần 4" hide="true" formatCell="" width="30"
+      HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="26" />
+
+      <coldgrbinhbauthang tblColName="BB_MATN" title="Mã BB" hide="false" formatCell="" width="50"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="27" />
+
+		</dgrchucvu>
+	</controls>
+</form>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<form>
+	<attributes>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+	</attributes>
+	<controls>
+		<dgrMayChamCong>
+
+			<coldgrcongviec tblColName="STT" title="STT" hide="false" formatCell="" width="50" HtextAlign="2" VtextAlign="2" HtitAlign="2" VtitAlign="2" positionCol="1"/>
+
+			<coldgrcongviec tblColName="1" title="" hide="false" formatCell="" width="32" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2"/>
+
+     	 		<coldgrcongviec tblColName="2" title="" hide="false" formatCell="" width="32" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3"/>
+
+			<coldgrcongviec tblColName="3" title="" hide="false" formatCell="" width="32" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4"/>
+
+			<coldgrcongviec tblColName="NV_Ma" title="Số Thẻ" hide="false" formatCell="" width="60" HtextAlign="2" VtextAlign="2" HtitAlign="2" VtitAlign="2" positionCol="5"/>
+
+     	 		<coldgrcongviec tblColName="NV_TEN" title="Họ và Tên" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="2" VtitAlign="2" positionCol="6"/>
+
+			<coldgrcongviec tblColName="DV_MA" title="Đơn Vị" hide="false" formatCell="" width="60" HtextAlign="0" VtextAlign="0" HtitAlign="2" VtitAlign="2" positionCol="7"/>
+
+			<coldgrcongviec tblColName="NV_DiaChi" title="Địa Chỉ" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="2" VtitAlign="2" positionCol="8"/>
+
+			<coldgrcongviec tblColName="MA_KCB" title="Mã DK_KCB" hide="false" formatCell="" width="80" HtextAlign="2" VtextAlign="2" HtitAlign="2" VtitAlign="2" positionCol="9"/>
+
+     	 		<coldgrcongviec tblColName="TEN_KCB" title="Tên DK_KCB" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="2" VtitAlign="2" positionCol="10"/>
+					
+		</dgrMayChamCong>
+	</controls>
+</form>

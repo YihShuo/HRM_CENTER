@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<form>
+	<attributes>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+				
+  </attributes>
+	<controls>
+    
+		<dgrMayChamCong>
+
+      <coldgrhoso tblColName="1" title="" hide="false" formatCell="" width="39" HtextAlign="2" VtextAlign="2" HtitAlign="2" VtitAlign="0" positionCol="1"/>
+
+      <coldgrhoso tblColName="2" title="" hide="false" formatCell="" width="34" HtextAlign="2" VtextAlign="2" HtitAlign="2" VtitAlign="0" positionCol="2"/>
+      
+      <coldgrhoso tblColName="BBCV_MA" title="Mã Bình Bầu" hide="false" formatCell="" width="180" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="4"/>
+
+      <coldgrhoso tblColName="CVU_MA" title="Chức Vụ" hide="false" formatCell="" width="180" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5"/>
+    
+      <coldgrhoso tblColName="SOTIEN" title="Số Tiền" hide="false" formatCell="" width="180" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="6"/>
+		
+     
+     	
+    </dgrMayChamCong>
+	</controls>
+</form>

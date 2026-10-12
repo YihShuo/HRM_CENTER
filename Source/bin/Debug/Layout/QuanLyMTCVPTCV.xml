@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<form>
+	<attributes>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+			                
+
+  </attributes>
+
+	<controls>
+		<dgrchucvu>
+
+      <coldgrql tblColName="NHOMCV_MA" title="Mã Công Việc" hide="false" formatCell="" width="180"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4" />
+
+      <coldgrql tblColName="NHOMCV_TEN" title="Tên Công Việc" hide="false" formatCell="" width="350"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5" />
+    
+
+      <coldgrql tblColName="NHOMCV_TT" title="Trực Tiếp" hide="false" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="6" />
+
+      <coldgrql tblColName="NHOMCV_TINHTRANG" title="" hide="true" formatCell="" width="40"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="7" />
+
+<coldgrql tblColName="GHICHU" title="Ghi Chú" hide="false" formatCell="" width="100"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="8" />
+
+         
+
+		</dgrchucvu>
+	</controls>
+</form>

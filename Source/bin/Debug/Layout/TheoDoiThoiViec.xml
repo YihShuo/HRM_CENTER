@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<form>
+	<attributes>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+  </attributes>
+	<controls>
+    
+		<dgrMayChamCong>
+
+      <coldgrThoiviec tblColName="NV_MA" title="Số Thẻ" hide="false" formatCell="" width="90" HtextAlign="2" VtextAlign="2" HtitAlign="2" VtitAlign="2" positionCol="3"/>
+
+      <coldgrThoiviec tblColName="NV_TEN" title="Họ Tên" hide="false" formatCell="" width="220" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4"/>
+
+      <coldgrThoiviec tblColName="DV_MA_" title="Đơn Vị Cũ" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5"/>
+
+      <coldgrThoiviec tblColName="NV_NGAYVAO" title="Ngày vào" hide="false" formatCell="" width="100" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="6"/>
+
+      <coldgrThoiviec tblColName="CVU_TEN" title="Chức Vụ" hide="false" formatCell="" width="120" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="7"/>
+
+      <coldgrThoiviec tblColName="CVU_MA" title="Họ Tên" hide="true" formatCell="" width="100" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="8"/>
+
+      <coldgrThoiviec tblColName="TV_NGAYTHOIVIEC" title="Ngày Thôi Việc" hide="false" formatCell="" width="120" HtextAlign="2" VtextAlign="2" HtitAlign="2" VtitAlign="2" positionCol="9"/>
+ 
+      <coldgrThoiviec tblColName="TV_LYDO" title="Lý Do" hide="false" formatCell="" width="200" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="10"/>
+ 
+      <coldgrThoiviec tblColName="LTV_MA" title="Loại Thôi Việc" hide="true" formatCell="" width="200" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="11"/>
+	
+    
+      <coldgrThoiviec tblColName="LTV_TEN" title="Loại Thôi Việc" hide="false" formatCell="" width="200" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="12"/>
+		
+
+     	
+    </dgrMayChamCong>
+	</controls>
+</form>

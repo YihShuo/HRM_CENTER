@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<form>
+	<attributes>
+		
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+
+
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+
+
+
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+  
+  </attributes>
+
+	<controls>
+		<dgrchucvu>
+      <coldgrhoso tblColName="NV_Ma" title="Số Thẻ" hide="false" formatCell="" width="100"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1" />
+
+      <coldgrhoso tblColName="NV_Ten" title="Họ Tên" hide="false" formatCell="" width="200"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2" />
+
+      <coldgrhoso tblColName="DV_MA" title="Đơn vị" hide="false" formatCell="" width="130"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3" />
+
+      <coldgrhoso tblColName="CV_MA" title="Mã CV" hide="false" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4" />
+
+      <coldgrhoso tblColName="CV_TEN" title="Công Việc" hide="false" formatCell="" width="100"
+              HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5" />
+
+      <coldgrhoso tblColName="CVU_MA" title="Mã CVU" hide="false" formatCell="" width="80"
+              HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="6" />
+
+      <coldgrhoso tblColName="CVU_TEN" title="Chức vụ" hide="false" formatCell="" width="100"
+              HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="7" />
+
+
+      <coldgrhoso tblColName="DHNN" title="ĐHNN" hide="true" formatCell="" width="80"
+              HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="8" />
+
+      <coldgrhoso tblColName="LDCM" title="LDCM" hide="true" formatCell="" width="100"
+              HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="9" />
+      
+      <coldgrhoso tblColName="DBL_NGAYBATDAU" title="Ngày bắt đầu" hide="false" formatCell="" width="100"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="10" />
+
+      <coldgrhoso tblColName="DBL_SOQUYETDINH" title="Số quyết định" hide="false" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="11" />
+
+      <coldgrhoso tblColName="DBL_HESO" title="Hệ số" hide="false" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="12" />
+
+      <coldgrhoso tblColName="DBL_LUONGCB" title="Lương cơ bản" hide="FALSE" formatCell="" width="100"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="13" />
+
+<coldgrhoso tblColName="PHUCAP_CBPCM" title="Phụ cấp CBPCM" hide="false" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="14" />
+
+      
+      <coldgrhoso tblColName="DBL_TrocapCV" title="Trợ cấp TCCV" hide="false" formatCell="" width="90"
+              HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="15" />
+
+      <coldgrhoso tblColName="DBL_TrocapUDMAY" title="Trợ cấp ưu đãi may" hide="false" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="16" />
+
+      <coldgrhoso tblColName="DBL_TrocapNN" title="Trợ cấp ngoại ngữ" hide="false" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="17" />
+
+      <coldgrhoso tblColName="DBL_TrocapHMPT" title="Trợ cấp HMPT" hide="false" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="18" />
+
+      <coldgrhoso tblColName="DBL_TroCapQLSX" title="Trợ cấp QLSX" hide="false" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="19" />
+
+
+      <coldgrhoso tblColName="DBL_TroCapCBVP" title="Trợ cấp CBVP" hide="false" formatCell="" width="90"
+     HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="20" />
+
+      <coldgrhoso tblColName="DBL_TroCapBBNT" title="Trợ cấp BBNT" hide="false" formatCell="" width="90"
+     HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="21" />
+
+      <coldgrhoso tblColName="DBL_TroCapBBHT" title="Trợ cấp BBHT" hide="false" formatCell="" width="90"
+     HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="22" />
+
+      <coldgrhoso tblColName="DBL_TroCapBBTHANG" title="Trợ cấp BBTHANG" hide="false" formatCell="" width="90"
+     HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="23" />
+
+      
+      <coldgrhoso tblColName="DBL_TroCapCLGD" title="Trợ cấp CLGD" hide="false" formatCell="" width="90"
+     HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="24" />
+
+      <coldgrhoso tblColName="DBL_TroCapHTDP" title="Trợ cấp HTDP" hide="false" formatCell="" width="90"
+     HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="25" />
+
+      <coldgrhoso tblColName="DBL_TroCapQAQIP" title="Trợ cấp QAQIP" hide="false" formatCell="" width="90"
+     HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="26" />
+      
+      <coldgrhoso tblColName="DBL_TrocapThoRap" title="Trợ cấp ThoRap" hide="false" formatCell="" width="90"
+     HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="27" />
+
+      <coldgrhoso tblColName="DBL_TrocapHSE" title="Trợ cấp HSE" hide="false" formatCell="" width="90"
+HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="28" />
+
+      <coldgrhoso tblColName="TONGPHUCAPKHAC" title="Tổng Phụ cấp khác" hide="false" formatCell="" width="90"
+HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="29" />
+      
+    </dgrchucvu>
+	</controls>
+</form>

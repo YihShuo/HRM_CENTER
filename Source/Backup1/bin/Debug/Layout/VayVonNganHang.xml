@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<form>
+	<attributes>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+  </attributes>
+	<controls>
+    
+		<dgrMayChamCong>
+
+      <coldgrThoiviec tblColName="NV_MA" title="Số Thẻ" hide="false" formatCell="" width="100" HtextAlign="2" VtextAlign="2" HtitAlign="2" VtitAlign="2" positionCol="1"/>
+
+      <coldgrThoiviec tblColName="NV_CMND" title="Số CMND" hide="false" formatCell="" width="100" HtextAlign="2" VtextAlign="2" HtitAlign="2" VtitAlign="2" positionCol="2"/>
+      
+      <coldgrThoiviec tblColName="NV_TEN" title="Họ Tên" hide="false" formatCell="" width="200" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3"/>
+
+      <coldgrThoiviec tblColName="NV_GioiTinh" title="Giới tính" hide="false" formatCell="" width="100" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4"/>
+
+      <coldgrThoiviec tblColName="DV_MA" title="Đơn vị" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5"/>
+
+      <coldgrThoiviec tblColName="DV_MA_" title="Đơn vị" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="6"/>
+      
+      <coldgrThoiviec tblColName="X_MA_" title="Xưởng" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="7"/>
+
+      <coldgrThoiviec tblColName="NV_NGAYVAO" title="Ngày vào" hide="false" formatCell="" width="100" HtextAlign="2" VtextAlign="2" HtitAlign="2" VtitAlign="0" positionCol="8"/>
+
+      <coldgrThoiviec tblColName="NGAYBDVAY" title="Ngày vay vốn" hide="false" formatCell="" width="100" HtextAlign="2" VtextAlign="2" HtitAlign="2" VtitAlign="0" positionCol="9"/>
+
+	  <coldgrThoiviec tblColName="NGAYHOANVON" title="Ngày hoàn vốn" hide="false" formatCell="" width="100" HtextAlign="2" VtextAlign="2" HtitAlign="2" VtitAlign="0" positionCol="10"/>
+
+	  <coldgrThoiviec tblColName="HOANVON" title="Đã hoàn vốn" hide="false" formatCell="" width="100" HtextAlign="2" VtextAlign="2" HtitAlign="2" VtitAlign="0" positionCol="11"/>
+			
+      <coldgrThoiviec tblColName="DATHOIVIEC" title="Thôi Việc" hide="false" formatCell="" width="80" HtextAlign="2" VtextAlign="2" HtitAlign="2" VtitAlign="0" positionCol="12"/>
+ 
+      <coldgrThoiviec tblColName="TV_NGAYTHOIVIEC" title="Ngày thôi việc" hide="false" formatCell="" width="100" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="13"/>
+
+      <coldgrThoiviec tblColName="LTV_Ten" title="Loại thôi việc" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="14"/>
+
+	  <coldgrThoiviec tblColName="TV_LYDO" title="Lý Do" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="15"/>
+
+      <coldgrThoiviec tblColName="IT_DDNGHIVIEC" title="Điều động nghỉ việc" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="16"/>
+
+    <coldgrThoiviec tblColName="SOTAIKHOAN" title="Số tài khoản" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="17"/>
+    </dgrMayChamCong>
+	</controls>
+</form>

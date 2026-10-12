@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<form>
+	<attributes>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+	</attributes>
+	<controls>
+		<dgrngaynghi>
+			<coldgrGioCongVuotQua tblColName="THANG" title="Tháng" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1"/>
+			<coldgrGioCongVuotQua tblColName="NAM" title="Năm" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2"/>
+			<coldgrGioCongVuotQua tblColName="XUONG" title="Xưởng" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3"/>
+			<coldgrGioCongVuotQua tblColName="SNGC_MA" title="SNGC_MA" hide="true" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4"/>
+			<coldgrGioCongVuotQua tblColName="SNGC_TEN" title="SNGC_TEN" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4"/>
+			<coldgrGioCongVuotQua tblColName="1" title="1" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5"/>
+			<coldgrGioCongVuotQua tblColName="2" title="2" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="6"/>
+			<coldgrGioCongVuotQua tblColName="3" title="3" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="7"/>
+			<coldgrGioCongVuotQua tblColName="4" title="4" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="8"/>
+			<coldgrGioCongVuotQua tblColName="5" title="5" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="9"/>
+			<coldgrGioCongVuotQua tblColName="6" title="6" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="10"/>
+			<coldgrGioCongVuotQua tblColName="7" title="7" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="11"/>
+			<coldgrGioCongVuotQua tblColName="8" title="8" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="12"/>
+			<coldgrGioCongVuotQua tblColName="9" title="9" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="13"/>
+			<coldgrGioCongVuotQua tblColName="10" title="10" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="14"/>
+			<coldgrGioCongVuotQua tblColName="11" title="11" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="15"/>
+			<coldgrGioCongVuotQua tblColName="12" title="12" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="16"/>
+			<coldgrGioCongVuotQua tblColName="13" title="13" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="17"/>
+			<coldgrGioCongVuotQua tblColName="14" title="14" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="18"/>
+			<coldgrGioCongVuotQua tblColName="15" title="15" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="19"/>
+			<coldgrGioCongVuotQua tblColName="16" title="16" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="20"/>
+			<coldgrGioCongVuotQua tblColName="17" title="17" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="21"/>
+			<coldgrGioCongVuotQua tblColName="18" title="18" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="22"/>
+			<coldgrGioCongVuotQua tblColName="19" title="19" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="23"/>
+			<coldgrGioCongVuotQua tblColName="20" title="20" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="24"/>
+			<coldgrGioCongVuotQua tblColName="21" title="21" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="25"/>
+			<coldgrGioCongVuotQua tblColName="22" title="22" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="26"/>
+			<coldgrGioCongVuotQua tblColName="23" title="23" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="27"/>
+			<coldgrGioCongVuotQua tblColName="24" title="24" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="28"/>
+			<coldgrGioCongVuotQua tblColName="25" title="25" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="29"/>
+			<coldgrGioCongVuotQua tblColName="26" title="26" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="30"/>
+			<coldgrGioCongVuotQua tblColName="27" title="27" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="31"/>
+			<coldgrGioCongVuotQua tblColName="28" title="28" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="32"/>
+			<coldgrGioCongVuotQua tblColName="29" title="29" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="33"/>
+			<coldgrGioCongVuotQua tblColName="30" title="30" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="34"/>
+			<coldgrGioCongVuotQua tblColName="31" title="31" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="35"/>
+		</dgrngaynghi>
+	</controls>
+</form>

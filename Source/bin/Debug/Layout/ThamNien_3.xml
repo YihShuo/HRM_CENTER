@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<form>
+	<attributes>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		
+
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+
+
+
+	</attributes>
+	<controls>
+		<dgrMayChamCong>
+			<coldgrMayChamCong tblColName="NGAY" title="NGÀY" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="0"/>
+
+			<coldgrMayChamCong tblColName="X_MA_" title="XƯỞNG 廠別" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1"/>
+
+			<coldgrMayChamCong tblColName="N_MA" title="NGÀNH  部門" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2"/>
+
+			<coldgrMayChamCong tblColName="N_TEN_TAIWAN" title="NGÀNH TÊN TAIWAN 中文部門名字" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3"/>
+
+			<coldgrMayChamCong tblColName="DV_MA" title="ĐƠN VỊ 單位" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4"/>
+
+			<coldgrMayChamCong tblColName="THUVIEC" title="THỬ VIỆC 試用期" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5"/>
+
+			<coldgrMayChamCong tblColName="HAI_BA_THANG" title="2-3 THÁNG/2-3個月" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="6"/>
+
+			<coldgrMayChamCong tblColName="BON_SAU_THANG" title="4-6 THÁNG/4-6個月" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="7"/>
+
+			<coldgrMayChamCong tblColName="BAY_12_THANG" title="7-12 THÁNG/7-12個月" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="8"/>
+
+			<coldgrMayChamCong tblColName="MOT_HAI_NAM" title="1-2 NĂM/1-2年" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="9"/>
+
+			<coldgrMayChamCong tblColName="HAI_BA_NAM" title="2-3 NĂM/2-3年" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="10"/>
+
+			<coldgrMayChamCong tblColName="BA_BON_NAM" title="3-4 NĂM/3-4年" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="11"/>
+
+			<coldgrMayChamCong tblColName="BON_NAM_NAM" title="4-5 NĂM/4-5年" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="12"/>
+
+			<coldgrMayChamCong tblColName="NAM_SAU_NAM" title="NĂM ĐẾN SÁU NĂM 5-6年" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="13"/>
+
+			<coldgrMayChamCong tblColName="SAUNAMTROLEN" title="TRÊN SÁU NĂM/6年以上" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="14"/>
+
+			<coldgrMayChamCong tblColName="TONGCONG" title="TỔNG CỘNG 合計" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="15"/>
+			
+			
+		</dgrMayChamCong>
+	</controls>
+</form>

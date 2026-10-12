@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<form>
+	<attributes>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		
+	</attributes>
+	<controls>
+		<dgrMayChamCong>
+
+
+			<coldgrMayChamCong tblColName="NV_TEN" title="Họ tên" hide="true" formatCell="" width="180" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1"/>
+
+			<coldgrMayChamCong tblColName="NV_MA" title="Số thẻ" hide="false" formatCell="" width="100" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2"/>
+
+			<coldgrMayChamCong tblColName="DILAM" title="Đi làm " hide="false" formatCell="" width="40" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3"/>
+
+			<coldgrMayChamCong tblColName="P" title="Nghỉ P" hide="false" formatCell=""  width="40" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4"/>
+
+			<coldgrMayChamCong tblColName="R" title="Nghỉ R" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5"/>
+
+			<coldgrMayChamCong tblColName="O" title="Nghỉ O" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="6"/>
+
+			<coldgrMayChamCong tblColName="CO" title="Nghỉ CO" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="7"/>
+
+			<coldgrMayChamCong tblColName="RO" title="Nghỉ RO" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="8"/>
+
+			<coldgrMayChamCong tblColName="OP" title="Nghỉ OP" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="9"/>
+
+			<coldgrMayChamCong tblColName="NO" title="Nghỉ NO" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="10"/>
+
+			<coldgrMayChamCong tblColName="KT" title="Nghỉ KT" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="11"/>
+
+			<coldgrMayChamCong tblColName="TSAN" title="Nghỉ TSAN" hide="false" formatCell="" width="70" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="12"/>
+
+			<coldgrMayChamCong tblColName="NVG" title="NVG" hide="false" formatCell="" width="40" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="13"/>
+
+			<coldgrMayChamCong tblColName="OPKTRG" title="OPKTRG" hide="false" formatCell="" width="60" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="14"/>
+
+			<coldgrMayChamCong tblColName="CNMT" title="CNMT" hide="false" formatCell="" width="40" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="15"/>
+
+			<coldgrMayChamCong tblColName="GIAM" title="ĐĐ Giảm" hide="false" formatCell="" width="60" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="16"/>
+
+			<coldgrMayChamCong tblColName="TANG" title="ĐĐ Tăng" hide="false" formatCell="" width="60" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="17"/>
+  
+      <coldgrMayChamCong tblColName="NV_GIOITINH" title="Giới tính" hide="true" formatCell="" width="60" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="18"/>
+
+      <coldgrMayChamCong tblColName="DV_DIEUDONG" title="ĐV điều động" hide="false" formatCell="" width="100" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="19"/>
+
+      <coldgrMayChamCong tblColName="DVDD_CU" title="ĐVĐĐ cũ" hide="false" formatCell="" width="100" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="20"/>
+
+
+
+		</dgrMayChamCong>
+	</controls>
+</form>

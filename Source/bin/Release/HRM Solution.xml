@@ -1,0 +1,863 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+HRMSolution
+</name>
+</assembly>
+<members>
+<member name="P:TongHop.MyResource.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:TongHop.MyResource.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:TongHop.MyResource._1Anh">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frm_nghiop">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmBangTheoDoiNgayPhepCuaCBCNV">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmBangThongKeKyLuat">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmBaocaochitietgiocong">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmBaocaogioconghangngay">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmBaoCaoGioCongNgay">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmBaocaogiocongxuong">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmBaoCaoGioVaoRa">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmBaoCaoMucLuong">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1FrmBaoCaoSLTongPhanComCuoiThang">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmBaoCaoTongHop">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmBBThang">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmBBThangchoCNV">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmBinhBauA">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmBinhBauChucVu">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmBinhBauNam_">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmBinhBauThang">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmCaLamViec">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmCapNhatCongViec">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmCapNhatHoSoNhanSu">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmCapNhatHoSoQuanHe">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmCapnhatMSTSTK">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmCapNhatNhaXuong">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmCapNhatNhomCV_MTCV_PTCV">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmCapNhatNVNgoaiNguPhienDich">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmCapNhatSoSoBH">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmCBCNV_VayVonNganHang">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmChamCom">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmChamcongMain">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmChamCongTay">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmChuaKyHDLD">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmChucVu">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmChucVuDM">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmChungChiK">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmChuyenCongViec">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmChuyenDonVi">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmChuyenDV">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmChuyenMon">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmCongTac">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmCongViec">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmCongViecNNDH">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmCVHDLD">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmCVNhanVien">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmDanhMucQLMTCV_PTCV">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmDanhSachCB_CNVBinhBauNam">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmDanhSachCB_CNVhethanHDLD">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmDanhSachCBCNVChuyenDonVi">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmDanhSachCBCNVDongBHXH">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmDanhSachCBCNVDonVi">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmDanhSachCBCNVNghiPhep">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmDanhSachCBCNVTheoChucVu">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmDanhSachCNNghiKhongPhepTheoThang">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmDanhSachCNNghiKPTheoNam">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmDanhSachCongViec">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmDanhSachHetHangHDKyLai">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmDanhSachNhanVienTheoTrinhDo">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmDanhSachNhanVienThoiViec">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmDanhSachNhanVienTrungTuyen">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmDanhSachNVChuaCoThe">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmDanhSachThongKeNgayCong">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmDanToc">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmDaoTao">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmDBLPromaz">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmDBLuong">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmDiCaKhacThuong">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmDiemDanhHangNgay">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmDiemDanhHangNgay_Client">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmDienBienLuong">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmDieuChinhLuong">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmDiTre">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmDocHaiNangNhoc">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmDSCNKhongNghi">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmDSCNVKhongQuetTheVaoRa">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmDSCongNhanMay">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmEmployees">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmGioCongTieuChuanThang">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmGiocongtrong_ngoaitieuchuan">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmGioiTinh">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmGiotangcathang">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmGioVaoRa">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmHDLD">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmHieuChinhLuong">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmHocVan">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmHocVanDM">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmKhamBenhNgheNghiep">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmKhenThuong">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmKhenThuongDM">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmKhoanCongKhac">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmKhoanTruKhac">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmKhoanTruMobivi">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmKhoaSoLuong">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmKhongHuongPC">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmKhuVuc">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmKiemTraCMND">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmKiemTraPhepNam">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmKinhNghiemLamViec">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmKyHDSau1Thang">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmKyLuat">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmKyNang">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmLoaiBinhBau">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmLoaiHopDong">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmLoaiThoiViec">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmLuongThang">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmLyLichNhanVien">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmMayChamCong">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmNgayLe">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmNghiPhep">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmNgoaiNgu">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmNguoiDung">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmNhanVienKyLuatNghiKhongPhep">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmNuoiConDuoi6Tuoi">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmPhepNam">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmPhepNamConLai">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmPhuCapKhac">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmPhuNuHanhKinh">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmPhuNuHanhKinhTinhNV">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmPhuNuMangThai_KThai">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmPhuNuMangThaiKThaiYte">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmQTKhacThuongLC_Thang">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmQTSaiQuiDinh">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmQTSaiQuiDinhBangTong">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmQuaTrinhDieuDong">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmQuocTich">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmReportHDLD">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmSoNguoiTrongCongTy">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmSoYeuLyLich">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmTamUng">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmTangLuongThang2">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmThaiThangThu7">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmThamNien">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmTheoDoiLuongBB_NVTV">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmTheoDoiMangThaiDenNC12Thang">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmTheodoiNVNghiTS">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmThoiViec">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmThongKeCN_TT_GT">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmThongKeCoCongCoPhep">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmThongKeDanhSachCanBo">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmThongKeDanhSachCB_CNVBiKyLuat">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmThongKeGioTangCaNam">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmThongKeHD">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmThongKeLuongTTGT">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmThongKeNghiPhep">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmThongKeSoNgayNghi">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmThongKeSoNgayNghiDonVi">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmThongKeSoNgayNghiOMCOTrongNam">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1FrmThongKeTheomqh">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmThongKeTheoTinhThanhVaDoTuoi">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmThongKeTinhHinhNghiViec">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmThueTNCN">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmThuongABC">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmTienVuotSanLuong">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmTieuChiSanLoc">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmTieuChuan_">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmTinhLuong">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmTinhLuong13">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmTinhLuongChinh">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmTinHoc">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmTinhThanh">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmTKCongViecHDLD">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmTKSOLUONGKYHDLD">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmTongHopComThang">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmTonGiao">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmTraCuuNhanhNV">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmTraCuuThongTinThamGiaBH">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmTuoi">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmVangMat">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmVeSom">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1frmXaPhuong">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1mnThoat">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1mnThoat_activeMdifom">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1ThamGiaBHXH">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1ThoiViecKhongThamGiaBHTN">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1TongSoNguoi">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1Viet">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._1Weeklyovertime">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource._2frmNguoiDung">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource.Báo_Cáo_Thống_Kê">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource.Language">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource.mnBaocao">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource.mnBaocaochamcong">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource.mnBaocaonhansu">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource.mnBaoCaoTongHop">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource.mnBinhbau">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource.mnChamcong">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource.mnDanhmuc">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource.mnHethong">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource.mnNhansu">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource.mnThongkegiocong">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource.mnThongKeGioCongChiTiet">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource.mnThongKeGioCongTieuChuan">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource.mnThongKeThaiSan">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="P:TongHop.MyResource.mnTinhluong">
+	<summary>
+  Looks up a localized string similar to n/a.
+</summary>
+</member><member name="T:TongHop.MyResource">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:TongHop.clsDKiemTraPhepNam.DeleteInfoAuto(TongHop.objKiemTraPhepNam)">
+	<summary>
+ xóa tự động khi không kết nối dl TS và mang thai
+ </summary>
+</member><member name="M:TongHop.clsBKiemTraPhepNam.DeleteAuTo(TongHop.objKiemTraPhepNam)">
+	<summary>
+ hàm xóa tự động khi nhập phép TS mà số lần MT không kết nối số lần TS
+ </summary>
+</member><member name="P:TongHop.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:TongHop.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:TongHop.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:TongHop.XRDesignRibbonControllerResources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:TongHop.XRDesignRibbonControllerResources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:TongHop.XRDesignRibbonControllerResources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:TongHop.PrintRibbonControllerResources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:TongHop.PrintRibbonControllerResources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:TongHop.PrintRibbonControllerResources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:TongHop.objHDLD.TCCONGVIEC">
+</member><member name="M:TongHop.objKiemTraPhepNam.setvalueDonVi(System.String,System.String,System.String,System.String,System.String,System.String,System.Boolean)">
+	<summary>
+ gán giá trị khi thao tác trên toàn đơn vị
+ </summary>
+</member><member name="M:TongHop.objKiemTraPhepNam.setbackvalue(System.String,System.String,System.String,System.String,System.String,System.String,System.Boolean,System.Boolean)">
+	<summary>
+ hàm lấy giá trị cũ trước khi sửa/xóa (dòng đang active)
+ </summary>
+</member><member name="F:TongHop.frmCBCNV_VayVonNganHang.Tabletemp">
+ Người tạo: Trân
+ Ngày tạo: 22/11/2013
+ Nội dung: Tạo mới form vay vốn ngân hàng
+ Ngày hiệu chỉnh: 26/11/2013,20/02/2014
+ Người hiệu chỉnh: Trân
+ Nội dung: thêm cột ngày vay vốn, lọc trên lưới theo xưởng,đơn vi hiện 2 loại
+ 20/2/2014: thêm tìm kiếm theo số tài khoản bắt sự kiện enter
+ thêm cột ngày vay vốn. 23/04/2014: những người đã hoàn vốn rồi đc vay tiếp.
+ chặn sự kiện khi đang tìm theo số tài khoản thì không gọi tìm số cmnd
+
+</member>
+</members>
+</doc>

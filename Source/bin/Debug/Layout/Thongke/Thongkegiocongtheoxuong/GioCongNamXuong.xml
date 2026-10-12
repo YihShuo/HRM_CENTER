@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<form>
+	<attributes>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+
+
+
+
+  </attributes>
+
+	<controls>
+		<dgrchucvu>
+			<coldgrKhacThuong tblColName="NAM" title="Năm" hide="false" formatCell="" width="50"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1" />
+
+			<coldgrKhacThuong tblColName="X_MA_" title="Xưởng 單位" hide="false" formatCell="" width="100"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2" />
+
+			<coldgrKhacThuong tblColName="SONGUOIDAUNAM" title="Số Người Đầu năm 年初人數" hide="false" formatCell="" width="180"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3" />
+
+			<coldgrKhacThuong tblColName="SONGUOICUOINAM" title="Số Người Cuối Năm 年末人數" hide="false" formatCell="" width="180"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4" />
+
+			<coldgrKhacThuong tblColName="SONGAYCHAMCONG" title="Số Ngày Chấm công 出勤天數" hide="false" formatCell="" width="180"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5" />
+
+			<coldgrKhacThuong tblColName="GIOCONGCHINH" title="Giờ Công Chính 正班工時" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="6" />
+
+			<coldgrKhacThuong tblColName="GIOCONGTANGCA" title="Giờ Tăng Ca 加班工時" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="7" />
+
+			<coldgrKhacThuong tblColName="TONGGIOCONG" title="Tổng Giờ Công 總工時" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="8" />
+
+			<coldgrKhacThuong tblColName="TONGGIOVUOTQUA" title="Giờ Công Vượt Quá 超出工時" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="9" />
+
+			<coldgrKhacThuong tblColName="SONGUOIVUOTQUA" title="Số Người Vượt Quá 超時人數" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="10" />
+
+			<!--<coldgrKhacThuong tblColName="GHIC" title="Ghi Chú 備注 " hide="false" formatCell="" width="100"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="11" />-->
+		
+		</dgrchucvu>
+	</controls>
+</form>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<form>
+	<attributes>
+		
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	 </attributes>
+	<controls>
+		<dgrchucvu>
+<coldgrhoso tblColName="STT" title="STT" hide="false" formatCell="" width="50"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1" />
+
+<coldgrhoso tblColName="NV_MA" title="Số Thẻ" hide="false" formatCell="" width="50"
+					  HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2" />
+  
+<coldgrhoso tblColName="NV_TEN" title="Họ Tên" hide="false" formatCell="" width="180"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3" />
+			
+<coldgrhoso tblColName="DV_MA" title="Đơn Vị" hide="false" formatCell="" width="100"
+			  HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4" />
+			
+<coldgrhoso tblColName="NGAYKHAM" title="Ngày Khám" hide="false" formatCell="" width="150"
+					  HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5" />
+			
+<coldgrhoso tblColName="SOTIEN" title="Số Tiền" hide="false" formatCell="" width="100"
+			  HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="6" />
+			
+
+		</dgrchucvu>
+	</controls>
+</form>

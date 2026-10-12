@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<form>
+	<attributes>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	</attributes>
+
+	<controls>
+		<dgrchucvu>
+			<coldgrkhacthuongtuan tblColName="TUAN" title="Tuần" hide="false" formatCell="" width="50"
+						HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1" />
+
+			<coldgrkhacthuongtuan tblColName="NAM" title="Năm" hide="false" formatCell="" width="50"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2" />
+
+			<coldgrkhacthuongtuan tblColName="DV_MA" title="Đơn Vị 單位" hide="false" formatCell="" width="50"
+							HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3" />
+
+			<coldgrkhacthuongtuan tblColName="NV_MA" title="Số Thẻ 工號" hide="false" formatCell="" width="50"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4" />
+
+			<coldgrkhacthuongtuan tblColName="CA_MA" title="Ca Làm Việc" hide="false" formatCell="" width="60"
+							HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5" />
+
+			<coldgrkhacthuongtuan tblColName="SO_NGAY" title="Số Ngày" hide="false" formatCell="" width="50"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="6" />
+
+			<coldgrkhacthuongtuan tblColName="GIOCONGCHINH" title="Giờ Công Chính 正班工時" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="7" />
+
+			<coldgrkhacthuongtuan tblColName="GIOTANGCATUAN" title="Giờ Tăng Ca 加班工時" hide="false" formatCell="" width="180"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="8" />
+
+			<coldgrkhacthuongtuan tblColName="TONGGIOCONG" title="Tổng Giờ Công 總工時" hide="false" formatCell="" width="180"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="8" />
+
+			<coldgrkhacthuongtuan tblColName="GIOCONGVUOTQUA" title="Giờ Công Vượt Quá 超出工時" hide="false" formatCell="" width="180"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="9" />
+
+		</dgrchucvu>
+	</controls>
+</form>

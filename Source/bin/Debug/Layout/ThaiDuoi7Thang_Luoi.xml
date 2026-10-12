@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<form>
+	<attributes>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		
+	</attributes>
+
+	<controls>
+		<dgrchucvu>
+			<coldgrtieuchuan tblColName="NV_MA" title="Số Thẻ" hide="false" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1" />
+
+			<coldgrtieuchuan tblColName="NV_TEN" title="Họ Tên" hide="false" formatCell="" width="190"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2" />
+
+			
+			<coldgrtieuchuan tblColName="DV_MA" title="Đơn Vị" hide="false" formatCell="" width="60"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2" />
+
+			<coldgrtieuchuan tblColName="NGAY" title="Ngày" hide="false" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3" />
+			
+			<coldgrtieuchuan tblColName="VAO" title="Giờ Vào" hide="false" formatCell="" width="60"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4" />
+
+			<coldgrtieuchuan tblColName="RA" title="Giờ Ra" hide="FALSE" formatCell="" width="60"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5" />
+
+			<coldgrtieuchuan tblColName="HS1" title="Hệ Số 1" hide="FALSE" formatCell="" width="60"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="6" />
+
+			<coldgrtieuchuan tblColName="HS1CHAM5" title="Hệ Số 1.5" hide="false" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="7" />
+
+			<coldgrtieuchuan tblColName="HS1CHAM95" title="Hệ Số 1.95" hide="false" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="8" />
+
+			<coldgrtieuchuan tblColName="HS2" title="Hệ Số 2" hide="false" formatCell="" width="60"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="9" />
+
+			<coldgrtieuchuan tblColName="HS3" title="Hệ Số 3" hide="false" formatCell="" width="60"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="10" />
+
+			<coldgrtieuchuan tblColName="PCCA3" title="PCCA3" hide="false" formatCell="" width="60"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="11" />
+
+			<coldgrtieuchuan tblColName="TONGCONG" title="Tổng Giờ Công" hide="false" formatCell="" width="60"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="12" />
+
+			<coldgrtieuchuan tblColName="BUAAN" title="Bữa Ăn" hide="false" formatCell="" width="50"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="13" />
+
+			<coldgrtieuchuan tblColName="NO" title="NO" hide="false" formatCell="" width="30"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="14" />
+
+			<coldgrtieuchuan tblColName="RO" title="RO" hide="false" formatCell="" width="30"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="15" />
+
+			<coldgrtieuchuan tblColName="R" title="R" hide="false" formatCell="" width="30"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="16" />
+
+			<coldgrtieuchuan tblColName="P" title="P" hide="false" formatCell="" width="30"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="17" />
+
+			<coldgrtieuchuan tblColName="OM" title="OM" hide="false" formatCell="" width="30"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="18" />
+
+			<coldgrtieuchuan tblColName="O" title="O" hide="false" formatCell="" width="30"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="19" />
+
+			
+	</dgrchucvu>
+	</controls>
+</form>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<form>
+	<attributes>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	</attributes>
+
+	<controls>
+		<dgrchucvu>
+			<coldgrkhacthuongngay tblColName="NGAY" title="Ngày 日期" hide="true" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="0" />
+
+			<coldgrkhacthuongngay tblColName="NGAYC" title="Ngày 日期" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1" />
+
+			<coldgrkhacthuongngay tblColName="DV_MA" title="Đơn Vị" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2" />
+
+			<coldgrkhacthuongngay tblColName="NV_MA" title="Ma Số" hide="false" formatCell="" width="150"
+					HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3" />
+			
+			<coldgrkhacthuongngay tblColName="GIOCONGCHINH" title="Giờ Công Chính" hide="false" formatCell="" width="150"
+					HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4" />
+
+			<coldgrkhacthuongngay tblColName="GC_TANGCA" title="Giờ Tăng Ca " hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5" />
+			
+			<coldgrkhacthuongngay tblColName="TONGGIOCONG" title="Tổng Giờ Công" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="6" />
+
+			<coldgrkhacthuongngay tblColName="TONGGIOVUOTQUA" title="Tổng Giờ Vượt Quá" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="7" />
+
+			<coldgrkhacthuongngay tblColName="CA_MA" title="Ca Mã" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="7" />
+			
+		</dgrchucvu>
+	</controls>
+</form>

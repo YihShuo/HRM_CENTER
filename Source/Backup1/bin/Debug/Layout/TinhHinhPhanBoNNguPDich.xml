@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<form>
+	<attributes>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+
+	</attributes>
+	<controls>
+    
+		<dgrMayChamCong>
+
+      <coldgrThoiviec tblColName="X_TENHOA" title="Xưởng" hide="false" formatCell="" width="200" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1"/>
+
+      <coldgrThoiviec tblColName="HT_TIENGHOA" title="Tổng số (Hoa)" hide="false" formatCell="" width="200" HtextAlign="2" VtextAlign="2" HtitAlign="2" VtitAlign="2" positionCol="2"/>
+      
+      <coldgrThoiviec tblColName="MOI_TIENGHOA" title="Tuyển mới (Hoa)" hide="false" formatCell="" width="200" HtextAlign="2" VtextAlign="2" HtitAlign="2" VtitAlign="2" positionCol="3"/>
+
+      <coldgrThoiviec tblColName="NGHIVIEC_TIENGHOA" title="Nghỉ việc (Hoa)" hide="false" formatCell="" width="200" HtextAlign="2" VtextAlign="2" HtitAlign="2" VtitAlign="2" positionCol="4"/>
+
+	 <coldgrThoiviec tblColName="CONLAI_TIENGHOA" title="Còn lại (Hoa)" hide="false" formatCell="" width="200" HtextAlign="2" VtextAlign="2" HtitAlign="2" VtitAlign="2" positionCol="5"/>
+	 <coldgrThoiviec tblColName="HT_CANBO_TIENGHOA" title="Cán bộ(Hoa)" hide="false" formatCell="" width="200" HtextAlign="2" VtextAlign="2" HtitAlign="2" VtitAlign="2" positionCol="6"/>
+	 <coldgrThoiviec tblColName="HT_NHANVIEN_TIENGHOA" title="Nhân viên(Hoa)" hide="false" formatCell="" width="200" HtextAlign="2" VtextAlign="2" HtitAlign="2" VtitAlign="2" positionCol="7"/>
+			
+     <coldgrThoiviec tblColName="HT_TIENGANH" title="Tổng số (Anh)" hide="false" formatCell="" width="200" HtextAlign="2" VtextAlign="2" HtitAlign="2" VtitAlign="2" positionCol="8"/>
+
+	 <coldgrThoiviec tblColName="MOI_TIENGANH" title="Tuyển mới (Anh)" hide="false" formatCell="" width="200" HtextAlign="2" VtextAlign="2" HtitAlign="2" VtitAlign="2" positionCol="9"/>
+
+	 <coldgrThoiviec tblColName="NGHIVIEC_TIENGANH" title="Nghỉ việc (Anh)" hide="false" formatCell="" width="200" HtextAlign="2" VtextAlign="2" HtitAlign="2" VtitAlign="2" positionCol="10"/>
+			
+	 <coldgrThoiviec tblColName="CONLAI_TIENGANH" title="Còn lại (Anh)" hide="false" formatCell="" width="200" HtextAlign="2" VtextAlign="2" HtitAlign="2" VtitAlign="2" positionCol="11"/>
+	 <coldgrThoiviec tblColName="HT_CANBO_TIENGANH" title="Cán bộ(Anh)" hide="false" formatCell="" width="200" HtextAlign="2" VtextAlign="2" HtitAlign="2" VtitAlign="2" positionCol="12"/>
+	 <coldgrThoiviec tblColName="HT_NHANVIEN_TIENGANH" title="Nhân viên(Anh)" hide="false" formatCell="" width="200" HtextAlign="2" VtextAlign="2" HtitAlign="2" VtitAlign="2" positionCol="13"/>
+			
+      <coldgrThoiviec tblColName="HT_NGOAINGUKHAC" title="Tổng số (Khác)" hide="true" formatCell="" width="200" HtextAlign="2" VtextAlign="2" HtitAlign="2" VtitAlign="2" positionCol="14"/>
+
+      <coldgrThoiviec tblColName="MOI_NGOAINGUKHAC" title="Tuyển mới (Khác)" hide="true" formatCell="" width="200" HtextAlign="2" VtextAlign="2" HtitAlign="2" VtitAlign="2" positionCol="15"/>
+
+      <coldgrThoiviec tblColName="NGHIVIEC_NGOAINGUKHAC" title="Nghỉ việc (Khác)" hide="true" formatCell="" width="200" HtextAlign="2" VtextAlign="2" HtitAlign="2" VtitAlign="2" positionCol="16"/>
+			
+	  <coldgrThoiviec tblColName="CONLAI_NGOAINGUKHAC" title="Nghỉ việc (Khác)" hide="true" formatCell="" width="200" HtextAlign="2" VtextAlign="2" HtitAlign="2" VtitAlign="2" positionCol="17"/>
+	  <coldgrThoiviec tblColName="HT_CANBO_PHIENDICH" title="Cán bộ(PD_Hoa)" hide="false" formatCell="" width="200" HtextAlign="2" VtextAlign="2" HtitAlign="2" VtitAlign="2" positionCol="18"/>
+	  <coldgrThoiviec tblColName="HT_NHANVIEN_PHIENDICH" title="Nhân viên(PD_Hoa)" hide="false" formatCell="" width="200" HtextAlign="2" VtextAlign="2" HtitAlign="2" VtitAlign="2" positionCol="19"/>
+			<coldgrThoiviec tblColName="HT_PHIENDICH" title="Tổng số (PD_Hoa)" hide="false" formatCell="" width="200" HtextAlign="2" VtextAlign="2" HtitAlign="2" VtitAlign="2" positionCol="20"/>
+
+			<coldgrThoiviec tblColName="MOI_PHIENDICH" title="Tuyển mới (PD_Hoa)" hide="false" formatCell="" width="200" HtextAlign="2" VtextAlign="2" HtitAlign="2" VtitAlign="2" positionCol="21"/>
+
+			<coldgrThoiviec tblColName="NGHIVIEC_PHIENDICH" title="Nghỉ việc (PD_Hoa)" hide="false" formatCell="" width="200" HtextAlign="2" VtextAlign="2" HtitAlign="2" VtitAlign="2" positionCol="22"/>
+			<coldgrThoiviec tblColName="CONLAI_PHIENDICH" title="Còn lại (PD_Hoa)" hide="false" formatCell="" width="200" HtextAlign="2" VtextAlign="2" HtitAlign="2" VtitAlign="2" positionCol="23"/>
+			<coldgrThoiviec tblColName="HT_CANBO_PHIENDICH" title="Cán bộ(PD_Hoa)" hide="false" formatCell="" width="200" HtextAlign="2" VtextAlign="2" HtitAlign="2" VtitAlign="2" positionCol="24"/>
+			<coldgrThoiviec tblColName="HT_NHANVIEN_PHIENDICH" title="Nhân viên(PD_Hoa)" hide="false" formatCell="" width="200" HtextAlign="2" VtextAlign="2" HtitAlign="2" VtitAlign="2" positionCol="25"/>
+
+		</dgrMayChamCong>
+	</controls>
+</form>

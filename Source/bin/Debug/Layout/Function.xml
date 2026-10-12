@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<form>
+	<attributes>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+        <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	</attributes>
+	<controls>
+		<dgrchucvu>
+			<coldgrfunction tblColName="ID" title="Mã Function " hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1" />
+
+			<coldgrfunction tblColName="NAME_VN" title="Tên Tiếng Việt" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2" />
+
+                       <coldgrfunction tblColName="NAME_EN" title="Tên Tiếng Anh" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2" />
+
+			<coldgrfunction tblColName="NOTE" title="Ghi Chú" hide="false" formatCell="" width="150" HtextAlign="0"
+				VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3" />
+		</dgrchucvu>
+	</controls>
+</form>

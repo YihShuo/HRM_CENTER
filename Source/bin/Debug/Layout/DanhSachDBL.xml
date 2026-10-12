@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<form>
+	<attributes>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+        <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+        <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+   		
+	</attributes>
+
+	<controls>
+		<dgrchucvu>
+			
+			<coldgrtieuchuan tblColName="NV_Ma" title="Số thẻ" hide="false" formatCell="" width="50"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1" />
+
+			<coldgrtieuchuan tblColName="DBL_Ngaybatdau" title="DBL_Ngaybatdau" hide="false" formatCell="" width="110"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2" />
+
+			<coldgrtieuchuan tblColName="DBL_Soquyetdinh" title="DBL_Soquyetdinh" hide="FALSE" formatCell="" width="110"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3" />
+
+     			<coldgrtieuchuan tblColName="DBL_Heso" title="DBL_Heso" hide="false" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4" />
+
+			<coldgrtieuchuan tblColName="DBL_LuongCB" title="DBL_LuongCB" hide="false" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5" />
+
+			<coldgrtieuchuan tblColName="DBL_PhuCap" title="DBL_PhuCap" hide="false" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="6" />
+
+			<coldgrtieuchuan tblColName="CV_MA" title="Công việc" hide="false" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="7" />
+
+      <coldgrtieuchuan tblColName="CVU_MA" title="Chức vụ" hide="true" formatCell="" width="80"
+      HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="8" />
+
+      <coldgrtieuchuan tblColName="DHNN" title="DHNN" hide="false" formatCell="" width="80"
+      HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="9" />
+
+<coldgrtieuchuan tblColName="KHCC" title="KHCC" hide="false" formatCell="" width="80"
+      HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="10" />
+      
+      <coldgrtieuchuan tblColName="LDCM" title="LDCM" hide="false" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="11" />
+
+      <coldgrtieuchuan tblColName="DBL_PhuCapKhac" title="DBL_PhuCapKhac" hide="false" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="12" />
+<coldgrtieuchuan tblColName="DBL_TrocapCV" title="TrocapCV" hide="false" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="13" />
+		<coldgrtieuchuan tblColName="DBL_TrocapUDMAY" title="TrocapUDMAY" hide="false" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="14" />
+		<coldgrtieuchuan tblColName="DBL_TrocapCMNV" title="TrocapCMNV" hide="false" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="15" />
+		<coldgrtieuchuan tblColName="DBL_TrocapNN" title="TrocapNN" hide="false" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="16" />
+		<coldgrtieuchuan tblColName="DBL_TrocapHMPT" title="TrocapHMPT" hide="false" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="17" />
+		<coldgrtieuchuan tblColName="DBL_TroCapQLSX" title="TroCapQLSX" hide="false" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="18" />
+		<coldgrtieuchuan tblColName="DBL_TroCapCBVP" title="TroCapCBVPC" hide="false" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="19" />
+		<coldgrtieuchuan tblColName="DBL_TroCapBBHT" title="TroCapBBHT" hide="false" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="20" />
+		<coldgrtieuchuan tblColName="DBL_TroCapBBTHANG" title="TroCapBBTHAN" hide="false" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="21" />
+		<coldgrtieuchuan tblColName="DBL_TroCapCLGD" title="TroCapCLGD" hide="false" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="22" />
+		<coldgrtieuchuan tblColName="DBL_TroCapHTDP" title="TroCapHTDP" hide="false" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="23" />
+		<coldgrtieuchuan tblColName="DBL_TroCapQAQIP" title="TroCapQAQIP" hide="false" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="24" />
+		<coldgrtieuchuan tblColName="DBL_TrocapThoRap" title="TrocapThoRap" hide="false" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="25" />
+		<coldgrtieuchuan tblColName="DBL_TrocapHSE" title="TrocapHSE" hide="false" formatCell="" width="80"
+					HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="26" />
+<coldgrtieuchuan tblColName="DBL_HTNG" title="DBL_HTNG" hide="false" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="27" />
+		<coldgrtieuchuan tblColName="DBL_DQTV" title="DBL_DQTV" hide="false" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="28" />
+		<coldgrtieuchuan tblColName="DBL_PCCC" title="DBL_PCCC" hide="false" formatCell="" width="80"
+					HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="29" />
+		
+	</dgrchucvu>
+	</controls>
+</form>

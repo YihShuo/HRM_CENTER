@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<form>
+	<attributes>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		
+	</attributes>
+	<controls>
+		<dgrMayChamCong>
+
+			<coldgrcongviec tblColName="STT" title="STT" hide="false" formatCell="" width="60" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1"/>
+
+			<coldgrcongviec tblColName="MA" title="Số thẻ" hide="false" formatCell="" width="80" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2"/>
+
+     			<coldgrcongviec tblColName="TEN" title="Họ Tên" hide="false" formatCell="" width="180" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3"/>
+					
+			<coldgrcongviec tblColName="DONVI" title="Đơn Vị" hide="false" formatCell="" width="60" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4"/>
+
+			<coldgrcongviec tblColName="NGAY" title="Ngày" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5"/>
+
+			<coldgrcongviec tblColName="CVHT" title="Công việc hiện tại" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="6"/>
+
+			<coldgrcongviec tblColName="CVMOI" title="Công việc mới" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="7"/>
+		
+
+		</dgrMayChamCong>
+	</controls>
+</form>

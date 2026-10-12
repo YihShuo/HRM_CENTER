@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<form>
+	<attributes>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+  </attributes>
+	<controls>
+		<dgrngaynghi>
+      <coldgrMayChamCong tblColName="SOMAY" title="Số Máy" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1"/>
+      <coldgrMayChamCong tblColName="TENMAY" title="Tên Máy" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2"/>
+      <coldgrMayChamCong tblColName="IP" title="IP" hide="false" formatCell="" width="150" HtextAlign="3" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3"/>
+      <coldgrMayChamCong tblColName="GIAOTHUC" title="Giao Thức" hide="false" formatCell="" width="70" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4"/>
+      <coldgrMayChamCong tblColName="SOCONG" title="Số Cổng" hide="false" formatCell="" width="60" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5"/>
+      <coldgrMayChamCong tblColName="VITRI" title="Vị Trí" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="6"/>
+      <coldgrMayChamCong tblColName="TINHTRANGSUDUNG" title="Tình Trạng Sử Dụng" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="7"/>
+      <coldgrMayChamCong tblColName="GHICHU" title="Ghi Chú" hide="false" formatCell="" width="150" HtextAlign="3" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="8"/>
+    </dgrngaynghi>
+
+	</controls>
+</form>

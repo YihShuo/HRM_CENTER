@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<form>
+	<attributes>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+</attributes>
+	<controls>
+		<dgrngaynghi>
+      <coldgrNghiGiuaCa tblColName="XUONG" title="Xưởng" hide="false" formatCell="" width="100" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1"/>
+      <coldgrNghiGiuaCa tblColName="MADV" title="Mã DV" hide="false" formatCell="" width="100" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2"/>
+      <coldgrNghiGiuaCa tblColName="TENDV" title="Tên DV" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3"/>
+      <coldgrNghiGiuaCa tblColName="CA" title="Ca Làm Việc" hide="false" formatCell="" width="100" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3"/>
+      <coldgrNghiGiuaCa tblColName="GIO_BDNGHI" title="Giờ BD Nghĩ Giữa Ca" hide="false" formatCell="" width="100" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4"/>
+      <coldgrNghiGiuaCa tblColName="GIO_KTNGHI" title="Giờ KT Nghĩ Giữa Ca" hide="false" formatCell="" width="100" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5"/>
+	</dgrngaynghi>
+	</controls>
+</form>

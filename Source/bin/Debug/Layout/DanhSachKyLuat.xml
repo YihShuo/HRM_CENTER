@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<form>
+	<attributes>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+	</attributes>
+	<controls>
+		<dgrMayChamCong>
+
+			<coldgrcongviec tblColName="STT" title="STT" hide="false" formatCell="" width="60" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1"/>
+
+			<coldgrcongviec tblColName="XUONG" title="Xưởng" hide="false" formatCell="" width="120" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2"/>
+
+     	<coldgrcongviec tblColName="KT" title="Khiển Trách" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3"/>
+
+      <coldgrcongviec tblColName="STSD" title="Sổ đen" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4"/>
+
+    	<coldgrcongviec tblColName="KDTGNL" title="Kéo Dài Thời Gian Nâng Lương" hide="false" formatCell="" width="195" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5"/>
+
+      <coldgrcongviec tblColName="CCTVMLTG" title="Chuyển Công Tác Với Mức Lương Thấp Hơn" hide="false" formatCell="" width="195" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="6"/>
+
+      <coldgrcongviec tblColName="DCCT" title="Đình Chỉ Công Tác" hide="false" formatCell="" width="195" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="7"/>
+
+      <coldgrcongviec tblColName="CC" title="Cách Chức" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="8"/>
+
+      <coldgrcongviec tblColName="ST" title="Sa Thải" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="9"/>
+					
+		</dgrMayChamCong>
+	</controls>
+</form>

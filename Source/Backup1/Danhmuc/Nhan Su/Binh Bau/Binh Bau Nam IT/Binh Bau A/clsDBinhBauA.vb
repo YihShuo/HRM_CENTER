@@ -1,0 +1,390 @@
+﻿Imports Microsoft.VisualBasic.CompilerServices
+Imports System
+Imports System.Data
+Imports System.Windows.Forms
+Imports VsHRM.VsHRM.VsDAL
+Public Class clsDBinhBauA
+    Inherits DALSQL
+    ' Methods
+    Public Function LoadDS(ByVal obj As objBinhBauA) As DataTable
+        Dim table As DataTable
+        Dim strSQL As String = ""
+
+        'A
+        If obj.ChonBang = 1 Then
+            strSQL = " SELECT STT=0, ST_NHANVIEN.NV_TEN,ST_NHANVIEN.NV_NGAYVAO ,NAM ,NU,ST_NHANVIEN.NV_MA,ST_NHANVIEN.DV_MA,"
+            strSQL = strSQL + " ST_NHANVIEN.NV_NGAYSINH, NV_SOTHANG,BBN,BBA ,BBB,BBC ,BBD,BBOX,BBHS,SONGAYOO,SONGAYRO,SONGAYCO,SONGAYO,"
+            strSQL = strSQL + " SONGAYOTC,SONGAYP ,SONGAYKTHAI,SONGAYR,SONGAYS,SONGAYNO,SONGAYKHHGD,SONGAYQS,SONGAYTSAN,"
+            strSQL = strSQL + " SONGAYTNLD,SONGAYDQ,SONGAYDS,SONGAYST FROM IT_TABLE_BBA INNER JOIN ST_NHANVIEN ON IT_TABLE_BBA.NV_MA = ST_NHANVIEN.NV_MA "
+            strSQL = strSQL + "  WHERE ST_NHANVIEN.NV_MA NOT IN (SELECT NV_MA FROM IT_TABLE_BBANEW WHERE NAM = '" & obj.NAM & "') AND IT_TABLE_BBA.NAM = '" & obj.NAM & "'"
+        End If
+        ' ANEW
+        If obj.ChonBang = 2 Then
+            strSQL = " SELECT STT=0, ST_NHANVIEN.NV_TEN,ST_NHANVIEN.NV_NGAYVAO ,NAM ,NU,ST_NHANVIEN.NV_MA,ST_NHANVIEN.DV_MA,"
+            strSQL = strSQL + " ST_NHANVIEN.NV_NGAYSINH, NV_SOTHANG,BBN,BBA ,BBB,BBC ,BBD,BBOX,BBHS,SONGAYOO,SONGAYRO,SONGAYCO,SONGAYO,"
+            strSQL = strSQL + " SONGAYOTC,SONGAYP ,SONGAYKTHAI,SONGAYR,SONGAYS,SONGAYNO,SONGAYKHHGD,SONGAYQS,SONGAYTSAN,"
+            strSQL = strSQL + " SONGAYTNLD,SONGAYDQ,SONGAYDS,SONGAYST FROM IT_TABLE_BBANEW INNER JOIN ST_NHANVIEN ON IT_TABLE_BBANEW.NV_MA = ST_NHANVIEN.NV_MA "
+            strSQL = strSQL + "  WHERE ST_NHANVIEN.NV_MA NOT IN (SELECT NV_MA FROM IT_TABLE_BBA WHERE NAM = '" & obj.NAM & "') AND IT_TABLE_BBANEW.NAM = '" & obj.NAM & "'"
+        End If
+        ' C       
+        If obj.ChonBang = 3 Then
+            strSQL = " SELECT STT=0, ST_NHANVIEN.NV_TEN,ST_NHANVIEN.NV_NGAYVAO ,NAM ,NU,ST_NHANVIEN.NV_MA,ST_NHANVIEN.DV_MA,"
+            strSQL = strSQL + " ST_NHANVIEN.NV_NGAYSINH, NV_SOTHANG,BBN,BBA ,BBB,BBC ,BBD,BBOX,BBHS,SONGAYOO,SONGAYRO,SONGAYCO,SONGAYO,"
+            strSQL = strSQL + " SONGAYOTC,SONGAYP ,SONGAYKTHAI,SONGAYR,SONGAYS,SONGAYNO,SONGAYKHHGD,SONGAYQS,SONGAYTSAN,"
+            strSQL = strSQL + " SONGAYTNLD,SONGAYDQ,SONGAYDS,SONGAYST FROM IT_TABLE_BBC INNER JOIN ST_NHANVIEN ON IT_TABLE_BBC.NV_MA = ST_NHANVIEN.NV_MA "
+            strSQL = strSQL + "  WHERE ST_NHANVIEN.NV_MA NOT IN (SELECT NV_MA FROM IT_TABLE_BBCNEW WHERE NAM = '" & obj.NAM & "') AND IT_TABLE_BBC.NAM = '" & obj.NAM & "'"
+        End If
+        ' CNEW       
+        If obj.ChonBang = 4 Then
+            strSQL = " SELECT STT=0, ST_NHANVIEN.NV_TEN,ST_NHANVIEN.NV_NGAYVAO ,NAM ,NU,ST_NHANVIEN.NV_MA,ST_NHANVIEN.DV_MA,"
+            strSQL = strSQL + " ST_NHANVIEN.NV_NGAYSINH, NV_SOTHANG,BBN,BBA ,BBB,BBC ,BBD,BBOX,BBHS,SONGAYOO,SONGAYRO,SONGAYCO,SONGAYO,"
+            strSQL = strSQL + " SONGAYOTC,SONGAYP ,SONGAYKTHAI,SONGAYR,SONGAYS,SONGAYNO,SONGAYKHHGD,SONGAYQS,SONGAYTSAN,"
+            strSQL = strSQL + " SONGAYTNLD,SONGAYDQ,SONGAYDS,SONGAYST FROM IT_TABLE_BBCNEW INNER JOIN ST_NHANVIEN ON IT_TABLE_BBCNEW.NV_MA = ST_NHANVIEN.NV_MA "
+            strSQL = strSQL + "  WHERE ST_NHANVIEN.NV_MA NOT IN (SELECT NV_MA FROM IT_TABLE_BBC WHERE NAM = '" & obj.NAM & "') AND IT_TABLE_BBCNEW.NAM = '" & obj.NAM & "'"
+
+        End If
+        'OX
+        If obj.ChonBang = 5 Then
+            strSQL = " SELECT STT=0, ST_NHANVIEN.NV_TEN,ST_NHANVIEN.NV_NGAYVAO ,NAM ,NU,ST_NHANVIEN.NV_MA,ST_NHANVIEN.DV_MA,"
+            strSQL = strSQL + " ST_NHANVIEN.NV_NGAYSINH, NV_SOTHANG,BBN,BBA ,BBB,BBC ,BBD,BBOX,BBHS,SONGAYOO,SONGAYRO,SONGAYCO,SONGAYO,"
+            strSQL = strSQL + " SONGAYOTC,SONGAYP ,SONGAYKTHAI,SONGAYR,SONGAYS,SONGAYNO,SONGAYKHHGD,SONGAYQS,SONGAYTSAN,"
+            strSQL = strSQL + " SONGAYTNLD,SONGAYDQ,SONGAYDS,SONGAYST FROM IT_TABLE_BBOX INNER JOIN ST_NHANVIEN ON IT_TABLE_BBOX.NV_MA = ST_NHANVIEN.NV_MA WHERE IT_TABLE_BBOX.NAM = '" & obj.NAM & "'"
+        End If
+        'B
+        If obj.ChonBang = 6 Then
+            strSQL = " SELECT STT=0, ST_NHANVIEN.NV_TEN,ST_NHANVIEN.NV_NGAYVAO ,NAM ,NU,ST_NHANVIEN.NV_MA,ST_NHANVIEN.DV_MA,"
+            strSQL = strSQL + " ST_NHANVIEN.NV_NGAYSINH, NV_SOTHANG,BBN,BBA ,BBB,BBC ,BBD,BBOX,BBHS,SONGAYOO,SONGAYRO,SONGAYCO,SONGAYO,"
+            strSQL = strSQL + " SONGAYOTC,SONGAYP ,SONGAYKTHAI,SONGAYR,SONGAYS,SONGAYNO,SONGAYKHHGD,SONGAYQS,SONGAYTSAN,"
+            strSQL = strSQL + " SONGAYTNLD,SONGAYDQ,SONGAYDS,SONGAYST FROM IT_TABLE_BBB INNER JOIN ST_NHANVIEN ON IT_TABLE_BBB.NV_MA = ST_NHANVIEN.NV_MA WHERE IT_TABLE_BBB.NAM = '" & obj.NAM & "' "
+        End If
+        'toan bo
+        If obj.ChonBang = 7 Then
+            strSQL = " SELECT STT=0, ST_NHANVIEN.NV_TEN,ST_NHANVIEN.NV_NGAYVAO ,NAM ,NU,ST_NHANVIEN.NV_MA,ST_NHANVIEN.DV_MA,"
+            strSQL = strSQL + " ST_NHANVIEN.NV_NGAYSINH, ST_NHANVIEN.NV_SOTHANG,BBN,BBA ,BBB,BBC ,BBD,BBOX,BBHS,SONGAYOO,SONGAYRO,SONGAYCO,SONGAYO,"
+            strSQL = strSQL + " SONGAYOTC,SONGAYP ,SONGAYKTHAI,SONGAYR,SONGAYS,SONGAYNO,SONGAYKHHGD,SONGAYQS,SONGAYTSAN,"
+            strSQL = strSQL + " SONGAYTNLD,SONGAYDQ,SONGAYDS,SONGAYST FROM (SELECT STT=0, NV_TEN,NV_NGAYVAO ,NAM ,NU,NV_MA,DV_MA,"
+            strSQL = strSQL + " NV_NGAYSINH,BBN,BBA ,BBB,BBC ,BBD,BBOX,BBHS,SONGAYOO,SONGAYRO,SONGAYCO,SONGAYO,"
+            strSQL = strSQL + " SONGAYOTC,SONGAYP ,SONGAYKTHAI,SONGAYR,SONGAYS,SONGAYNO,SONGAYKHHGD,SONGAYQS,SONGAYTSAN,"
+            strSQL = strSQL + " SONGAYTNLD,SONGAYDQ,SONGAYDS,SONGAYST FROM IT_TABLE_BBA "
+            strSQL = strSQL + " UNION"
+            strSQL = strSQL + " SELECT STT=0, NV_TEN,NV_NGAYVAO ,NAM ,NU,NV_MA,DV_MA,"
+            strSQL = strSQL + " NV_NGAYSINH,BBN,BBA ,BBB,BBC ,BBD,BBOX,BBHS,SONGAYOO,SONGAYRO,SONGAYCO,SONGAYO,"
+            strSQL = strSQL + " SONGAYOTC,SONGAYP ,SONGAYKTHAI,SONGAYR,SONGAYS,SONGAYNO,SONGAYKHHGD,SONGAYQS,SONGAYTSAN,"
+            strSQL = strSQL + " SONGAYTNLD,SONGAYDQ,SONGAYDS,SONGAYST FROM IT_TABLE_BBANEW"
+            strSQL = strSQL + " UNION"
+            strSQL = strSQL + " SELECT STT=0, NV_TEN,NV_NGAYVAO ,NAM ,NU,NV_MA,DV_MA,"
+            strSQL = strSQL + " NV_NGAYSINH,BBN,BBA ,BBB,BBC ,BBD,BBOX,BBHS,SONGAYOO,SONGAYRO,SONGAYCO,SONGAYO,"
+            strSQL = strSQL + " SONGAYOTC,SONGAYP ,SONGAYKTHAI,SONGAYR,SONGAYS,SONGAYNO,SONGAYKHHGD,SONGAYQS,SONGAYTSAN,"
+            strSQL = strSQL + " SONGAYTNLD,SONGAYDQ,SONGAYDS,SONGAYST FROM IT_TABLE_BBC"
+            strSQL = strSQL + " UNION"
+            strSQL = strSQL + " SELECT STT=0, NV_TEN,NV_NGAYVAO ,NAM ,NU,NV_MA,DV_MA,"
+            strSQL = strSQL + " NV_NGAYSINH,BBN,BBA ,BBB,BBC ,BBD,BBOX,BBHS,SONGAYOO,SONGAYRO,SONGAYCO,SONGAYO,"
+            strSQL = strSQL + " SONGAYOTC,SONGAYP ,SONGAYKTHAI,SONGAYR,SONGAYS,SONGAYNO,SONGAYKHHGD,SONGAYQS,SONGAYTSAN,"
+            strSQL = strSQL + " SONGAYTNLD,SONGAYDQ,SONGAYDS,SONGAYST FROM IT_TABLE_BBCNEW"
+            strSQL = strSQL + " UNION"
+            strSQL = strSQL + " SELECT STT=0, NV_TEN,NV_NGAYVAO ,NAM ,NU,NV_MA,DV_MA,"
+            strSQL = strSQL + " NV_NGAYSINH,BBN,BBA ,BBB,BBC ,BBD,BBOX,BBHS,SONGAYOO,SONGAYRO,SONGAYCO,SONGAYO,"
+            strSQL = strSQL + " SONGAYOTC,SONGAYP ,SONGAYKTHAI,SONGAYR,SONGAYS,SONGAYNO,SONGAYKHHGD,SONGAYQS,SONGAYTSAN,"
+            strSQL = strSQL + " SONGAYTNLD,SONGAYDQ,SONGAYDS,SONGAYST FROM IT_TABLE_BBOX"
+            strSQL = strSQL + " UNION"
+            strSQL = strSQL + " SELECT STT=0, NV_TEN,NV_NGAYVAO ,NAM ,NU,NV_MA,DV_MA,"
+            strSQL = strSQL + " NV_NGAYSINH,BBN,BBA ,BBB,BBC ,BBD,BBOX,BBHS,SONGAYOO,SONGAYRO,SONGAYCO,SONGAYO,"
+            strSQL = strSQL + " SONGAYOTC,SONGAYP ,SONGAYKTHAI,SONGAYR,SONGAYS,SONGAYNO,SONGAYKHHGD,SONGAYQS,SONGAYTSAN,"
+            strSQL = strSQL + " SONGAYTNLD,SONGAYDQ,SONGAYDS,SONGAYST FROM IT_TABLE_BBB) AS BB "
+            strSQL = strSQL + " INNER JOIN ST_NHANVIEN ON BB.NV_MA = ST_NHANVIEN.NV_MA  "
+            strSQL = strSQL + " WHERE ST_NHANVIEN.DV_MA NOT LIKE 'BGD%' AND ST_NHANVIEN.DV_MA NOT LIKE 'CG%' AND ST_NHANVIEN.DV_MA NOT LIKE 'NV%' AND BB.NAM = '" & obj.NAM & "'"
+            strSQL = strSQL + " ORDER BY  ST_NHANVIEN.NV_MA"
+        End If
+        If obj.ChonBang = 77 Then
+            strSQL = " SELECT STT=0, ST_NHANVIEN.NV_TEN,ST_NHANVIEN.NV_NGAYVAO ,NAM ,NU,ST_NHANVIEN.NV_MA,ST_NHANVIEN.DV_MA,"
+            strSQL = strSQL + " ST_NHANVIEN.NV_NGAYSINH, ST_NHANVIEN.NV_SOTHANG,BBN,BBA ,BBB,BBC ,BBD,BBOX,BBHS,SONGAYOO,SONGAYRO,SONGAYCO,SONGAYO,"
+            strSQL = strSQL + " SONGAYOTC,SONGAYP ,SONGAYKTHAI,SONGAYR,SONGAYS,SONGAYNO,SONGAYKHHGD,SONGAYQS,SONGAYTSAN,"
+            strSQL = strSQL + " SONGAYTNLD,SONGAYDQ,SONGAYDS,SONGAYST FROM (SELECT STT=0, NV_TEN,NV_NGAYVAO ,NAM ,NU,NV_MA,DV_MA,"
+            strSQL = strSQL + " NV_NGAYSINH,BBN,BBA ,BBB,BBC ,BBD,BBOX,BBHS,SONGAYOO,SONGAYRO,SONGAYCO,SONGAYO,"
+            strSQL = strSQL + " SONGAYOTC,SONGAYP ,SONGAYKTHAI,SONGAYR,SONGAYS,SONGAYNO,SONGAYKHHGD,SONGAYQS,SONGAYTSAN,"
+            strSQL = strSQL + " SONGAYTNLD,SONGAYDQ,SONGAYDS,SONGAYST FROM IT_TABLE_BBA "
+            strSQL = strSQL + " UNION"
+            strSQL = strSQL + " SELECT STT=0, NV_TEN,NV_NGAYVAO ,NAM ,NU,NV_MA,DV_MA,"
+            strSQL = strSQL + " NV_NGAYSINH,BBN,BBA ,BBB,BBC ,BBD,BBOX,BBHS,SONGAYOO,SONGAYRO,SONGAYCO,SONGAYO,"
+            strSQL = strSQL + " SONGAYOTC,SONGAYP ,SONGAYKTHAI,SONGAYR,SONGAYS,SONGAYNO,SONGAYKHHGD,SONGAYQS,SONGAYTSAN,"
+            strSQL = strSQL + " SONGAYTNLD,SONGAYDQ,SONGAYDS,SONGAYST FROM IT_TABLE_BBANEW"
+            strSQL = strSQL + " UNION"
+            strSQL = strSQL + " SELECT STT=0, NV_TEN,NV_NGAYVAO ,NAM ,NU,NV_MA,DV_MA,"
+            strSQL = strSQL + " NV_NGAYSINH,BBN,BBA ,BBB,BBC ,BBD,BBOX,BBHS,SONGAYOO,SONGAYRO,SONGAYCO,SONGAYO,"
+            strSQL = strSQL + " SONGAYOTC,SONGAYP ,SONGAYKTHAI,SONGAYR,SONGAYS,SONGAYNO,SONGAYKHHGD,SONGAYQS,SONGAYTSAN,"
+            strSQL = strSQL + " SONGAYTNLD,SONGAYDQ,SONGAYDS,SONGAYST FROM IT_TABLE_BBC"
+            strSQL = strSQL + " UNION"
+            strSQL = strSQL + " SELECT STT=0, NV_TEN,NV_NGAYVAO ,NAM ,NU,NV_MA,DV_MA,"
+            strSQL = strSQL + " NV_NGAYSINH,BBN,BBA ,BBB,BBC ,BBD,BBOX,BBHS,SONGAYOO,SONGAYRO,SONGAYCO,SONGAYO,"
+            strSQL = strSQL + " SONGAYOTC,SONGAYP ,SONGAYKTHAI,SONGAYR,SONGAYS,SONGAYNO,SONGAYKHHGD,SONGAYQS,SONGAYTSAN,"
+            strSQL = strSQL + " SONGAYTNLD,SONGAYDQ,SONGAYDS,SONGAYST FROM IT_TABLE_BBCNEW"
+            strSQL = strSQL + " UNION"
+            strSQL = strSQL + " SELECT STT=0, NV_TEN,NV_NGAYVAO ,NAM ,NU,NV_MA,DV_MA,"
+            strSQL = strSQL + " NV_NGAYSINH,BBN,BBA ,BBB,BBC ,BBD,BBOX,BBHS,SONGAYOO,SONGAYRO,SONGAYCO,SONGAYO,"
+            strSQL = strSQL + " SONGAYOTC,SONGAYP ,SONGAYKTHAI,SONGAYR,SONGAYS,SONGAYNO,SONGAYKHHGD,SONGAYQS,SONGAYTSAN,"
+            strSQL = strSQL + " SONGAYTNLD,SONGAYDQ,SONGAYDS,SONGAYST FROM IT_TABLE_BBOX"
+            strSQL = strSQL + " UNION"
+            strSQL = strSQL + " SELECT STT=0, NV_TEN,NV_NGAYVAO ,NAM ,NU,NV_MA,DV_MA,"
+            strSQL = strSQL + " NV_NGAYSINH,BBN,BBA ,BBB,BBC ,BBD,BBOX,BBHS,SONGAYOO,SONGAYRO,SONGAYCO,SONGAYO,"
+            strSQL = strSQL + " SONGAYOTC,SONGAYP ,SONGAYKTHAI,SONGAYR,SONGAYS,SONGAYNO,SONGAYKHHGD,SONGAYQS,SONGAYTSAN,"
+            strSQL = strSQL + " SONGAYTNLD,SONGAYDQ,SONGAYDS,SONGAYST FROM IT_TABLE_BBB) AS BB "
+            strSQL = strSQL + " INNER JOIN ST_NHANVIEN ON BB.NV_MA = ST_NHANVIEN.NV_MA  "
+            strSQL = strSQL + " WHERE ST_NHANVIEN.DV_MA NOT IN ('T','T01','T02','T03','T04') AND ST_NHANVIEN.DV_MA NOT LIKE 'B%'   AND BB.NAM = '" & obj.NAM & "'"
+            strSQL = strSQL + " ORDER BY  ST_NHANVIEN.NV_MA"
+        End If
+        If obj.ChonBang = 777 Then
+            strSQL = " SELECT STT=0, ST_NHANVIEN.NV_TEN,ST_NHANVIEN.NV_NGAYVAO ,NAM ,NU,ST_NHANVIEN.NV_MA,ST_NHANVIEN.DV_MA,"
+            strSQL = strSQL + " ST_NHANVIEN.NV_NGAYSINH, ST_NHANVIEN.NV_SOTHANG,BBN,BBA ,BBB,BBC ,BBD,BBOX,BBHS,SONGAYOO,SONGAYRO,SONGAYCO,SONGAYO,"
+            strSQL = strSQL + " SONGAYOTC,SONGAYP ,SONGAYKTHAI,SONGAYR,SONGAYS,SONGAYNO,SONGAYKHHGD,SONGAYQS,SONGAYTSAN,"
+            strSQL = strSQL + " SONGAYTNLD,SONGAYDQ,SONGAYDS,SONGAYST FROM (SELECT STT=0, NV_TEN,NV_NGAYVAO ,NAM ,NU,NV_MA,DV_MA,"
+            strSQL = strSQL + " NV_NGAYSINH,BBN,BBA ,BBB,BBC ,BBD,BBOX,BBHS,SONGAYOO,SONGAYRO,SONGAYCO,SONGAYO,"
+            strSQL = strSQL + " SONGAYOTC,SONGAYP ,SONGAYKTHAI,SONGAYR,SONGAYS,SONGAYNO,SONGAYKHHGD,SONGAYQS,SONGAYTSAN,"
+            strSQL = strSQL + " SONGAYTNLD,SONGAYDQ,SONGAYDS,SONGAYST FROM IT_TABLE_BBA "
+            strSQL = strSQL + " UNION"
+            strSQL = strSQL + " SELECT STT=0, NV_TEN,NV_NGAYVAO ,NAM ,NU,NV_MA,DV_MA,"
+            strSQL = strSQL + " NV_NGAYSINH,BBN,BBA ,BBB,BBC ,BBD,BBOX,BBHS,SONGAYOO,SONGAYRO,SONGAYCO,SONGAYO,"
+            strSQL = strSQL + " SONGAYOTC,SONGAYP ,SONGAYKTHAI,SONGAYR,SONGAYS,SONGAYNO,SONGAYKHHGD,SONGAYQS,SONGAYTSAN,"
+            strSQL = strSQL + " SONGAYTNLD,SONGAYDQ,SONGAYDS,SONGAYST FROM IT_TABLE_BBANEW"
+            strSQL = strSQL + " UNION"
+            strSQL = strSQL + " SELECT STT=0, NV_TEN,NV_NGAYVAO ,NAM ,NU,NV_MA,DV_MA,"
+            strSQL = strSQL + " NV_NGAYSINH,BBN,BBA ,BBB,BBC ,BBD,BBOX,BBHS,SONGAYOO,SONGAYRO,SONGAYCO,SONGAYO,"
+            strSQL = strSQL + " SONGAYOTC,SONGAYP ,SONGAYKTHAI,SONGAYR,SONGAYS,SONGAYNO,SONGAYKHHGD,SONGAYQS,SONGAYTSAN,"
+            strSQL = strSQL + " SONGAYTNLD,SONGAYDQ,SONGAYDS,SONGAYST FROM IT_TABLE_BBC"
+            strSQL = strSQL + " UNION"
+            strSQL = strSQL + " SELECT STT=0, NV_TEN,NV_NGAYVAO ,NAM ,NU,NV_MA,DV_MA,"
+            strSQL = strSQL + " NV_NGAYSINH,BBN,BBA ,BBB,BBC ,BBD,BBOX,BBHS,SONGAYOO,SONGAYRO,SONGAYCO,SONGAYO,"
+            strSQL = strSQL + " SONGAYOTC,SONGAYP ,SONGAYKTHAI,SONGAYR,SONGAYS,SONGAYNO,SONGAYKHHGD,SONGAYQS,SONGAYTSAN,"
+            strSQL = strSQL + " SONGAYTNLD,SONGAYDQ,SONGAYDS,SONGAYST FROM IT_TABLE_BBCNEW"
+            strSQL = strSQL + " UNION"
+            strSQL = strSQL + " SELECT STT=0, NV_TEN,NV_NGAYVAO ,NAM ,NU,NV_MA,DV_MA,"
+            strSQL = strSQL + " NV_NGAYSINH,BBN,BBA ,BBB,BBC ,BBD,BBOX,BBHS,SONGAYOO,SONGAYRO,SONGAYCO,SONGAYO,"
+            strSQL = strSQL + " SONGAYOTC,SONGAYP ,SONGAYKTHAI,SONGAYR,SONGAYS,SONGAYNO,SONGAYKHHGD,SONGAYQS,SONGAYTSAN,"
+            strSQL = strSQL + " SONGAYTNLD,SONGAYDQ,SONGAYDS,SONGAYST FROM IT_TABLE_BBOX"
+            strSQL = strSQL + " UNION"
+            strSQL = strSQL + " SELECT STT=0, NV_TEN,NV_NGAYVAO ,NAM ,NU,NV_MA,DV_MA,"
+            strSQL = strSQL + " NV_NGAYSINH,BBN,BBA ,BBB,BBC ,BBD,BBOX,BBHS,SONGAYOO,SONGAYRO,SONGAYCO,SONGAYO,"
+            strSQL = strSQL + " SONGAYOTC,SONGAYP ,SONGAYKTHAI,SONGAYR,SONGAYS,SONGAYNO,SONGAYKHHGD,SONGAYQS,SONGAYTSAN,"
+            strSQL = strSQL + " SONGAYTNLD,SONGAYDQ,SONGAYDS,SONGAYST FROM IT_TABLE_BBB) AS BB "
+            strSQL = strSQL + " INNER JOIN ST_NHANVIEN ON BB.NV_MA = ST_NHANVIEN.NV_MA  "
+            strSQL = strSQL + " WHERE ST_NHANVIEN.DV_MA NOT IN ('T','T01','T02','T03','T04') AND ST_NHANVIEN.DV_MA LIKE 'B%'  AND BB.NAM = '" & obj.NAM & "'"
+            strSQL = strSQL + " ORDER BY  ST_NHANVIEN.NV_MA"
+        End If
+        If obj.ChonBang = 8 Then
+            strSQL = "SELECT STT=0,[NV_MA]" & _
+                     ",[Tháng năm]=[T_MA]" & _
+                     ",[Mã BB]=ISNULL([BB_MA],0)" & _
+                     ",[OO]=ISNULL([BB_SoNgayOO],0)" & _
+                     ",[RO]=ISNULL([BB_SoNgayRO],0)" & _
+                     ",[CO]=ISNULL([BB_SoNgayCO],0)" & _
+                     ",[O]=ISNULL([BB_SoNgayO],0)" & _
+                     ",[OTC]=ISNULL([BB_SoNgayOTC],0)" & _
+                     ",[P]=ISNULL([BB_SoNgayP],0)" & _
+                     ",[KT]=ISNULL([BB_SoNgayKThai],0)" & _
+                     ",[R]=ISNULL([BB_SoNgayR],0)" & _
+                     ",[S]=ISNULL([BB_SoNgayS],0)" & _
+                     ",[NO]=ISNULL([BB_SoNgayNo],0)" & _
+                     ",[KHHGD]=ISNULL([BB_SoNgayKHHGD],0)" & _
+                     ",[QS]=ISNULL([BB_SoNgayQS],0)" & _
+                     ",[TS]=ISNULL([BB_SoNgayTSan],0)" & _
+                     ",[TNLD]=ISNULL([BB_SoNgayTNLD],0)" & _
+                     ",[DQ]=ISNULL([BB_SoNgayDQ],0)" & _
+                     ",[DS]=ISNULL([BB_SoNgayDS],0)" & _
+                     ",[ST]=ISNULL([BB_SoNgayST],0)" & _
+                     "FROM IT_TABLE_BBCT WHERE NAM = '" & obj.NAM & "' ORDER BY NV_MA"
+        End If
+        If obj.ChonBang = 9 Then
+            strSQL = " SELECT * FROM ST_BINHBAUNAM WHERE BB_NAM = '" & obj.NAM & "'"
+        End If
+        If obj.ChonBang = 10 Then
+            strSQL = " INSERT INTO ST_BINHBAUNAM"
+            strSQL = strSQL + " ("
+            strSQL = strSQL + " NV_MA,"
+            strSQL = strSQL + " BB_NAM ,"
+            strSQL = strSQL + " DV_MA ,"
+            strSQL = strSQL + " BB_MA,"
+            strSQL = strSQL + " BB_SONGAYOO ,"
+            strSQL = strSQL + " BB_SONGAYRO ,"
+            strSQL = strSQL + " BB_SONGAYCO , "
+            strSQL = strSQL + " BB_SONGAYO ,"
+            strSQL = strSQL + " BB_SONGAYOTC ,"
+            strSQL = strSQL + " BB_SONGAYP ,"
+            strSQL = strSQL + " BB_SONGAYKTHAI ,"
+            strSQL = strSQL + " BB_SONGAYR ,"
+            strSQL = strSQL + " BB_SONGAYS ,"
+            strSQL = strSQL + " BB_SONGAYNO ,"
+            strSQL = strSQL + " BB_SONGAYKHHGD ,"
+            strSQL = strSQL + " BB_SONGAYQS ,"
+            strSQL = strSQL + " BB_SONGAYTSAN ,"
+            strSQL = strSQL + " BB_SONGAYTNLD ,"
+            strSQL = strSQL + " BB_SONGAYDQ ,"
+            strSQL = strSQL + " BB_SONGAYDS ,"
+            strSQL = strSQL + " BB_SONGAYST"
+            strSQL = strSQL + " )"
+            strSQL = strSQL + " SELECT ST_NHANVIEN.NV_MA,"
+            strSQL = strSQL + " BB_NAM = '" & obj.NAM & "',"
+            strSQL = strSQL + " ST_NHANVIEN.DV_MA ,"
+            strSQL = strSQL + " BB_MA = BBN,"
+            strSQL = strSQL + " BB_SONGAYOO = SONGAYOO,"
+            strSQL = strSQL + " BB_SONGAYRO = SONGAYRO,"
+            strSQL = strSQL + " BB_SONGAYCO = SONGAYCO, "
+            strSQL = strSQL + " BB_SONGAYO = SONGAYO,"
+            strSQL = strSQL + " BB_SONGAYOTC = SONGAYOTC,"
+            strSQL = strSQL + " BB_SONGAYP = SONGAYP,"
+            strSQL = strSQL + " BB_SONGAYKTHAI = SONGAYKTHAI,"
+            strSQL = strSQL + " BB_SONGAYR = SONGAYR,"
+            strSQL = strSQL + " BB_SONGAYS = SONGAYS,"
+            strSQL = strSQL + " BB_SONGAYNO = SONGAYNO,"
+            strSQL = strSQL + " BB_SONGAYKHHGD = SONGAYKHHGD,"
+            strSQL = strSQL + " BB_SONGAYQS = SONGAYQS,"
+            strSQL = strSQL + " BB_SONGAYTSAN = SONGAYTSAN,"
+            strSQL = strSQL + " BB_SONGAYTNLD = SONGAYTNLD,"
+            strSQL = strSQL + " BB_SONGAYDQ = SONGAYDQ,"
+            strSQL = strSQL + " BB_SONGAYDS =  SONGAYDS,"
+            strSQL = strSQL + " BB_SONGAYST = SONGAYST"
+            strSQL = strSQL + " FROM"
+            strSQL = strSQL + " (SELECT STT=0, NV_TEN,NV_NGAYVAO ,NAM ,NU,NV_MA,DV_MA,"
+            strSQL = strSQL + " NV_NGAYSINH,BBN,BBA ,BBB,BBC ,BBD,BBOX,BBHS,SONGAYOO,SONGAYRO,SONGAYCO,SONGAYO,"
+            strSQL = strSQL + " SONGAYOTC,SONGAYP ,SONGAYKTHAI,SONGAYR,SONGAYS,SONGAYNO,SONGAYKHHGD,SONGAYQS,SONGAYTSAN,"
+            strSQL = strSQL + " SONGAYTNLD,SONGAYDQ,SONGAYDS,SONGAYST FROM IT_TABLE_BBA "
+            strSQL = strSQL + " UNION"
+            strSQL = strSQL + " SELECT STT=0, NV_TEN,NV_NGAYVAO ,NAM ,NU,NV_MA,DV_MA,"
+            strSQL = strSQL + " NV_NGAYSINH,BBN,BBA ,BBB,BBC ,BBD,BBOX,BBHS,SONGAYOO,SONGAYRO,SONGAYCO,SONGAYO,"
+            strSQL = strSQL + " SONGAYOTC,SONGAYP ,SONGAYKTHAI,SONGAYR,SONGAYS,SONGAYNO,SONGAYKHHGD,SONGAYQS,SONGAYTSAN,"
+            strSQL = strSQL + " SONGAYTNLD,SONGAYDQ,SONGAYDS,SONGAYST FROM IT_TABLE_BBANEW"
+            strSQL = strSQL + " UNION"
+            strSQL = strSQL + " SELECT STT=0, NV_TEN,NV_NGAYVAO ,NAM ,NU,NV_MA,DV_MA,"
+            strSQL = strSQL + " NV_NGAYSINH,BBN,BBA ,BBB,BBC ,BBD,BBOX,BBHS,SONGAYOO,SONGAYRO,SONGAYCO,SONGAYO,"
+            strSQL = strSQL + " SONGAYOTC,SONGAYP ,SONGAYKTHAI,SONGAYR,SONGAYS,SONGAYNO,SONGAYKHHGD,SONGAYQS,SONGAYTSAN,"
+            strSQL = strSQL + " SONGAYTNLD,SONGAYDQ,SONGAYDS,SONGAYST FROM IT_TABLE_BBC"
+            strSQL = strSQL + " UNION"
+            strSQL = strSQL + " SELECT STT=0, NV_TEN,NV_NGAYVAO ,NAM ,NU,NV_MA,DV_MA,"
+            strSQL = strSQL + " NV_NGAYSINH,BBN,BBA ,BBB,BBC ,BBD,BBOX,BBHS,SONGAYOO,SONGAYRO,SONGAYCO,SONGAYO,"
+            strSQL = strSQL + " SONGAYOTC,SONGAYP ,SONGAYKTHAI,SONGAYR,SONGAYS,SONGAYNO,SONGAYKHHGD,SONGAYQS,SONGAYTSAN,"
+            strSQL = strSQL + " SONGAYTNLD,SONGAYDQ,SONGAYDS,SONGAYST FROM IT_TABLE_BBCNEW"
+            strSQL = strSQL + " UNION"
+            strSQL = strSQL + " SELECT STT=0, NV_TEN,NV_NGAYVAO ,NAM ,NU,NV_MA,DV_MA,"
+            strSQL = strSQL + " NV_NGAYSINH,BBN,BBA ,BBB,BBC ,BBD,BBOX,BBHS,SONGAYOO,SONGAYRO,SONGAYCO,SONGAYO,"
+            strSQL = strSQL + " SONGAYOTC,SONGAYP ,SONGAYKTHAI,SONGAYR,SONGAYS,SONGAYNO,SONGAYKHHGD,SONGAYQS,SONGAYTSAN,"
+            strSQL = strSQL + " SONGAYTNLD,SONGAYDQ,SONGAYDS,SONGAYST FROM IT_TABLE_BBOX"
+            strSQL = strSQL + " UNION"
+            strSQL = strSQL + " SELECT STT=0, NV_TEN,NV_NGAYVAO ,NAM ,NU,NV_MA,DV_MA,"
+            strSQL = strSQL + " NV_NGAYSINH,BBN,BBA ,BBB,BBC ,BBD,BBOX,BBHS,SONGAYOO,SONGAYRO,SONGAYCO,SONGAYO,"
+            strSQL = strSQL + " SONGAYOTC,SONGAYP ,SONGAYKTHAI,SONGAYR,SONGAYS,SONGAYNO,SONGAYKHHGD,SONGAYQS,SONGAYTSAN,"
+            strSQL = strSQL + " SONGAYTNLD,SONGAYDQ,SONGAYDS,SONGAYST FROM IT_TABLE_BBB ) AS A"
+            strSQL = strSQL + " INNER JOIN ST_NHANVIEN ON A.NV_MA = ST_NHANVIEN.NV_MA"
+            strSQL = strSQL + " WHERE ST_NHANVIEN.DV_MA NOT IN ('NV','NV01','NV02','NV03','T','T01','T02','T03','A1MDT','A2MDT') AND A.NAM = '" & obj.NAM & "'"
+        End If
+        If obj.ChonBang = 11 Then
+            strSQL = ("select DV_MA, DV_MA AS TEN_DV FROM ST_DONVI WHERE  DV_MA <> 'CNM' order by dv_ma ")
+        End If
+        If obj.ChonBang = 12 Then
+            strSQL = ("select X_MA_ FROM ST_DONVI WHERE  DV_MA <> 'CNM' GROUP BY X_MA_ order by x_ma_ ")
+        End If
+        If obj.ChonBang = 13 Then
+            strSQL = " SELECT STT=0, ST_NHANVIEN.NV_TEN,ST_NHANVIEN.NV_NGAYVAO ,NAM ,NU,ST_NHANVIEN.NV_MA,ST_NHANVIEN.DV_MA,"
+            strSQL = strSQL + " ST_NHANVIEN.NV_NGAYSINH, ST_NHANVIEN.NV_SOTHANG,BBN,BBA ,BBB,BBC ,BBD,BBOX,BBHS,SONGAYOO,SONGAYRO,SONGAYCO,SONGAYO,"
+            strSQL = strSQL + " SONGAYOTC,SONGAYP ,SONGAYKTHAI,SONGAYR,SONGAYS,SONGAYNO,SONGAYKHHGD,SONGAYQS,SONGAYTSAN,"
+            strSQL = strSQL + " SONGAYTNLD,SONGAYDQ,SONGAYDS,SONGAYST FROM (SELECT STT=0, NV_TEN,NV_NGAYVAO ,NAM ,NU,NV_MA,DV_MA,"
+            strSQL = strSQL + " NV_NGAYSINH,BBN,BBA ,BBB,BBC ,BBD,BBOX,BBHS,SONGAYOO,SONGAYRO,SONGAYCO,SONGAYO,"
+            strSQL = strSQL + " SONGAYOTC,SONGAYP ,SONGAYKTHAI,SONGAYR,SONGAYS,SONGAYNO,SONGAYKHHGD,SONGAYQS,SONGAYTSAN,"
+            strSQL = strSQL + " SONGAYTNLD,SONGAYDQ,SONGAYDS,SONGAYST FROM IT_TABLE_BBA "
+            strSQL = strSQL + " UNION"
+            strSQL = strSQL + " SELECT STT=0, NV_TEN,NV_NGAYVAO ,NAM ,NU,NV_MA,DV_MA,"
+            strSQL = strSQL + " NV_NGAYSINH,BBN,BBA ,BBB,BBC ,BBD,BBOX,BBHS,SONGAYOO,SONGAYRO,SONGAYCO,SONGAYO,"
+            strSQL = strSQL + " SONGAYOTC,SONGAYP ,SONGAYKTHAI,SONGAYR,SONGAYS,SONGAYNO,SONGAYKHHGD,SONGAYQS,SONGAYTSAN,"
+            strSQL = strSQL + " SONGAYTNLD,SONGAYDQ,SONGAYDS,SONGAYST FROM IT_TABLE_BBANEW"
+            strSQL = strSQL + " UNION"
+            strSQL = strSQL + " SELECT STT=0, NV_TEN,NV_NGAYVAO ,NAM ,NU,NV_MA,DV_MA,"
+            strSQL = strSQL + " NV_NGAYSINH,BBN,BBA ,BBB,BBC ,BBD,BBOX,BBHS,SONGAYOO,SONGAYRO,SONGAYCO,SONGAYO,"
+            strSQL = strSQL + " SONGAYOTC,SONGAYP ,SONGAYKTHAI,SONGAYR,SONGAYS,SONGAYNO,SONGAYKHHGD,SONGAYQS,SONGAYTSAN,"
+            strSQL = strSQL + " SONGAYTNLD,SONGAYDQ,SONGAYDS,SONGAYST FROM IT_TABLE_BBC"
+            strSQL = strSQL + " UNION"
+            strSQL = strSQL + " SELECT STT=0, NV_TEN,NV_NGAYVAO ,NAM ,NU,NV_MA,DV_MA,"
+            strSQL = strSQL + " NV_NGAYSINH,BBN,BBA ,BBB,BBC ,BBD,BBOX,BBHS,SONGAYOO,SONGAYRO,SONGAYCO,SONGAYO,"
+            strSQL = strSQL + " SONGAYOTC,SONGAYP ,SONGAYKTHAI,SONGAYR,SONGAYS,SONGAYNO,SONGAYKHHGD,SONGAYQS,SONGAYTSAN,"
+            strSQL = strSQL + " SONGAYTNLD,SONGAYDQ,SONGAYDS,SONGAYST FROM IT_TABLE_BBCNEW"
+            strSQL = strSQL + " UNION"
+            strSQL = strSQL + " SELECT STT=0, NV_TEN,NV_NGAYVAO ,NAM ,NU,NV_MA,DV_MA,"
+            strSQL = strSQL + " NV_NGAYSINH,BBN,BBA ,BBB,BBC ,BBD,BBOX,BBHS,SONGAYOO,SONGAYRO,SONGAYCO,SONGAYO,"
+            strSQL = strSQL + " SONGAYOTC,SONGAYP ,SONGAYKTHAI,SONGAYR,SONGAYS,SONGAYNO,SONGAYKHHGD,SONGAYQS,SONGAYTSAN,"
+            strSQL = strSQL + " SONGAYTNLD,SONGAYDQ,SONGAYDS,SONGAYST FROM IT_TABLE_BBOX"
+            strSQL = strSQL + " UNION"
+            strSQL = strSQL + " SELECT STT=0, NV_TEN,NV_NGAYVAO ,NAM ,NU,NV_MA,DV_MA,"
+            strSQL = strSQL + " NV_NGAYSINH,BBN,BBA ,BBB,BBC ,BBD,BBOX,BBHS,SONGAYOO,SONGAYRO,SONGAYCO,SONGAYO,"
+            strSQL = strSQL + " SONGAYOTC,SONGAYP ,SONGAYKTHAI,SONGAYR,SONGAYS,SONGAYNO,SONGAYKHHGD,SONGAYQS,SONGAYTSAN,"
+            strSQL = strSQL + " SONGAYTNLD,SONGAYDQ,SONGAYDS,SONGAYST FROM IT_TABLE_BBB) AS BB "
+            strSQL = strSQL + " INNER JOIN ST_NHANVIEN ON BB.NV_MA = ST_NHANVIEN.NV_MA  "
+            strSQL = strSQL + " WHERE"
+            ' ST_NHANVIEN .NV_Ma  IN (SELECT NV_Ma FROM ST_NHANVIENNGHIPHEP WHERE NP_MA = 'TS'"
+            'strSQL = strSQL + " AND NP_TuNgay <= '2014-01-25'"
+            'strSQL = strSQL + " AND NP_DenNgay>= '2014-01-25')"
+            'strSQL = strSQL + " AND "
+            strSQL = strSQL + " ST_NHANVIEN.DV_MA NOT IN ('T','T01','T02','T03','T04') AND BB.NAM = '" & obj.NAM & "' "
+            strSQL = strSQL + " ORDER BY  ST_NHANVIEN.NV_MA"
+        End If
+        Try
+            table = Me.getTableSQL(strSQL)
+        Catch exception1 As Exception
+            ProjectData.SetProjectError(exception1)
+            Dim exception As Exception = exception1
+            MessageBox.Show(exception.Message)
+            table = Nothing
+            ProjectData.ClearProjectError()
+        End Try
+        Return table
+    End Function
+    Public Function QuoteString(ByVal s As String) As String
+        Return s.Replace("'", "''")
+    End Function
+
+    Public Function UpdateInfo(ByVal obj As objBinhBauA) As Boolean
+        Dim flag As Boolean
+        Dim strSQL As String
+        If obj.ChonBang = 1 Then
+            'strSQL = "UPDATE ST_TAMUNG  SET TU_THUONGABC = " & Me.QuoteString(obj.SoTien) & " WHERE NV_MA = '" & Me.QuoteString(obj.NV_MA) & "' AND	T_MA =  '" & Me.QuoteString(obj.NamThang) & "'"
+        End If
+        If obj.ChonBang = 2 Then
+            'strSQL = "UPDATE [ST_GIOQUETTHE_]   SET [CC_SUATAN] = " + obj.ChamCom + " WHERE [QT_NGAY] = '" + obj.Ngay + "' AND	[NV_MA] =  '" + obj.NV_MA + "'"
+        End If
+        Try
+            flag = Me.execSQL(strSQL)
+        Catch exception1 As Exception
+            ProjectData.SetProjectError(exception1)
+            Dim exception As Exception = exception1
+            MessageBox.Show(exception.Message)
+            flag = False
+            ProjectData.ClearProjectError()
+        End Try
+        Return flag
+    End Function
+
+    Public Function DeleteInfo(ByVal obj As objBinhBauA) As Boolean
+        Dim strSQL As String
+        If obj.ChonBang = 1 Then
+            strSQL = "DELETE ST_BINHBAUNAM WHERE BB_NAM = '" & Me.QuoteString(obj.NAM) & "' "
+        End If
+        Return Me.execSQL(strSQL)
+    End Function
+
+    Public Function InsertInfo(ByVal obj As objBinhBauA) As Boolean
+        Dim flag As Boolean
+        Dim strSQL As String
+        If obj.ChonBang = 1 Then
+            'strSQL = ("INSERT INTO ST_KHOANCONGKHAC([NV_MA],[T_MA],[SOTIEN]) values(N'" & Me.QuoteString(obj.NV_MA) & "',N'" & Me.QuoteString(obj.NamThang) & "'," & Me.QuoteString(obj.SoTien) & ")")
+        End If
+        Try
+            flag = Me.execSQL(strSQL)
+        Catch exception1 As Exception
+            ProjectData.SetProjectError(exception1)
+            Dim exception As Exception = exception1
+            MessageBox.Show(exception.Message, "Th" & ChrW(244) & "ng b" & ChrW(225) & "o")
+            flag = False
+            ProjectData.ClearProjectError()
+        End Try
+        Return flag
+    End Function
+
+    Public Function GoiThuTuc(ByVal m_sSP_Name As String, ByVal m_listpar As ArrayList)
+        Me.execProc(m_sSP_Name, m_listpar)
+    End Function
+End Class

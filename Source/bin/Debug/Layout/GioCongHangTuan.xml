@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<form>
+	<attributes>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		
+	</attributes>
+
+	<controls>
+		<dgrchucvu>
+      <coldgrGioCongDV_Tuan tblColName="TUAN" title="Tuần" hide="false" formatCell="" width="50"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2" />
+
+      <coldgrGioCongDV_Tuan tblColName="NAM" title="Năm" hide="false" formatCell="" width="50"
+							HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3" />
+
+      <coldgrGioCongDV_Tuan tblColName="X_MA_" title="Xưởng 廠別" hide="false" formatCell="" width="50"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4" />
+
+      <coldgrGioCongDV_Tuan tblColName="N_MA" title="Mã Ngành" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5" />
+
+      <coldgrGioCongDV_Tuan tblColName="DV_Ma" title="Mã Đơn Vị 單位" hide="false" formatCell="" width="60"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="6" />
+
+      <coldgrGioCongDV_Tuan tblColName="DV_TEN" title="Tên Đơn Vị" hide="false" formatCell="" width="50"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="7" />
+
+      <coldgrGioCongDV_Tuan tblColName="TONGSOGIOBINHTHUONG" title="Tổng Giờ Bình Thường 正班工時" hide="false" formatCell="" width="180"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="8" />
+
+      <coldgrGioCongDV_Tuan tblColName="TONGSOGIOTANGCA" title="Tổng Giờ Tăng Ca 加班工時" hide="false" formatCell="" width="180"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="9" />
+
+      <coldgrGioCongDV_Tuan tblColName="TONGGIOCONG" title="Tổng Giờ Công 總工時" hide="false" formatCell="" width="180"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="10" />
+
+		</dgrchucvu>
+	</controls>
+</form>

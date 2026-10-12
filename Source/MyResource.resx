@@ -1,0 +1,699 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="1frmBangTheoDoiNgayPhepCuaCBCNV" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmBangThongKeKyLuat" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmBaocaochitietgiocong" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmBaocaogioconghangngay" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmBaoCaoGioCongNgay" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmBaocaogiocongxuong" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmBaoCaoGioVaoRa" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmBaoCaoMucLuong" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmBaoCaoTongHop" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmBBThang" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmBBThangchoCNV" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmBinhBauA" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmBinhBauChucVu" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmBinhBauNam_" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmBinhBauThang" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmCaLamViec" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmCapNhatCongViec" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmCapNhatHoSoNhanSu" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmCapnhatMSTSTK" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmCapNhatNhaXuong" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmCapNhatNVNgoaiNguPhienDich" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmCapNhatSoSoBH" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmCBCNV_VayVonNganHang" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmChamcongMain" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmChamCongTay" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmChuaKyHDLD" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmChucVu" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmChucVuDM" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmChungChiK" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmChuyenCongViec" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmChuyenDonVi" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmChuyenDV" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmChuyenMon" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmCongTac" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmCongViec" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmCongViecNNDH" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmCVHDLD" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmCVNhanVien" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmDanhSachCBCNVChuyenDonVi" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmDanhSachCBCNVDongBHXH" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmDanhSachCBCNVDonVi" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmDanhSachCBCNVNghiPhep" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmDanhSachCBCNVTheoChucVu" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmDanhSachCB_CNVBinhBauNam" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmDanhSachCB_CNVhethanHDLD" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmDanhSachCNNghiKhongPhepTheoThang" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmDanhSachCNNghiKPTheoNam" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmDanhSachCongViec" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmDanhSachHetHangHDKyLai" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmDanhSachNhanVienTheoTrinhDo" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmDanhSachNhanVienThoiViec" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmDanhSachNhanVienTrungTuyen" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmDanhSachNVChuaCoThe" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmDanToc" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmDaoTao" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmDBLPromaz" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmDBLuong" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmDiCaKhacThuong" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmDiemDanhHangNgay" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmDiemDanhHangNgay_Client" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmDienBienLuong" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmDieuChinhLuong" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmDiTre" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmDocHaiNangNhoc" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmDSCNKhongNghi" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmDSCNVKhongQuetTheVaoRa" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmDSCongNhanMay" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmEmployees" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmGioCongTieuChuanThang" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmGiocongtrong_ngoaitieuchuan" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmGioiTinh" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmGiotangcathang" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmGioVaoRa" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmHDLD" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmHieuChinhLuong" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmHocVan" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmHocVanDM" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmKhamBenhNgheNghiep" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmKhenThuong" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmKhenThuongDM" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmKhoanCongKhac" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmKhoanTruKhac" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmKhoanTruMobivi" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmKhoaSoLuong" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmKhongHuongPC" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmKhuVuc" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmKiemTraCMND" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmKiemTraPhepNam" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmKyHDSau1Thang" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmKyLuat" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmKyNang" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmLoaiBinhBau" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmLoaiHopDong" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmLoaiThoiViec" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmLuongThang" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmLyLichNhanVien" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmMayChamCong" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmNgayLe" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmNghiPhep" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmNgoaiNgu" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="2frmNguoiDung" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmNhanVienKyLuatNghiKhongPhep" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmNuoiConDuoi6Tuoi" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmPhepNam" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmPhepNamConLai" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmPhuCapKhac" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmPhuNuMangThai_KThai" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmQTKhacThuongLC_Thang" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmQTSaiQuiDinh" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmQTSaiQuiDinhBangTong" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmQuaTrinhDieuDong" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmQuocTich" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmReportHDLD" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmSoNguoiTrongCongTy" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmSoYeuLyLich" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmTamUng" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmTangLuongThang2" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmThaiThangThu7" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmThamNien" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmTheoDoiLuongBB_NVTV" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmTheoDoiMangThaiDenNC12Thang" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmTheodoiNVNghiTS" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmThoiViec" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmThongKeCN_TT_GT" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmThongKeDanhSachCanBo" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmThongKeDanhSachCB_CNVBiKyLuat" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmThongKeHD" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmThongKeLuongTTGT" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmThongKeNghiPhep" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmThongKeSoNgayNghi" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmThongKeSoNgayNghiDonVi" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1FrmThongKeTheomqh" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmThongKeTheoTinhThanhVaDoTuoi" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmThueTNCN" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmThuongABC" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmTieuChiSanLoc" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmTieuChuan_" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmTinhLuong" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmTinhLuongChinh" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmTinHoc" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmTinhThanh" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmTKCongViecHDLD" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmTongHopComThang" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmTraCuuNhanhNV" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmTuoi" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmVangMat" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmVeSom" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmXaPhuong" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frm_nghiop" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1mnThoat" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1ThamGiaBHXH" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1ThoiViecKhongThamGiaBHTN" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1TongSoNguoi" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1Weeklyovertime" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="mnBaocao" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="mnBaocaochamcong" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="mnBinhbau" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="mnChamcong" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="mnDanhmuc" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="mnHethong" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="mnNhansu" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="mnThongkegiocong" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="mnTinhluong" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1Anh" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1Viet" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="mnThongKeGioCongTieuChuan" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="Báo Cáo Thống Kê" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="mnThongKeThaiSan" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="mnThongKeGioCongChiTiet" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="mnBaocaonhansu" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmTonGiao" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1mnThoat_activeMdifom" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmNguoiDung" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmThongKeTinhHinhNghiViec" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmCapNhatHoSoQuanHe" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmCapNhatNhomCV_MTCV_PTCV" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmDanhMucQLMTCV_PTCV" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmKinhNghiemLamViec" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1FrmBaoCaoSLTongPhanComCuoiThang" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmThongKeGioTangCaNam" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmDanhSachThongKeNgayCong" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmPhuNuHanhKinh" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmPhuNuHanhKinhTinhNV" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmPhuNuMangThaiKThaiYte" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmThongKeSoNgayNghiOMCOTrongNam" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmTinhLuong13" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmTraCuuThongTinThamGiaBH" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="mnBaoCaoTongHop" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmTKSOLUONGKYHDLD" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmThongKeCoCongCoPhep" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmTienVuotSanLuong" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="1frmChamCom" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+</root>

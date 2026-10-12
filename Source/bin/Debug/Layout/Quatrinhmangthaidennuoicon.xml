@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<form>
+	<attributes>
+		
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	  </attributes>
+
+	<controls>
+		<dgrchucvu>
+<coldgrhoso tblColName="STT" title="STT" hide="false" formatCell="" width="50"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1" />
+
+<coldgrhoso tblColName="MA" title="Số Thẻ" hide="false" formatCell="" width="50"
+					  HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2" />
+  
+<coldgrhoso tblColName="TEN" title="Họ Tên" hide="false" formatCell="" width="180"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3" />
+			
+<coldgrhoso tblColName="CONGVIEC" title="Công việc" hide="false" formatCell="" width="100"
+			  HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4" />
+			
+<coldgrhoso tblColName="DONVI" title="Đơn Vị" hide="false" formatCell="" width="150"
+					  HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5" />
+			
+<coldgrhoso tblColName="CHUCVU" title="Chức vụ" hide="false" formatCell="" width="100"
+			  HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="6" />
+			
+ <coldgrhoso tblColName="NGAYVAO" title="Ngày Vào" hide="false" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="7" />
+			
+<coldgrhoso tblColName="BDAU_MANGTHAI" title="Ngày mang thai" hide="false" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="8" />
+			
+<coldgrhoso tblColName="LAN1" title="KThai lần 1" hide="false" formatCell="" width="75"
+										HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="9" />
+<coldgrhoso tblColName="LAN2" title="KThai lần 2" hide="false" formatCell="" width="75"
+										HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="10" />
+<coldgrhoso tblColName="LAN3" title="KThai lần 3" hide="false" formatCell="" width="75"
+										HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="11" />
+<coldgrhoso tblColName="LAN4" title="KThai lần 4" hide="false" formatCell="" width="75"
+										HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="12" />
+<coldgrhoso tblColName="LAN5" title="KThai lần 5" hide="false" formatCell="" width="75"
+										HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="13" />
+<coldgrhoso tblColName="SLCHITRA" title="Số lần chi trả" hide="false" formatCell="" width="75"
+													HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="14" />
+			
+<coldgrhoso tblColName="VE_15H30" title="Về 15h30" hide="false" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="15" />
+			
+<coldgrhoso tblColName="DUSINH" title="Dự sinh" hide="false" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="16" />
+			
+<coldgrhoso tblColName="BDTHAIT7" title="Bắt đầu thai tháng thứ 7" hide="false" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="17" />
+			
+<coldgrhoso tblColName="KTTHAIT7" title="Ngày kết thúc thai tháng thứ 7" hide="false" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="18" />
+			
+<coldgrhoso tblColName="SONGAYT7" title="Số ngày mang thai tháng thứ 7" hide="false" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="19" />
+			
+<coldgrhoso tblColName="BDTS" title="Bắt đầu nghỉ TS" hide="false" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="20" />
+			
+<coldgrhoso tblColName="KTTS" title="Kết thúc nghỉ TS" hide="false" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="21" />
+			
+<coldgrhoso tblColName="SONGAYTS" title="Số ngày nghỉ TS" hide="false" formatCell="" width="100"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="22" />
+			
+<coldgrhoso tblColName="NGAYSANH" title="Ngày sanh" hide="false" formatCell="" width="80"
+							HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="23" />
+			
+<coldgrhoso tblColName="BDNC" title="Bắt đầu nuôi con" hide="false" formatCell="" width="80"
+							HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="24" />
+			
+<coldgrhoso tblColName="KTNC" title="Kết thúc nuôi con" hide="false" formatCell="" width="80"
+							HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="25" />
+			
+<coldgrhoso tblColName="SONGAYNC" title="Số ngày nuôi con" hide="false" formatCell="" width="80"
+							HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="26" />
+			
+<coldgrhoso tblColName="LOAICV" title="Loại công việc" hide="false" formatCell="" width="100"
+						  HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="27" />
+			
+<coldgrhoso tblColName="CTLAN1" title="Chi trả L1" hide="true" formatCell="" width="50"
+						HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="27" />
+			
+<coldgrhoso tblColName="CTLAN2" title="Chi trả L2" hide="true" formatCell="" width="50"
+						  HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="28" />
+			
+<coldgrhoso tblColName="CTLAN3" title="Chi trả L3" hide="true" formatCell="" width="50"
+						  HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="29" />
+			
+<coldgrhoso tblColName="CTLAN4" title="Chi trả L4" hide="true" formatCell="" width="50"
+						  HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="30" />
+			
+<coldgrhoso tblColName="CTLAN5" title="Chi trả L5" hide="true" formatCell="" width="50"
+						  HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="31" />
+			
+<coldgrhoso tblColName="BD_DUONGSUC" title="BĐ dưỡng sức" hide="false" formatCell="" width="100"
+						  HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="32" />
+			
+<coldgrhoso tblColName="KT_DUONGSUC" title="KT dưỡng sức" hide="false" formatCell="" width="100"
+						  HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="33" />
+			
+<coldgrhoso tblColName="SNDS" title="Số ngày dưỡng sức" hide="false" formatCell="" width="100"
+						  HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="34" />
+		</dgrchucvu>
+	</controls>
+</form>

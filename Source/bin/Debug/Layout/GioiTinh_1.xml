@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<form>
+	<attributes>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+
+
+	</attributes>
+	<controls>
+		<dgrMayChamCong>
+			<coldgrMayChamCong tblColName="NGAY" title="Ngày" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1"/>
+
+			<coldgrMayChamCong tblColName="X_MA_" title="Xưởng 廠別" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1"/>
+
+			<coldgrMayChamCong tblColName="GIOITINH_NAM" title="Nam 男" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2"/>
+
+			<coldgrMayChamCong tblColName="GIOITINH_NU" title="Nữ 女" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3"/>
+
+			<coldgrMayChamCong tblColName="TONGCONG" title="Tổng Cộng 合計" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4"/>
+
+			
+			
+		</dgrMayChamCong>
+	</controls>
+</form>

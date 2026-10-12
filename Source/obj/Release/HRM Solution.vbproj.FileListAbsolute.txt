@@ -1,0 +1,878 @@
+D:\svn nhansu\bin\Release\HRM Solution.exe.config
+D:\svn nhansu\bin\Release\HRM Solution.exe
+D:\svn nhansu\bin\Release\HRM Solution.pdb
+D:\svn nhansu\bin\Release\HRM Solution.xml
+D:\svn nhansu\bin\Release\af-ZA\HRM Solution.resources.dll
+D:\svn nhansu\bin\Release\af\HRM Solution.resources.dll
+D:\svn nhansu\bin\Release\en-US\HRM Solution.resources.dll
+D:\svn nhansu\bin\Release\vi-VN\HRM Solution.resources.dll
+D:\svn nhansu\bin\Release\CollapsibleSplitter.DLL
+D:\svn nhansu\bin\Release\Joaqs.UI.DLL
+D:\svn nhansu\bin\Release\Microsoft.Office.Interop.Excel.dll
+D:\svn nhansu\bin\Release\Microsoft.Vbe.Interop.dll
+D:\svn nhansu\bin\Release\office.dll
+D:\svn nhansu\bin\Release\SandBar.DLL
+D:\svn nhansu\bin\Release\XPCommonControls.DLL
+D:\svn nhansu\bin\Release\XPExplorerBar.DLL
+D:\svn nhansu\bin\Release\Microsoft.Office.Interop.SmartTag.dll
+D:\svn nhansu\bin\Release\office.xml
+D:\svn nhansu\obj\Release\ResolveAssemblyReference.cache
+D:\svn nhansu\obj\Release\TongHop.frmDSLaoDongNghiKhongPhep.resources
+D:\svn nhansu\obj\Release\TongHop.frmSoLuongKyLuat.resources
+D:\svn nhansu\obj\Release\TongHop.frmTheoDoiTienDoThucHienKyLuat.resources
+D:\svn nhansu\obj\Release\TongHop.frmThongKeNguyenNhanKyLuat.resources
+D:\svn nhansu\obj\Release\TongHop.frmCamKetCaNhanChuaDenMucChiuThue.resources
+D:\svn nhansu\obj\Release\TongHop.frmBaoCaoGioVaoRa.resources
+D:\svn nhansu\obj\Release\TongHop.frmBaoCaoTongHop.resources
+D:\svn nhansu\obj\Release\TongHop.frmCapNhatSoSoBH.resources
+D:\svn nhansu\obj\Release\TongHop.frmChucVu.resources
+D:\svn nhansu\obj\Release\TongHop.frmNuoiConDuoi6Tuoi.resources
+D:\svn nhansu\obj\Release\TongHop.frmDocHaiNangNhoc.resources
+D:\svn nhansu\obj\Release\TongHop.frmThongKeDanhSachCB_CNVBiKyLuat.resources
+D:\svn nhansu\obj\Release\TongHop.frmDanhSachCNNghiKhongPhepTheoThang.resources
+D:\svn nhansu\obj\Release\TongHop.frmDanhSachCNNghiKPTheoNam.resources
+D:\svn nhansu\obj\Release\TongHop.frmThongKeNghiODonvi.resources
+D:\svn nhansu\obj\Release\TongHop.frmDanhSachCongViec.resources
+D:\svn nhansu\obj\Release\TongHop.frmDanhSachThongKeNgayCong.resources
+D:\svn nhansu\obj\Release\TongHop.frmGioCongHangNgayDonVi.resources
+D:\svn nhansu\obj\Release\TongHop.frmWaiting_GC.resources
+D:\svn nhansu\obj\Release\TongHop.frmBaoCaoGioCongNgay.resources
+D:\svn nhansu\obj\Release\TongHop.frmGioiTinh.resources
+D:\svn nhansu\obj\Release\TongHop.frmHocVan.resources
+D:\svn nhansu\obj\Release\TongHop.frmKhamBenhNgheNghiep.resources
+D:\svn nhansu\obj\Release\TongHop.frmKhuVuc.resources
+D:\svn nhansu\obj\Release\TongHop.frmSoNguoiTrongCongTy.resources
+D:\svn nhansu\obj\Release\TongHop.ThoiViecKhongThamGiaBHTN.resources
+D:\svn nhansu\obj\Release\TongHop.frmNhanVienKyLuatNghiKhongPhep.resources
+D:\svn nhansu\obj\Release\TongHop.frmPhuNuHanhKinh.resources
+D:\svn nhansu\obj\Release\TongHop.frmPhuNuMangThaiKThaiYte.resources
+D:\svn nhansu\obj\Release\TongHop.frmPhuNuMangThai_KThai.resources
+D:\svn nhansu\obj\Release\TongHop.frmQuyetdinhTV.resources
+D:\svn nhansu\obj\Release\TongHop.ThamGiaBHXH.resources
+D:\svn nhansu\obj\Release\TongHop.frmThamNien.resources
+D:\svn nhansu\obj\Release\TongHop.frmLocExcel.resources
+D:\svn nhansu\obj\Release\TongHop.frmSuaChiTra.resources
+D:\svn nhansu\obj\Release\TongHop.frmTheoDoiMangThaiDenNC12Thang.resources
+D:\svn nhansu\obj\Release\TongHop.frmTheodoiNVNghiTS.resources
+D:\svn nhansu\obj\Release\TongHop.frmCTKhacThuong_Ngay.resources
+D:\svn nhansu\obj\Release\TongHop.frmKhacThuongTuan.resources
+D:\svn nhansu\obj\Release\TongHop.frmBaocaochitietgiocong.resources
+D:\svn nhansu\obj\Release\TongHop.frmThongKeCoCongCoPhep.resources
+D:\svn nhansu\obj\Release\TongHop.frmThongkecongnhandilamvangmat.resources
+D:\svn nhansu\obj\Release\TongHop.frmThongKeCN_TT_GT.resources
+D:\svn nhansu\obj\Release\TongHop.frmTKCongViecHDLD.resources
+D:\svn nhansu\obj\Release\TongHop.frmThongKeDanhSachCanBo.resources
+D:\svn nhansu\obj\Release\TongHop.frmThongKeDanhSachCanBoThang.resources
+D:\svn nhansu\obj\Release\TongHop.frmDienBienLuong.resources
+D:\svn nhansu\obj\Release\TongHop.frmDSCNKhongNghi.resources
+D:\svn nhansu\obj\Release\TongHop.frmBaocaogioconghangngay.resources
+D:\svn nhansu\obj\Release\TongHop.frmBaocaogiocongxuong.resources
+D:\svn nhansu\obj\Release\TongHop.frmGioCongTieuChuanThang.resources
+D:\svn nhansu\obj\Release\TongHop.frmGioCongVuotQua_Thang.resources
+D:\svn nhansu\obj\Release\TongHop.frmThongKeGioTangCaXuongNam.resources
+D:\svn nhansu\obj\Release\TongHop.frmGiotangcathang.resources
+D:\svn nhansu\obj\Release\TongHop.frmNgayDiemDanh.resources
+D:\svn nhansu\obj\Release\TongHop.frmWaiting_giotangcathang.resources
+D:\svn nhansu\obj\Release\TongHop.frmThongKeGioCongXuong.resources
+D:\svn nhansu\obj\Release\TongHop.frmThongKePhepThang.resources
+D:\svn nhansu\obj\Release\TongHop.frmThongKeNghiPhep.resources
+D:\svn nhansu\obj\Release\TongHop.frmPhepNamConLai.resources
+D:\svn nhansu\obj\Release\TongHop.frmPhepNam.resources
+D:\svn nhansu\obj\Release\TongHop.frmWaitingPhepNam.resources
+D:\svn nhansu\obj\Release\TongHop.frmWaiting_phepnam.resources
+D:\svn nhansu\obj\Release\TongHop.frmThongKePNMTTheoThang.resources
+D:\svn nhansu\obj\Release\TongHop.frmQTSaiQuiDinhBangTong.resources
+D:\svn nhansu\obj\Release\TongHop.frmQTSaiQuiDinh.resources
+D:\svn nhansu\obj\Release\TongHop.frmQTKhacThuongLC_Thang.resources
+D:\svn nhansu\obj\Release\TongHop.frmThongKeSoNgayNghiOMCOTrongNam.resources
+D:\svn nhansu\obj\Release\TongHop.frmWaiting_PhepOMCO.resources
+D:\svn nhansu\obj\Release\TongHop.FrmThongKeTheomqh.resources
+D:\svn nhansu\obj\Release\TongHop.frmThongKeTinhHinhNghiViec.resources
+D:\svn nhansu\obj\Release\TongHop.frmThaiSan.resources
+D:\svn nhansu\obj\Release\TongHop.frmThongKeSLCVNNHD.resources
+D:\svn nhansu\obj\Release\TongHop.frmTKSOLUONGKYHDLD.resources
+D:\svn nhansu\obj\Release\TongHop.frmThongKeTroCapHDLD.resources
+D:\svn nhansu\obj\Release\TongHop.frmDSCongNhanMay.resources
+D:\svn nhansu\obj\Release\TongHop.frmtokhaithue.resources
+D:\svn nhansu\obj\Release\TongHop.frmTongHopComThang.resources
+D:\svn nhansu\obj\Release\TongHop.frmTraCuuThongTinThamGiaBH.resources
+D:\svn nhansu\obj\Release\TongHop.frmThongKeSoLaoDongDangNCNho.resources
+D:\svn nhansu\obj\Release\TongHop.frmThongKeTroCapNgoaiNgu.resources
+D:\svn nhansu\obj\Release\TongHop.frmThongKeTroCapThoRap.resources
+D:\svn nhansu\obj\Release\TongHop.frmThongKeTroCapUDMay.resources
+D:\svn nhansu\obj\Release\TongHop.frmTuoi.resources
+D:\svn nhansu\obj\Release\TongHop.frmBangCongKhoaSo.resources
+D:\svn nhansu\obj\Release\TongHop.frmChamcongMain.resources
+D:\svn nhansu\obj\Release\TongHop.frmChamCongMain_mss.resources
+D:\svn nhansu\obj\Release\TongHop.frmCom.resources
+D:\svn nhansu\obj\Release\TongHop.frmNguyenNhanKyLuat.resources
+D:\svn nhansu\obj\Release\TongHop.frmquanhuyen.resources
+D:\svn nhansu\obj\Release\TongHop.frmcapnhatqdtv.resources
+D:\svn nhansu\obj\Release\TongHop.frmChuyenDVExcell.resources
+D:\svn nhansu\obj\Release\TongHop.frmXinDiKhamBenh.resources
+D:\svn nhansu\obj\Release\TongHop.frmChamCom.resources
+D:\svn nhansu\obj\Release\TongHop.frmChamcongex.resources
+D:\svn nhansu\obj\Release\TongHop.frmBuaAn.resources
+D:\svn nhansu\obj\Release\TongHop.frmChamCongTayEX.resources
+D:\svn nhansu\obj\Release\TongHop.frmChamCongTayVaoRa.resources
+D:\svn nhansu\obj\Release\TongHop.frmChamCongTay.resources
+D:\svn nhansu\obj\Release\TongHop.frmCaLamViec.resources
+D:\svn nhansu\obj\Release\TongHop.frmChungChiK.resources
+D:\svn nhansu\obj\Release\TongHop.frmChucVuDM.resources
+D:\svn nhansu\obj\Release\TongHop.frmCongViec.resources
+D:\svn nhansu\obj\Release\TongHop.frmDanToc.resources
+D:\svn nhansu\obj\Release\TongHop.frmKhenThuongDM.resources
+D:\svn nhansu\obj\Release\TongHop.frmKyLuat.resources
+D:\svn nhansu\obj\Release\TongHop.frmKyNang.resources
+D:\svn nhansu\obj\Release\TongHop.frmLoaiBinhBau.resources
+D:\svn nhansu\obj\Release\TongHop.frmLoaiHopDong.resources
+D:\svn nhansu\obj\Release\TongHop.frmNghiPhep.resources
+D:\svn nhansu\obj\Release\TongHop.frmLoaiThoiViec.resources
+D:\svn nhansu\obj\Release\TongHop.frmNgayLe.resources
+D:\svn nhansu\obj\Release\TongHop.frmQuocTich.resources
+D:\svn nhansu\obj\Release\TongHop.frmTinhThanh.resources
+D:\svn nhansu\obj\Release\TongHop.frmTonGiao.resources
+D:\svn nhansu\obj\Release\TongHop.frmChuyenMon.resources
+D:\svn nhansu\obj\Release\TongHop.frmHocVanDM.resources
+D:\svn nhansu\obj\Release\TongHop.frmNgoaiNgu.resources
+D:\svn nhansu\obj\Release\TongHop.frmTinHoc.resources
+D:\svn nhansu\obj\Release\TongHop.frmXaPhuong.resources
+D:\svn nhansu\obj\Release\TongHop.frmCapQuyenClient.resources
+D:\svn nhansu\obj\Release\TongHop.frmCapquyen.resources
+D:\svn nhansu\obj\Release\TongHop.frmNguoiDung.resources
+D:\svn nhansu\obj\Release\TongHop.frmWaiting.resources
+D:\svn nhansu\obj\Release\TongHop.frmVaora.resources
+D:\svn nhansu\obj\Release\TongHop.frmCapnhatnghiphep.resources
+D:\svn nhansu\obj\Release\TongHop.frmLoad.resources
+D:\svn nhansu\obj\Release\TongHop.frmDangNhap.resources
+D:\svn nhansu\obj\Release\TongHop.frmBangThongKeKyLuat.resources
+D:\svn nhansu\obj\Release\TongHop.frmChiTietBBCV.resources
+D:\svn nhansu\obj\Release\TongHop.frmBinhBauChucVu.resources
+D:\svn nhansu\obj\Release\TongHop.frmBinhBauA.resources
+D:\svn nhansu\obj\Release\TongHop.frmBinhBauThang.resources
+D:\svn nhansu\obj\Release\TongHop.frmBinhBauNam_.resources
+D:\svn nhansu\obj\Release\TongHop.frmLoaiBB_.resources
+D:\svn nhansu\obj\Release\TongHop.frm_LoaiBB.resources
+D:\svn nhansu\obj\Release\TongHop.frmTieuChuan_.resources
+D:\svn nhansu\obj\Release\TongHop.frmChuyenDonVi.resources
+D:\svn nhansu\obj\Release\TongHop.frmDanhMucMoiQuanHeChuHo.resources
+D:\svn nhansu\obj\Release\TongHop.frmDanhMucMoiQuanHe.resources
+D:\svn nhansu\obj\Release\TongHop.frmCapNhatHoSoNhanSu.resources
+D:\svn nhansu\obj\Release\TongHop.frmCapNhatHoSoQuanHe.resources
+D:\svn nhansu\obj\Release\TongHop.frmCapNhatNhaXuong.resources
+D:\svn nhansu\obj\Release\TongHop.frmKhu.resources
+D:\svn nhansu\obj\Release\TongHop.frmNganh.resources
+D:\svn nhansu\obj\Release\TongHop.frmNhaXuong.resources
+D:\svn nhansu\obj\Release\TongHop.frmCapNhatNVNgoaiNguPhienDich.resources
+D:\svn nhansu\obj\Release\TongHop.frmCapNhatNhomCV_MTCV_PTCV.resources
+D:\svn nhansu\obj\Release\TongHop.frmCapNhatKhamChuaBenh.resources
+D:\svn nhansu\obj\Release\TongHop.frmWaiting_KCB.resources
+D:\svn nhansu\obj\Release\TongHop.frmNoiDK.resources
+D:\svn nhansu\obj\Release\TongHop.frmCBCNV_VayVonNganHang.resources
+D:\svn nhansu\obj\Release\TongHop.frmChiNhanh.resources
+D:\svn nhansu\obj\Release\TongHop.frmChuaKyHDLD.resources
+D:\svn nhansu\obj\Release\TongHop.frmChuyenDV.resources
+D:\svn nhansu\obj\Release\TongHop.frmCongViecNNDH.resources
+D:\svn nhansu\obj\Release\TongHop.frmCapnhatMSTSTK.resources
+D:\svn nhansu\obj\Release\TongHop.frmDanhMucQLMTCV_PTCV.resources
+D:\svn nhansu\obj\Release\TongHop.frmDDHangNgayClient.resources
+D:\svn nhansu\obj\Release\TongHop.frmCongNhanMoi.resources
+D:\svn nhansu\obj\Release\TongHop.frmDiemDanhHangNgay.resources
+D:\svn nhansu\obj\Release\TongHop.TongSoNguoi.resources
+D:\svn nhansu\obj\Release\TongHop.frmHDLD.resources
+D:\svn nhansu\obj\Release\TongHop.frm_nghiop.resources
+D:\svn nhansu\obj\Release\TongHop.frmKhoanTruMobivi.resources
+D:\svn nhansu\obj\Release\TongHop.frmKiemTraCMND.resources
+D:\svn nhansu\obj\Release\TongHop.frmKinhNghiemLamViec.resources
+D:\svn nhansu\obj\Release\TongHop.frmKyHDSau1Thang.resources
+D:\svn nhansu\obj\Release\TongHop.frmLyLichNhanVien.resources
+D:\svn nhansu\obj\Release\TongHop.frmMayChamCong.resources
+D:\svn nhansu\obj\Release\TongHop.frmMayChamCongSo.resources
+D:\svn nhansu\obj\Release\TongHop.frmSomay12.resources
+D:\svn nhansu\obj\Release\TongHop.frmKiemTraPhepNam.resources
+D:\svn nhansu\obj\Release\TongHop.frmThaiThangThu7.resources
+D:\svn nhansu\obj\Release\TongHop.frmNhanVienNghiKhongPhep.resources
+D:\svn nhansu\obj\Release\TongHop.frmCongTac.resources
+D:\svn nhansu\obj\Release\TongHop.frmDaoTao.resources
+D:\svn nhansu\obj\Release\TongHop.frmKhenThuong.resources
+D:\svn nhansu\obj\Release\TongHop.frmNhapKT.resources
+D:\svn nhansu\obj\Release\TongHop.frmQuaTrinhDieuDong.resources
+D:\svn nhansu\obj\Release\TongHop.frmTheoDoiLuongBB_NVTV.resources
+D:\svn nhansu\obj\Release\TongHop.frmThoiViec.resources
+D:\svn nhansu\obj\Release\TongHop.frmThongKeHD.resources
+D:\svn nhansu\obj\Release\TongHop.frmTraCuuNhanhNV.resources
+D:\svn nhansu\obj\Release\TongHop.frmTieuChiSanLoc.resources
+D:\svn nhansu\obj\Release\TongHop.frmNoiDangKyKCB.resources
+D:\svn nhansu\obj\Release\TongHop.frmKhongHuongPC.resources
+D:\svn nhansu\obj\Release\TongHop.frmDBLPromaz.resources
+D:\svn nhansu\obj\Release\TongHop.frmDBLuong.resources
+D:\svn nhansu\obj\Release\TongHop.frmNhapDBLuong.resources
+D:\svn nhansu\obj\Release\TongHop.frmDieuChinhLuong.resources
+D:\svn nhansu\obj\Release\TongHop.frmChinhLuong_TaoMoi.resources
+D:\svn nhansu\obj\Release\TongHop.frmHieuChinhLuong.resources
+D:\svn nhansu\obj\Release\TongHop.frmKhoaSoLuong.resources
+D:\svn nhansu\obj\Release\TongHop.frmKhoanCongKhac.resources
+D:\svn nhansu\obj\Release\TongHop.frmTienCongKhac.resources
+D:\svn nhansu\obj\Release\TongHop.frmKhoanTruKhac.resources
+D:\svn nhansu\obj\Release\TongHop.frmTienKhoanTruKhac.resources
+D:\svn nhansu\obj\Release\TongHop.frmLuongThang.resources
+D:\svn nhansu\obj\Release\TongHop.frmChuyenDuLieu.resources
+D:\svn nhansu\obj\Release\TongHop.frmPhuCapKhac.resources
+D:\svn nhansu\obj\Release\TongHop.frmSoTienPC.resources
+D:\svn nhansu\obj\Release\TongHop.frmTamUng.resources
+D:\svn nhansu\obj\Release\TongHop.frm_TamUng_TaoMoi.resources
+D:\svn nhansu\obj\Release\TongHop.frmTangLuongThang2.resources
+D:\svn nhansu\obj\Release\TongHop.frmThongKeLuongTTGT.resources
+D:\svn nhansu\obj\Release\TongHop.frmThueTNCN.resources
+D:\svn nhansu\obj\Release\TongHop.frmTienThueTNCN.resources
+D:\svn nhansu\obj\Release\TongHop.frmThuongABC.resources
+D:\svn nhansu\obj\Release\TongHop.frmTienThuongABC.resources
+D:\svn nhansu\obj\Release\TongHop.frmTienVuotSanLuong.resources
+D:\svn nhansu\obj\Release\TongHop.frmTinhLuong13.resources
+D:\svn nhansu\obj\Release\TongHop.frmHeSo.resources
+D:\svn nhansu\obj\Release\TongHop.frmCachTinhLuongChinh.resources
+D:\svn nhansu\obj\Release\TongHop.frmTinhLuongChinh.resources
+D:\svn nhansu\obj\Release\TongHop.frmCachTinhLuong.resources
+D:\svn nhansu\obj\Release\TongHop.frmTinhLuong.resources
+D:\svn nhansu\obj\Release\TongHop.frmMain.resources
+D:\svn nhansu\obj\Release\TongHop.MyResource.resources
+D:\svn nhansu\obj\Release\TongHop.PrintRibbonControllerResources.resources
+D:\svn nhansu\obj\Release\TongHop.frmBangComKhoaSo.resources
+D:\svn nhansu\obj\Release\TongHop.frmBangCongKhoaSoNV.resources
+D:\svn nhansu\obj\Release\TongHop.frmReportBangCongKhoaSo.resources
+D:\svn nhansu\obj\Release\TongHop.frmReportChamCongTay.resources
+D:\svn nhansu\obj\Release\TongHop.frmBangChamCom.resources
+D:\svn nhansu\obj\Release\TongHop.FrmBaoCaoSLTongPhanComCuoiThang.resources
+D:\svn nhansu\obj\Release\TongHop.frmDanhSachNVChuaCoThe.resources
+D:\svn nhansu\obj\Release\TongHop.frmDiTre.resources
+D:\svn nhansu\obj\Release\TongHop.frmDSCNVKhongQuetTheVaoRa.resources
+D:\svn nhansu\obj\Release\TongHop.frmGioVaoRa.resources
+D:\svn nhansu\obj\Release\TongHop.frmReportChamCong.resources
+D:\svn nhansu\obj\Release\TongHop.frmThongKeGioTangCaNam.resources
+D:\svn nhansu\obj\Release\TongHop.frmVangMat.resources
+D:\svn nhansu\obj\Release\TongHop.frmVeSom.resources
+D:\svn nhansu\obj\Release\TongHop.frmBangTheoDoiNgayPhepCuaCBCNV.resources
+D:\svn nhansu\obj\Release\TongHop.frmBaoCaoMucLuong.resources
+D:\svn nhansu\obj\Release\TongHop.frmBCGioCongTieuChuanThang.resources
+D:\svn nhansu\obj\Release\TongHop.frmDanhSachCBCNVChuyenDonVi.resources
+D:\svn nhansu\obj\Release\TongHop.frmDanhSachCBCNVDongBHXH.resources
+D:\svn nhansu\obj\Release\TongHop.frmDanhSachCBCNVNghiPhep.resources
+D:\svn nhansu\obj\Release\TongHop.frmDanhSachCB_CNVBinhBauNam.resources
+D:\svn nhansu\obj\Release\TongHop.frmDanhSachCB_CNVhethanHDLD.resources
+D:\svn nhansu\obj\Release\TongHop.frmDanhSachHetHangHDKyLai.resources
+D:\svn nhansu\obj\Release\TongHop.frmDanhSachNhanVienTheoTrinhDo.resources
+D:\svn nhansu\obj\Release\TongHop.frmDanhSachNhanVienThoiViec.resources
+D:\svn nhansu\obj\Release\TongHop.frmDanhSachNhanVienTrungTuyen.resources
+D:\svn nhansu\obj\Release\TongHop.frmPhanBoNgoaiNgu.resources
+D:\svn nhansu\obj\Release\TongHop.frmSoYeuLyLich.resources
+D:\svn nhansu\obj\Release\TongHop.FrmConnectDB.resources
+D:\svn nhansu\obj\Release\TongHop.frmMainMain.resources
+D:\svn nhansu\obj\Release\TongHop.Resources.resources
+D:\svn nhansu\obj\Release\TongHop.FrmReport.resources
+D:\svn nhansu\obj\Release\TongHop.frmDanhSachCBCNVDonVi.resources
+D:\svn nhansu\obj\Release\TongHop.frmDanhSachCBCNVTheoChucVu.resources
+D:\svn nhansu\obj\Release\TongHop.frmReportHDLD.resources
+D:\svn nhansu\obj\Release\TongHop.frmThongKeSoNgayNghi.resources
+D:\svn nhansu\obj\Release\TongHop.frmThongKeSoNgayNghiDonVi.resources
+D:\svn nhansu\obj\Release\TongHop.frmThongKeTheoTinhThanhVaDoTuoi.resources
+D:\svn nhansu\obj\Release\TongHop.frmBangLuongChinh.resources
+D:\svn nhansu\obj\Release\TongHop.frmBangLuongKhoaSo.resources
+D:\svn nhansu\obj\Release\TongHop.frmDanhSachTamUng.resources
+D:\svn nhansu\obj\Release\TongHop.frmDanhSachTamUngTongHop.resources
+D:\svn nhansu\obj\Release\TongHop.frmDanhSachTamUng_X.resources
+D:\svn nhansu\obj\Release\TongHop.frm_BangLuong.resources
+D:\svn nhansu\obj\Release\TongHop.frm_BangLuong13.resources
+D:\svn nhansu\obj\Release\TongHop.frmStatus.resources
+D:\svn nhansu\obj\Release\TongHop.XRDesignRibbonControllerResources.resources
+D:\svn nhansu\obj\Release\TongHop.frmTinHoc.af-ZA.resources
+D:\svn nhansu\obj\Release\TongHop.frmTinHoc.af.resources
+D:\svn nhansu\obj\Release\TongHop.MyResource.en-US.resources
+D:\svn nhansu\obj\Release\TongHop.MyResource.vi-VN.resources
+D:\svn nhansu\obj\Release\HRM Solution.vbproj.GenerateResource.Cache
+D:\svn nhansu\obj\Release\HRM Solution.exe.licenses
+D:\svn nhansu\obj\Release\af-ZA\HRM Solution.resources.dll
+D:\svn nhansu\obj\Release\af\HRM Solution.resources.dll
+D:\svn nhansu\obj\Release\en-US\HRM Solution.resources.dll
+D:\svn nhansu\obj\Release\vi-VN\HRM Solution.resources.dll
+D:\svn nhansu\obj\Release\HRM Solution.exe
+D:\svn nhansu\obj\Release\HRM Solution.xml
+D:\svn nhansu\obj\Release\HRM Solution.pdb
+D:\SVN\obj\Release\ResolveAssemblyReference.cache
+D:\SVN\obj\Release\TongHop.frmDSLaoDongNghiKhongPhep.resources
+D:\SVN\obj\Release\TongHop.frmSoLuongKyLuat.resources
+D:\SVN\obj\Release\TongHop.frmTheoDoiTienDoThucHienKyLuat.resources
+D:\SVN\obj\Release\TongHop.frmThongKeNguyenNhanKyLuat.resources
+D:\SVN\obj\Release\TongHop.frmCamKetCaNhanChuaDenMucChiuThue.resources
+D:\SVN\obj\Release\TongHop.frmBaoCaoGioVaoRa.resources
+D:\SVN\obj\Release\TongHop.frmBaoCaoTongHop.resources
+D:\SVN\obj\Release\TongHop.frmCapNhatSoSoBH.resources
+D:\SVN\obj\Release\TongHop.frmChucVu.resources
+D:\SVN\obj\Release\TongHop.frmNuoiConDuoi6Tuoi.resources
+D:\SVN\obj\Release\TongHop.frmDocHaiNangNhoc.resources
+D:\SVN\obj\Release\TongHop.frmThongKeDanhSachCB_CNVBiKyLuat.resources
+D:\SVN\obj\Release\TongHop.frmDanhSachCNNghiKhongPhepTheoThang.resources
+D:\SVN\obj\Release\TongHop.frmDanhSachCNNghiKPTheoNam.resources
+D:\SVN\obj\Release\TongHop.frmThongKeNghiODonvi.resources
+D:\SVN\obj\Release\TongHop.frmDanhSachCongViec.resources
+D:\SVN\obj\Release\TongHop.frmDanhSachThongKeNgayCong.resources
+D:\SVN\obj\Release\TongHop.frmGioCongHangNgayDonVi.resources
+D:\SVN\obj\Release\TongHop.frmWaiting_GC.resources
+D:\SVN\obj\Release\TongHop.frmBaoCaoGioCongNgay.resources
+D:\SVN\obj\Release\TongHop.frmGioiTinh.resources
+D:\SVN\obj\Release\TongHop.frmHocVan.resources
+D:\SVN\obj\Release\TongHop.frmKhamBenhNgheNghiep.resources
+D:\SVN\obj\Release\TongHop.frmKhuVuc.resources
+D:\SVN\obj\Release\TongHop.frmSoNguoiTrongCongTy.resources
+D:\SVN\obj\Release\TongHop.ThoiViecKhongThamGiaBHTN.resources
+D:\SVN\obj\Release\TongHop.frmNhanVienKyLuatNghiKhongPhep.resources
+D:\SVN\obj\Release\TongHop.frmPhuNuHanhKinh.resources
+D:\SVN\obj\Release\TongHop.frmPhuNuMangThaiKThaiYte.resources
+D:\SVN\obj\Release\TongHop.frmPhuNuMangThai_KThai.resources
+D:\SVN\obj\Release\TongHop.frmQuyetdinhTV.resources
+D:\SVN\obj\Release\TongHop.ThamGiaBHXH.resources
+D:\SVN\obj\Release\TongHop.frmThamNien.resources
+D:\SVN\obj\Release\TongHop.frmLocExcel.resources
+D:\SVN\obj\Release\TongHop.frmSuaChiTra.resources
+D:\SVN\obj\Release\TongHop.frmTheoDoiMangThaiDenNC12Thang.resources
+D:\SVN\obj\Release\TongHop.frmTheodoiNVNghiTS.resources
+D:\SVN\obj\Release\TongHop.frmCTKhacThuong_Ngay.resources
+D:\SVN\obj\Release\TongHop.frmKhacThuongTuan.resources
+D:\SVN\obj\Release\TongHop.frmBaocaochitietgiocong.resources
+D:\SVN\obj\Release\TongHop.frmThongKeCoCongCoPhep.resources
+D:\SVN\obj\Release\TongHop.frmThongkecongnhandilamvangmat.resources
+D:\SVN\obj\Release\TongHop.frmThongKeCN_TT_GT.resources
+D:\SVN\obj\Release\TongHop.frmTKCongViecHDLD.resources
+D:\SVN\obj\Release\TongHop.frmThongKeDanhSachCanBo.resources
+D:\SVN\obj\Release\TongHop.frmThongKeDanhSachCanBoThang.resources
+D:\SVN\obj\Release\TongHop.frmDienBienLuong.resources
+D:\SVN\obj\Release\TongHop.frmDSCNKhongNghi.resources
+D:\SVN\obj\Release\TongHop.frmBaocaogioconghangngay.resources
+D:\SVN\obj\Release\TongHop.frmBaocaogiocongxuong.resources
+D:\SVN\obj\Release\TongHop.frmGioCongTieuChuanThang.resources
+D:\SVN\obj\Release\TongHop.frmGioCongVuotQua_Thang.resources
+D:\SVN\obj\Release\TongHop.frmThongKeGioTangCaXuongNam.resources
+D:\SVN\obj\Release\TongHop.frmGiotangcathang.resources
+D:\SVN\obj\Release\TongHop.frmNgayDiemDanh.resources
+D:\SVN\obj\Release\TongHop.frmWaiting_giotangcathang.resources
+D:\SVN\obj\Release\TongHop.frmThongKeGioCongXuong.resources
+D:\SVN\obj\Release\TongHop.frmKhamSK.resources
+D:\SVN\obj\Release\TongHop.frmThongKePhepThang.resources
+D:\SVN\obj\Release\TongHop.frmThongKeNghiPhep.resources
+D:\SVN\obj\Release\TongHop.frmPhepNamConLai.resources
+D:\SVN\obj\Release\TongHop.frmPhepNam.resources
+D:\SVN\obj\Release\TongHop.frmWaitingPhepNam.resources
+D:\SVN\obj\Release\TongHop.frmWaiting_phepnam.resources
+D:\SVN\obj\Release\TongHop.frmThongKePNMTTheoThang.resources
+D:\SVN\obj\Release\TongHop.frmQTSaiQuiDinhBangTong.resources
+D:\SVN\obj\Release\TongHop.frmQTSaiQuiDinh.resources
+D:\SVN\obj\Release\TongHop.frmQTKhacThuongLC_Thang.resources
+D:\SVN\obj\Release\TongHop.frmThongKeSoNgayNghiOMCOTrongNam.resources
+D:\SVN\obj\Release\TongHop.frmWaiting_PhepOMCO.resources
+D:\SVN\obj\Release\TongHop.FrmThongKeTheomqh.resources
+D:\SVN\obj\Release\TongHop.frmThongKeTinhHinhNghiViec.resources
+D:\SVN\obj\Release\TongHop.frmThaiSan.resources
+D:\SVN\obj\Release\TongHop.frmThongKeSLCVNNHD.resources
+D:\SVN\obj\Release\TongHop.frmTKSOLUONGKYHDLD.resources
+D:\SVN\obj\Release\TongHop.frmThongKeTroCapHDLD.resources
+D:\SVN\obj\Release\TongHop.frmDSCongNhanMay.resources
+D:\SVN\obj\Release\TongHop.frmtokhaithue.resources
+D:\SVN\obj\Release\TongHop.frmTongHopComThang.resources
+D:\SVN\obj\Release\TongHop.frmTraCuuThongTinThamGiaBH.resources
+D:\SVN\obj\Release\TongHop.frmThongKeSoLaoDongDangNCNho.resources
+D:\SVN\obj\Release\TongHop.frmThongKeTroCapNgoaiNgu.resources
+D:\SVN\obj\Release\TongHop.frmThongKeTroCapThoRap.resources
+D:\SVN\obj\Release\TongHop.frmThongKeTroCapUDMay.resources
+D:\SVN\obj\Release\TongHop.frmTuoi.resources
+D:\SVN\obj\Release\TongHop.frmBangCongKhoaSo.resources
+D:\SVN\obj\Release\TongHop.frmChamcongMain.resources
+D:\SVN\obj\Release\TongHop.frmChamCongMain_mss.resources
+D:\SVN\obj\Release\TongHop.frmCom.resources
+D:\SVN\obj\Release\TongHop.frmNguyenNhanKyLuat.resources
+D:\SVN\obj\Release\TongHop.frmquanhuyen.resources
+D:\SVN\obj\Release\TongHop.frmcapnhatqdtv.resources
+D:\SVN\obj\Release\TongHop.frmChuyenDVExcell.resources
+D:\SVN\obj\Release\TongHop.frmXinDiKhamBenh.resources
+D:\SVN\obj\Release\TongHop.frmChamCom.resources
+D:\SVN\obj\Release\TongHop.frmChamcongex.resources
+D:\SVN\obj\Release\TongHop.frmBuaAn.resources
+D:\SVN\obj\Release\TongHop.frmChamCongTayEX.resources
+D:\SVN\obj\Release\TongHop.frmChamCongTayVaoRa.resources
+D:\SVN\obj\Release\TongHop.frmChamCongTay.resources
+D:\SVN\obj\Release\TongHop.frmCaLamViec.resources
+D:\SVN\obj\Release\TongHop.frmChungChiK.resources
+D:\SVN\obj\Release\TongHop.frmChucVuDM.resources
+D:\SVN\obj\Release\TongHop.frmCongViec.resources
+D:\SVN\obj\Release\TongHop.frmDanToc.resources
+D:\SVN\obj\Release\TongHop.frmKhenThuongDM.resources
+D:\SVN\obj\Release\TongHop.frmKyLuat.resources
+D:\SVN\obj\Release\TongHop.frmKyNang.resources
+D:\SVN\obj\Release\TongHop.frmLoaiBinhBau.resources
+D:\SVN\obj\Release\TongHop.frmLoaiHopDong.resources
+D:\SVN\obj\Release\TongHop.frmNghiPhep.resources
+D:\SVN\obj\Release\TongHop.frmLoaiThoiViec.resources
+D:\SVN\obj\Release\TongHop.frmNgayLe.resources
+D:\SVN\obj\Release\TongHop.frmQuocTich.resources
+D:\SVN\obj\Release\TongHop.frmTinhThanh.resources
+D:\SVN\obj\Release\TongHop.frmTonGiao.resources
+D:\SVN\obj\Release\TongHop.frmChuyenMon.resources
+D:\SVN\obj\Release\TongHop.frmHocVanDM.resources
+D:\SVN\obj\Release\TongHop.frmNgoaiNgu.resources
+D:\SVN\obj\Release\TongHop.frmTinHoc.resources
+D:\SVN\obj\Release\TongHop.frmXaPhuong.resources
+D:\SVN\obj\Release\TongHop.frmCapQuyenClient.resources
+D:\SVN\obj\Release\TongHop.frmCapquyen.resources
+D:\SVN\obj\Release\TongHop.frmNguoiDung.resources
+D:\SVN\obj\Release\TongHop.frmWaiting.resources
+D:\SVN\obj\Release\TongHop.frmVaora.resources
+D:\SVN\obj\Release\TongHop.frmCapnhatnghiphep.resources
+D:\SVN\obj\Release\TongHop.frmLoad.resources
+D:\SVN\obj\Release\TongHop.frmDangNhap.resources
+D:\SVN\obj\Release\TongHop.frmBangThongKeKyLuat.resources
+D:\SVN\obj\Release\TongHop.frmChiTietBBCV.resources
+D:\SVN\obj\Release\TongHop.frmBinhBauChucVu.resources
+D:\SVN\obj\Release\TongHop.frmBinhBauA.resources
+D:\SVN\obj\Release\TongHop.frmBinhBauThang.resources
+D:\SVN\obj\Release\TongHop.frmBinhBauNam_.resources
+D:\SVN\obj\Release\TongHop.frmLoaiBB_.resources
+D:\SVN\obj\Release\TongHop.frm_LoaiBB.resources
+D:\SVN\obj\Release\TongHop.frmTieuChuan_.resources
+D:\SVN\obj\Release\TongHop.frmChuyenDonVi.resources
+D:\SVN\obj\Release\TongHop.frmDanhMucMoiQuanHeChuHo.resources
+D:\SVN\obj\Release\TongHop.frmDanhMucMoiQuanHe.resources
+D:\SVN\obj\Release\TongHop.frmCapNhatHoSoNhanSu.resources
+D:\SVN\obj\Release\TongHop.frmCapNhatHoSoQuanHe.resources
+D:\SVN\obj\Release\TongHop.frmCapNhatNhaXuong.resources
+D:\SVN\obj\Release\TongHop.frmKhu.resources
+D:\SVN\obj\Release\TongHop.frmNganh.resources
+D:\SVN\obj\Release\TongHop.frmNhaXuong.resources
+D:\SVN\obj\Release\TongHop.frmCapNhatNVNgoaiNguPhienDich.resources
+D:\SVN\obj\Release\TongHop.frmCapNhatNhomCV_MTCV_PTCV.resources
+D:\SVN\obj\Release\TongHop.frmCapNhatKhamChuaBenh.resources
+D:\SVN\obj\Release\TongHop.frmWaiting_KCB.resources
+D:\SVN\obj\Release\TongHop.frmNoiDK.resources
+D:\SVN\obj\Release\TongHop.frmCBCNV_VayVonNganHang.resources
+D:\SVN\obj\Release\TongHop.frmChiNhanh.resources
+D:\SVN\obj\Release\TongHop.frmChuaKyHDLD.resources
+D:\SVN\obj\Release\TongHop.frmChuyenDV.resources
+D:\SVN\obj\Release\TongHop.frmCongViecNNDH.resources
+D:\SVN\obj\Release\TongHop.frmCapnhatMSTSTK.resources
+D:\SVN\obj\Release\TongHop.frmDanhMucQLMTCV_PTCV.resources
+D:\SVN\obj\Release\TongHop.frmDDHangNgayClient.resources
+D:\SVN\obj\Release\TongHop.frmCongNhanMoi.resources
+D:\SVN\obj\Release\TongHop.frmDiemDanhHangNgay.resources
+D:\SVN\obj\Release\TongHop.TongSoNguoi.resources
+D:\SVN\obj\Release\TongHop.frmHDLD.resources
+D:\SVN\obj\Release\TongHop.frm_nghiop.resources
+D:\SVN\obj\Release\TongHop.frmKhoanTruMobivi.resources
+D:\SVN\obj\Release\TongHop.frmKiemTraCMND.resources
+D:\SVN\obj\Release\TongHop.frmKinhNghiemLamViec.resources
+D:\SVN\obj\Release\TongHop.frmKyHDSau1Thang.resources
+D:\SVN\obj\Release\TongHop.frmLyLichNhanVien.resources
+D:\SVN\obj\Release\TongHop.frmMayChamCong.resources
+D:\SVN\obj\Release\TongHop.frmMayChamCongSo.resources
+D:\SVN\obj\Release\TongHop.frmSomay12.resources
+D:\SVN\obj\Release\TongHop.frmKiemTraPhepNam.resources
+D:\SVN\obj\Release\TongHop.frmThaiThangThu7.resources
+D:\SVN\obj\Release\TongHop.frmNhanVienNghiKhongPhep.resources
+D:\SVN\obj\Release\TongHop.frmCongTac.resources
+D:\SVN\obj\Release\TongHop.frmDaoTao.resources
+D:\SVN\obj\Release\TongHop.frmKhenThuong.resources
+D:\SVN\obj\Release\TongHop.frmNhapKT.resources
+D:\SVN\obj\Release\TongHop.frmQuaTrinhDieuDong.resources
+D:\SVN\obj\Release\TongHop.frmTheoDoiLuongBB_NVTV.resources
+D:\SVN\obj\Release\TongHop.frmThoiViec.resources
+D:\SVN\obj\Release\TongHop.frmThongKeHD.resources
+D:\SVN\obj\Release\TongHop.frmTraCuuNhanhNV.resources
+D:\SVN\obj\Release\TongHop.frmTieuChiSanLoc.resources
+D:\SVN\obj\Release\TongHop.frmNoiDangKyKCB.resources
+D:\SVN\obj\Release\TongHop.frmKhongHuongPC.resources
+D:\SVN\obj\Release\TongHop.frmDBLPromaz.resources
+D:\SVN\obj\Release\TongHop.frmDBLuong.resources
+D:\SVN\obj\Release\TongHop.frmNhapDBLuong.resources
+D:\SVN\obj\Release\TongHop.frmDieuChinhLuong.resources
+D:\SVN\obj\Release\TongHop.frmChinhLuong_TaoMoi.resources
+D:\SVN\obj\Release\TongHop.frmHieuChinhLuong.resources
+D:\SVN\obj\Release\TongHop.frmKhoaSoLuong.resources
+D:\SVN\obj\Release\TongHop.frmKhoanCongKhac.resources
+D:\SVN\obj\Release\TongHop.frmTienCongKhac.resources
+D:\SVN\obj\Release\TongHop.frmKhoanTruKhac.resources
+D:\SVN\obj\Release\TongHop.frmTienKhoanTruKhac.resources
+D:\SVN\obj\Release\TongHop.frmLuongThang.resources
+D:\SVN\obj\Release\TongHop.frmChuyenDuLieu.resources
+D:\SVN\obj\Release\TongHop.frmPhuCapKhac.resources
+D:\SVN\obj\Release\TongHop.frmSoTienPC.resources
+D:\SVN\obj\Release\TongHop.frmTamUng.resources
+D:\SVN\obj\Release\TongHop.frm_TamUng_TaoMoi.resources
+D:\SVN\obj\Release\TongHop.frmTangLuongThang2.resources
+D:\SVN\obj\Release\TongHop.frmThongKeLuongTTGT.resources
+D:\SVN\obj\Release\TongHop.frmThueTNCN.resources
+D:\SVN\obj\Release\TongHop.frmTienThueTNCN.resources
+D:\SVN\obj\Release\TongHop.frmThuongABC.resources
+D:\SVN\obj\Release\TongHop.frmTienThuongABC.resources
+D:\SVN\obj\Release\TongHop.frmTienVuotSanLuong.resources
+D:\SVN\obj\Release\TongHop.frmTinhLuong13.resources
+D:\SVN\obj\Release\TongHop.frmHeSo.resources
+D:\SVN\obj\Release\TongHop.frmCachTinhLuongChinh.resources
+D:\SVN\obj\Release\TongHop.frmTinhLuongChinh.resources
+D:\SVN\obj\Release\TongHop.frmCachTinhLuong.resources
+D:\SVN\obj\Release\TongHop.frmTinhLuong.resources
+D:\SVN\obj\Release\TongHop.frmMain.resources
+D:\SVN\obj\Release\TongHop.MyResource.resources
+D:\SVN\obj\Release\TongHop.PrintRibbonControllerResources.resources
+D:\SVN\obj\Release\TongHop.frmBangComKhoaSo.resources
+D:\SVN\obj\Release\TongHop.frmBangCongKhoaSoNV.resources
+D:\SVN\obj\Release\TongHop.frmReportBangCongKhoaSo.resources
+D:\SVN\obj\Release\TongHop.frmReportChamCongTay.resources
+D:\SVN\obj\Release\TongHop.frmBangChamCom.resources
+D:\SVN\obj\Release\TongHop.FrmBaoCaoSLTongPhanComCuoiThang.resources
+D:\SVN\obj\Release\TongHop.frmDanhSachNVChuaCoThe.resources
+D:\SVN\obj\Release\TongHop.frmDiTre.resources
+D:\SVN\obj\Release\TongHop.frmDSCNVKhongQuetTheVaoRa.resources
+D:\SVN\obj\Release\TongHop.frmGioVaoRa.resources
+D:\SVN\obj\Release\TongHop.frmReportChamCong.resources
+D:\SVN\obj\Release\TongHop.frmThongKeGioTangCaNam.resources
+D:\SVN\obj\Release\TongHop.frmVangMat.resources
+D:\SVN\obj\Release\TongHop.frmVeSom.resources
+D:\SVN\obj\Release\TongHop.frmBangTheoDoiNgayPhepCuaCBCNV.resources
+D:\SVN\obj\Release\TongHop.frmBaoCaoMucLuong.resources
+D:\SVN\obj\Release\TongHop.frmBCGioCongTieuChuanThang.resources
+D:\SVN\obj\Release\TongHop.frmDanhSachCBCNVChuyenDonVi.resources
+D:\SVN\obj\Release\TongHop.frmDanhSachCBCNVDongBHXH.resources
+D:\SVN\obj\Release\TongHop.frmDanhSachCBCNVNghiPhep.resources
+D:\SVN\obj\Release\TongHop.frmDanhSachCB_CNVBinhBauNam.resources
+D:\SVN\obj\Release\TongHop.frmDanhSachCB_CNVhethanHDLD.resources
+D:\SVN\obj\Release\TongHop.frmDanhSachHetHangHDKyLai.resources
+D:\SVN\obj\Release\TongHop.frmDanhSachNhanVienTheoTrinhDo.resources
+D:\SVN\obj\Release\TongHop.frmDanhSachNhanVienThoiViec.resources
+D:\SVN\obj\Release\TongHop.frmDanhSachNhanVienTrungTuyen.resources
+D:\SVN\obj\Release\TongHop.frmPhanBoNgoaiNgu.resources
+D:\SVN\obj\Release\TongHop.frmSoYeuLyLich.resources
+D:\SVN\obj\Release\TongHop.FrmConnectDB.resources
+D:\SVN\obj\Release\TongHop.frmMainMain.resources
+D:\SVN\obj\Release\TongHop.Resources.resources
+D:\SVN\obj\Release\TongHop.FrmReport.resources
+D:\SVN\obj\Release\TongHop.frmDanhSachCBCNVDonVi.resources
+D:\SVN\obj\Release\TongHop.frmDanhSachCBCNVTheoChucVu.resources
+D:\SVN\obj\Release\TongHop.frmReportHDLD.resources
+D:\SVN\obj\Release\TongHop.frmThongKeSoNgayNghi.resources
+D:\SVN\obj\Release\TongHop.frmThongKeSoNgayNghiDonVi.resources
+D:\SVN\obj\Release\TongHop.frmThongKeTheoTinhThanhVaDoTuoi.resources
+D:\SVN\obj\Release\TongHop.frmBangLuongChinh.resources
+D:\SVN\obj\Release\TongHop.frmBangLuongKhoaSo.resources
+D:\SVN\obj\Release\TongHop.frmDanhSachTamUng.resources
+D:\SVN\obj\Release\TongHop.frmDanhSachTamUngTongHop.resources
+D:\SVN\obj\Release\TongHop.frmDanhSachTamUng_X.resources
+D:\SVN\obj\Release\TongHop.frm_BangLuong.resources
+D:\SVN\obj\Release\TongHop.frm_BangLuong13.resources
+D:\SVN\obj\Release\TongHop.frmStatus.resources
+D:\SVN\obj\Release\TongHop.XRDesignRibbonControllerResources.resources
+D:\SVN\obj\Release\TongHop.frmTinHoc.af-ZA.resources
+D:\SVN\obj\Release\TongHop.frmTinHoc.af.resources
+D:\SVN\obj\Release\TongHop.MyResource.en-US.resources
+D:\SVN\obj\Release\TongHop.MyResource.vi-VN.resources
+D:\SVN\obj\Release\HRM Solution.vbproj.GenerateResource.Cache
+D:\SVN\obj\Release\HRM Solution.exe.licenses
+D:\SVN\obj\Release\HRM Solution.exe
+D:\SVN\obj\Release\HRM Solution.xml
+D:\SVN\obj\Release\HRM Solution.pdb
+D:\KZone\TYTHAC\SVN\bin\Release\HRM Solution.exe.config
+D:\KZone\TYTHAC\SVN\bin\Release\HRM Solution.exe
+D:\KZone\TYTHAC\SVN\bin\Release\HRM Solution.pdb
+D:\KZone\TYTHAC\SVN\bin\Release\HRM Solution.xml
+D:\KZone\TYTHAC\SVN\bin\Release\af-ZA\HRM Solution.resources.dll
+D:\KZone\TYTHAC\SVN\bin\Release\af\HRM Solution.resources.dll
+D:\KZone\TYTHAC\SVN\bin\Release\en-US\HRM Solution.resources.dll
+D:\KZone\TYTHAC\SVN\bin\Release\vi-VN\HRM Solution.resources.dll
+D:\KZone\TYTHAC\SVN\bin\Release\CollapsibleSplitter.DLL
+D:\KZone\TYTHAC\SVN\bin\Release\Joaqs.UI.DLL
+D:\KZone\TYTHAC\SVN\bin\Release\Microsoft.Office.Interop.Excel.dll
+D:\KZone\TYTHAC\SVN\bin\Release\Microsoft.Vbe.Interop.dll
+D:\KZone\TYTHAC\SVN\bin\Release\office.dll
+D:\KZone\TYTHAC\SVN\bin\Release\SandBar.DLL
+D:\KZone\TYTHAC\SVN\bin\Release\XPCommonControls.DLL
+D:\KZone\TYTHAC\SVN\bin\Release\XPExplorerBar.DLL
+D:\KZone\TYTHAC\SVN\bin\Release\Microsoft.Office.Interop.SmartTag.dll
+D:\KZone\TYTHAC\SVN\bin\Release\office.xml
+D:\KZone\TYTHAC\SVN\obj\Release\ResolveAssemblyReference.cache
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmDSLaoDongNghiKhongPhep.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmSoLuongKyLuat.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmTheoDoiTienDoThucHienKyLuat.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmThongKeNguyenNhanKyLuat.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmCamKetCaNhanChuaDenMucChiuThue.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmBaoCaoGioVaoRa.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmBaoCaoTongHop.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmCapNhatSoSoBH.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmChucVu.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmNuoiConDuoi6Tuoi.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmDocHaiNangNhoc.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmThongKeDanhSachCB_CNVBiKyLuat.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmDanhSachCNNghiKhongPhepTheoThang.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmDanhSachCNNghiKPTheoNam.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmThongKeNghiODonvi.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmDanhSachCongViec.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmDanhSachThongKeNgayCong.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmGioCongHangNgayDonVi.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmWaiting_GC.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmBaoCaoGioCongNgay.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmGioiTinh.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmHocVan.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmKhamBenhNgheNghiep.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmKhuVuc.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmSoNguoiTrongCongTy.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.ThoiViecKhongThamGiaBHTN.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmNhanVienKyLuatNghiKhongPhep.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmPhuNuHanhKinh.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmPhuNuMangThaiKThaiYte.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmPhuNuMangThai_KThai.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmQuyetdinhTV.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.ThamGiaBHXH.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmThamNien.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmLocExcel.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmSuaChiTra.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmTheoDoiMangThaiDenNC12Thang.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmTheodoiNVNghiTS.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmCTKhacThuong_Ngay.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmKhacThuongTuan.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmBaocaochitietgiocong.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmThongKeCoCongCoPhep.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmThongkecongnhandilamvangmat.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmThongKeCN_TT_GT.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmTKCongViecHDLD.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmThongKeDanhSachCanBo.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmThongKeDanhSachCanBoThang.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmDienBienLuong.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmDSCNKhongNghi.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmBaocaogioconghangngay.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmBaocaogiocongxuong.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmGioCongTieuChuanThang.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmGioCongVuotQua_Thang.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmThongKeGioTangCaXuongNam.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmGiotangcathang.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmNgayDiemDanh.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmWaiting_giotangcathang.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmThongKeGioCongXuong.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmKhamSK.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmThongKePhepThang.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmThongKeNghiPhep.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmPhepNamConLai.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmPhepNam.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmWaitingPhepNam.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmWaiting_phepnam.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmThongKePNMTTheoThang.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmQTSaiQuiDinhBangTong.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmQTSaiQuiDinh.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmQTKhacThuongLC_Thang.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmThongKeSoNgayNghiOMCOTrongNam.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmWaiting_PhepOMCO.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.FrmThongKeTheomqh.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmThongKeTinhHinhNghiViec.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmThaiSan.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmThongKeSLCVNNHD.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmTKSOLUONGKYHDLD.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmThongKeTroCapHDLD.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmDSCongNhanMay.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmtokhaithue.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmTongHopComThang.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmTraCuuThongTinThamGiaBH.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmThongKeSoLaoDongDangNCNho.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmThongKeTroCapNgoaiNgu.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmThongKeTroCapThoRap.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmThongKeTroCapUDMay.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmTuoi.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmBangCongKhoaSo.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmChamcongMain.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmChamCongMain_mss.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmCom.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmNguyenNhanKyLuat.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmquanhuyen.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmcapnhatqdtv.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmChuyenDVExcell.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmXinDiKhamBenh.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmChamCom.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmChamcongex.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmBuaAn.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmChamCongTayEX.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmChamCongTayVaoRa.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmChamCongTay.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmCaLamViec.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmChungChiK.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmChucVuDM.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmCongViec.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmDanToc.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmKhenThuongDM.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmKyLuat.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmKyNang.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmLoaiBinhBau.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmLoaiHopDong.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmNghiPhep.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmLoaiThoiViec.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmNgayLe.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmQuocTich.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmTinhThanh.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmTonGiao.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmChuyenMon.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmHocVanDM.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmNgoaiNgu.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmTinHoc.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmXaPhuong.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmCapQuyenClient.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmCapquyen.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmNguoiDung.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmWaiting.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmVaora.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmCapnhatnghiphep.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmLoad.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmDangNhap.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmBangThongKeKyLuat.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmChiTietBBCV.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmBinhBauChucVu.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmBinhBauA.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmBinhBauThang.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmBinhBauNam_.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmLoaiBB_.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frm_LoaiBB.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmTieuChuan_.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmChuyenDonVi.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmDanhMucMoiQuanHeChuHo.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmDanhMucMoiQuanHe.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmCapNhatHoSoNhanSu.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmCapNhatHoSoQuanHe.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmCapNhatNhaXuong.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmKhu.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmNganh.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmNhaXuong.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmCapNhatNVNgoaiNguPhienDich.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmCapNhatNhomCV_MTCV_PTCV.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmCapNhatKhamChuaBenh.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmWaiting_KCB.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmNoiDK.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmCBCNV_VayVonNganHang.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmChiNhanh.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmChuaKyHDLD.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmChuyenDV.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmCongViecNNDH.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmCapnhatMSTSTK.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmDanhMucQLMTCV_PTCV.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmDDHangNgayClient.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmCongNhanMoi.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmDiemDanhHangNgay.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.TongSoNguoi.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmHDLD.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frm_nghiop.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmKhoanTruMobivi.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmKiemTraCMND.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmKinhNghiemLamViec.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmKyHDSau1Thang.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmLyLichNhanVien.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmMayChamCong.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmMayChamCongSo.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmSomay12.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmKiemTraPhepNam.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmThaiThangThu7.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmNhanVienNghiKhongPhep.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmCongTac.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmDaoTao.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmKhenThuong.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmNhapKT.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmQuaTrinhDieuDong.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmTheoDoiLuongBB_NVTV.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmThoiViec.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmThongKeHD.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmTraCuuNhanhNV.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmTieuChiSanLoc.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmNoiDangKyKCB.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmKhongHuongPC.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmDBLPromaz.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmDBLuong.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmNhapDBLuong.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmDieuChinhLuong.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmChinhLuong_TaoMoi.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmHieuChinhLuong.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmKhoaSoLuong.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmKhoanCongKhac.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmTienCongKhac.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmKhoanTruKhac.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmTienKhoanTruKhac.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmLuongThang.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmChuyenDuLieu.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmPhuCapKhac.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmSoTienPC.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmTamUng.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frm_TamUng_TaoMoi.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmTangLuongThang2.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmThongKeLuongTTGT.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmThueTNCN.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmTienThueTNCN.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmThuongABC.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmTienThuongABC.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmTienVuotSanLuong.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmTinhLuong13.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmHeSo.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmCachTinhLuongChinh.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmTinhLuongChinh.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmCachTinhLuong.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmTinhLuong.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmMain.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.MyResource.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.PrintRibbonControllerResources.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmBangComKhoaSo.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmBangCongKhoaSoNV.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmReportBangCongKhoaSo.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmReportChamCongTay.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmBangChamCom.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.FrmBaoCaoSLTongPhanComCuoiThang.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmDanhSachNVChuaCoThe.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmDiTre.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmDSCNVKhongQuetTheVaoRa.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmGioVaoRa.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmReportChamCong.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmThongKeGioTangCaNam.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmVangMat.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmVeSom.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmBangTheoDoiNgayPhepCuaCBCNV.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmBaoCaoMucLuong.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmBCGioCongTieuChuanThang.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmDanhSachCBCNVChuyenDonVi.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmDanhSachCBCNVDongBHXH.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmDanhSachCBCNVNghiPhep.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmDanhSachCB_CNVBinhBauNam.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmDanhSachCB_CNVhethanHDLD.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmDanhSachHetHangHDKyLai.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmDanhSachNhanVienTheoTrinhDo.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmDanhSachNhanVienThoiViec.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmDanhSachNhanVienTrungTuyen.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmPhanBoNgoaiNgu.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmReportKhamSK.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmSoYeuLyLich.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.FrmConnectDB.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmMainMain.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.Resources.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.FrmReport.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmDanhSachCBCNVDonVi.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmDanhSachCBCNVTheoChucVu.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmReportHDLD.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmThongKeSoNgayNghi.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmThongKeSoNgayNghiDonVi.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmThongKeTheoTinhThanhVaDoTuoi.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmBangLuongChinh.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmBangLuongKhoaSo.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmDanhSachTamUng.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmDanhSachTamUngTongHop.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmDanhSachTamUng_X.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frm_BangLuong.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frm_BangLuong13.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmStatus.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.XRDesignRibbonControllerResources.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmTinHoc.af-ZA.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.frmTinHoc.af.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.MyResource.en-US.resources
+D:\KZone\TYTHAC\SVN\obj\Release\TongHop.MyResource.vi-VN.resources
+D:\KZone\TYTHAC\SVN\obj\Release\HRM Solution.vbproj.GenerateResource.Cache
+D:\KZone\TYTHAC\SVN\obj\Release\HRM Solution.exe.licenses
+D:\KZone\TYTHAC\SVN\obj\Release\af-ZA\HRM Solution.resources.dll
+D:\KZone\TYTHAC\SVN\obj\Release\af\HRM Solution.resources.dll
+D:\KZone\TYTHAC\SVN\obj\Release\en-US\HRM Solution.resources.dll
+D:\KZone\TYTHAC\SVN\obj\Release\vi-VN\HRM Solution.resources.dll
+D:\KZone\TYTHAC\SVN\obj\Release\HRM Solution.exe
+D:\KZone\TYTHAC\SVN\obj\Release\HRM Solution.xml
+D:\KZone\TYTHAC\SVN\obj\Release\HRM Solution.pdb

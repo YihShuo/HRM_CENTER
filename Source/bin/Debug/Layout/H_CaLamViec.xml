@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<form>
+	<attributes>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		
+	</attributes>
+	<controls>
+		<dgrchucvu>
+			
+			<coldgrchucvu tblColName="CA_MA" title="Mã Ca" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1" />
+			
+			<coldgrchucvu tblColName="CA_GIOBATDAU" title="Giờ Bắt Đầu" hide="false" formatCell="" width="200"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2" />
+			
+			<coldgrchucvu tblColName="CA_GIOKETTHUC" title="Giờ Kết Thúc" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3" />
+
+			<coldgrchucvu tblColName="CA_GIOGIAILAO" title="Giờ Giải Lao" hide="false" formatCell="" width="200"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4" />
+
+			<coldgrchucvu tblColName="CA_SOPHUTGIAILAO" title="Số Phút Giải Lao" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5" />
+
+			<coldgrchucvu tblColName="SHIFT" title="Shift" hide="false" formatCell="" width="200"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="6" />
+
+			
+
+
+		</dgrchucvu>
+	</controls>
+</form>

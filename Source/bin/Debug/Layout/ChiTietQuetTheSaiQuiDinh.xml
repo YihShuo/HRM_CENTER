@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<form>
+	<attributes>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+ <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+  </attributes>
+
+	<controls>
+		<dgrchucvu>
+      <coldgrquetthesaiquidinh tblColName="NGAY" title="Ngày 日期" hide="false" formatCell="" width="100"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1" />
+
+      <coldgrquetthesaiquidinh tblColName="CA" title="Ca" hide="false" formatCell="" width="50"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2" />
+
+      <coldgrquetthesaiquidinh tblColName="X_MA_" title="Xưởng 廠別" hide="false" formatCell="" width="50"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3" />
+
+      <coldgrquetthesaiquidinh tblColName="DV_MA" title="Đơn Vị 單位" hide="false" formatCell="" width="60"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4" />
+
+      <coldgrquetthesaiquidinh tblColName="NV_MA" title="Số Thẻ 工號" hide="false" formatCell="" width="50"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5" />
+
+      <coldgrquetthesaiquidinh tblColName="NV_Ten" title="Họ Tên 姓名" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="6" />
+
+      <coldgrquetthesaiquidinh tblColName="GIO_VAO" title="Giờ Vào 上班時間" hide="false" formatCell="" width="60"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="7" />
+
+      <coldgrquetthesaiquidinh tblColName="GIO_RA" title="Giờ Ra 下班時間" hide="false" formatCell="" width="60"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="8" />
+
+  <coldgrquetthesaiquidinh tblColName="QT_VAO_SOM" title="Vào Sớm 提前刷卡" hide="false" formatCell="" width="60"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="9" />
+
+      <coldgrquetthesaiquidinh tblColName="KHONG_QT_VAO" title="Không QT Vào 未刷卡" hide="false" formatCell="" width="100"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="10" />
+
+      <coldgrquetthesaiquidinh tblColName="QT_VAO_TRE" title="Vào Trể 遲到" hide="false" formatCell="" width="50"
+      HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="11" />
+
+      <coldgrquetthesaiquidinh tblColName="QT_RA_SOM" title="Ra Sớm 16点30分前刷卡" hide="false" formatCell="" width="60"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="12" />
+
+      <coldgrquetthesaiquidinh tblColName="KHONG_QT_RA" title="Không QT Ra 未刷卡" hide="false" formatCell="" width="100"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="13" />
+
+      <coldgrquetthesaiquidinh tblColName="QT_RA_TRE" title="Ra Trể 延遲刷卡" hide="false" formatCell="" width="50"
+      HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="14" />
+
+
+    </dgrchucvu>
+	</controls>
+</form>

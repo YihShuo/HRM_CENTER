@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<form>
+	<attributes>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+	 <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+	   
+     </attributes>
+	<controls>
+    
+		<dgrMayChamCong>
+
+      <coldgrChamcongmain tblColName="1" title="" hide="false" formatCell="" width="32" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1"/>
+
+      <coldgrChamcongmain tblColName="2" title="" hide="false" formatCell="" width="32" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2"/>
+
+      <coldgrChamcongmain tblColName="3" title="" hide="false" formatCell="" width="32" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3"/>
+ 
+       <coldgrChamcongmain tblColName="NV_MA" title="Mã số" hide="false" formatCell="" width="80" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4"/>
+
+      <coldgrChamcongmain tblColName="NV_TEN" title="Tên nhân viên" hide="false" formatCell="" width="180" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5"/>
+      <coldgrChamcongmain tblColName="DV_MA" title="Đơn vị" hide="false" formatCell="" width="180" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="6"/>
+
+      <coldgrChamcongmain tblColName="CVU_MA" title="Chức vụ" hide="false" formatCell="" width="80" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="7"/>
+
+ <coldgrChamcongmain tblColName="L13_Heso" title="Hệ số" hide="false" formatCell="" width="80" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="8"/>
+
+      <coldgrChamcongmain tblColName="L13_Sothang" title="Số tháng" hide="false" formatCell="" width="80" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="9"/>
+		
+      <coldgrChamcongmain tblColName="L13_Xeploai" title="Xếp loại" hide="false" formatCell="" width="80" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="10"/>
+
+      <coldgrChamcongmain tblColName="L13_Luong" title="Lương" hide="false" formatCell="" width="150" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="11"/>
+      
+      <coldgrChamcongmain tblColName="L13_Phucap" title="Phụ cấp" hide="false" formatCell="" width="150" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="12"/>
+
+     
+
+      <coldgrChamcongmain tblColName="L13_ThuongThang13" title="Thưởng tháng 13" hide="false" formatCell="" width="150" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="13"/>
+
+    </dgrMayChamCong>
+	</controls>
+</form>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<form>
+	<attributes>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+
+  </attributes>
+	<controls>
+		<dgrngaynghi>
+      <coldgrPhanTo tblColName="DONVI" title="Đơn Vị" hide="false" formatCell="" width="60" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1"/>
+      <coldgrPhanTo tblColName="SOTHE" title="Số Thẻ" hide="false" formatCell="" width="60" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2"/>
+      <coldgrPhanTo tblColName="HOTEN" title="Họ Tên" hide="false" formatCell="" width="150" HtextAlign="3" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3"/>
+      <coldgrPhanTo tblColName="NGAYVAO" title="Ngày Vào" hide="false" formatCell="" width="100" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4"/>
+      <coldgrPhanTo tblColName="THUOCTO" title="Tổ" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5"/>
+		</dgrngaynghi>
+	</controls>
+</form>

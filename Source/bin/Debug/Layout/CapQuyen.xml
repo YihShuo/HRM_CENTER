@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<form>
+	<attributes>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+
+<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+
+<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+  </attributes>
+
+	<controls>
+		<dgrchucvu>
+      <coldgrNguoiDung tblColName="Ma_DM" title="Mã Danh Mục" hide="true" formatCell="" width="100"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1" />
+
+      <coldgrNguoiDung tblColName="Ten_DM" title="Tên Danh Mục" hide="false" formatCell="" width="300"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2" />
+
+      <coldgrNguoiDung tblColName="Allow" title="Xem" hide="false" formatCell="" width="50"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3" />
+
+      <coldgrNguoiDung tblColName="Them" title="Thêm" hide="false" formatCell="" width="50"
+  HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4" />
+
+      <coldgrNguoiDung tblColName="Sua" title="Sửa" hide="false" formatCell="" width="50"
+  HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5" />
+
+      <coldgrNguoiDung tblColName="Xoa" title="Xóa" hide="false" formatCell="" width="50"
+  HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="6" />
+
+   <coldgrNguoiDung tblColName="KHUA" title="Khu A" hide="false" formatCell="" width="50"
+  HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="6" />
+
+   <coldgrNguoiDung tblColName="KHUB" title="Khu B" hide="false" formatCell="" width="50"
+  HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="6" />
+      
+    </dgrchucvu>
+	</controls>
+</form>

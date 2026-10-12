@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<form>
+	<attributes>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+                            <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+                           <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+                            <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+                           <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	</attributes>
+	<controls>
+		<dgrchucvu>
+
+			<coldgrfunction tblColName="1" title="" hide="false" formatCell="" width="17"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1" />
+
+			<coldgrfunction tblColName="2" title="" hide="false" formatCell="" width="17"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2" />
+
+			<coldgrfunction tblColName="3" title="" hide="false" formatCell="" width="17"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3" />
+
+			<coldgrfunction tblColName="MA" title="Số Thẻ " hide="false" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4" />
+
+			<coldgrfunction tblColName="TEN" title="Họ Tên" hide="false" formatCell="" width="200"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5" />
+
+			<coldgrfunction tblColName="NGAYVAO" title="Ngày vào" hide="false" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="6" />
+
+                       		<coldgrfunction tblColName="NGAY" title="Ngày bắt đầu" hide="false" formatCell="" width="100"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="7" />
+
+			<coldgrfunction tblColName="LUONG" title="Lương chính" hide="false" formatCell="" width="100" HtextAlign="0"
+				VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="8" />
+
+			<coldgrfunction tblColName="SOQD" title="Số quyết định" hide="false" formatCell="" width="100" HtextAlign="0"
+				VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="9" />
+
+			<coldgrfunction tblColName="PHUCAP" title="Phụ cấp" hide="false" formatCell="" width="80" HtextAlign="0"
+				VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="10" />
+
+			<coldgrfunction tblColName="HESO" title="Hệ số" hide="false" formatCell="" width="80" HtextAlign="0"
+				VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="11" />
+
+<coldgrfunction tblColName="CV_MA" title="Công việc" hide="false" formatCell="" width="80" HtextAlign="0"
+				VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="12" />
+
+<coldgrfunction tblColName="CVU_MA" title="Chức vụ" hide="false" formatCell="" width="80" HtextAlign="0"
+				VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="13" />
+
+<coldgrfunction tblColName="DHNN" title="DHNN" hide="false" formatCell="" width="80" HtextAlign="0"
+				VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="14" />
+
+<coldgrfunction tblColName="LDCM" title="LDCM" hide="false" formatCell="" width="80" HtextAlign="0"
+				VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="15" />
+
+<coldgrfunction tblColName="PhuCapKhac" title="PC khác" hide="false" formatCell="" width="80" HtextAlign="0"
+                     VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="16" />
+
+
+<coldgrfunction tblColName="TCMT" title="TCMT" hide="false" formatCell="" width="80" HtextAlign="0"
+                     VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="16" />
+
+
+        <coldgrfunction tblColName="TrocapCV" title="PC TCCV" hide="false" formatCell="" width="80" HtextAlign="0"
+		VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="17" />
+        <coldgrfunction tblColName="TrocapUDMAY" title="TC UDMAY" hide="false" formatCell="" width="80" HtextAlign="0"
+		VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="18" />
+        <coldgrfunction tblColName="TrocapCMNV" title="TC CMNV" hide="false" formatCell="" width="80" HtextAlign="0"
+		VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="19" />
+        <coldgrfunction tblColName="TrocapNN" title="TC NN" hide="false" formatCell="" width="80" HtextAlign="0"
+		VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="20" />
+        <coldgrfunction tblColName="TrocapHMPT" title="TC HMPT" hide="false" formatCell="" width="80" HtextAlign="0"
+		VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="21" />
+        <coldgrfunction tblColName="TroCapQLSX" title="TC QLSX" hide="false" formatCell="" width="80" HtextAlign="0"
+		VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="22" />
+        <coldgrfunction tblColName="TroCapCBVP" title="TC CBVP" hide="false" formatCell="" width="80" HtextAlign="0"
+		VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="23" />
+        <coldgrfunction tblColName="TroCapBBNT" title="TC BBNT" hide="false" formatCell="" width="80" HtextAlign="0"
+		VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="24" />
+        <coldgrfunction tblColName="TroCapBBHT" title="TC BBHT" hide="false" formatCell="" width="80" HtextAlign="0"
+		VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="25" />
+        <coldgrfunction tblColName="TroCapBBTHANG" title="TC BBTHANG" hide="false" formatCell="" width="80" HtextAlign="0"
+		VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="26" />
+        <coldgrfunction tblColName="TroCapCLGD" title="TC CLGD" hide="false" formatCell="" width="80" HtextAlign="0"
+	VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="27" />	
+        <coldgrfunction tblColName="TroCapHTDP" title="TC HTDP" hide="false" formatCell="" width="80" HtextAlign="0"
+		VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="28" />
+        <coldgrfunction tblColName="TroCapQAQIP" title="TC QAQIP" hide="false" formatCell="" width="80" HtextAlign="0"
+		VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="29" />
+        <coldgrfunction tblColName="TrocapThoRap" title="TC ThoRap" hide="false" formatCell="" width="80" HtextAlign="0"
+		VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="30" />
+        <coldgrfunction tblColName="TrocapHSE" title="TCB HSE" hide="false" formatCell="" width="80" HtextAlign="0"
+		VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="31" />
+
+
+      <coldgrfunction tblColName="PHUCLOI" title="Phúc lợi" hide="false" formatCell="" width="80" HtextAlign="0"
+		VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="32" />
+
+      <coldgrfunction tblColName="HOTRONGOAIGIO" title="Hỗ trợ ngoài giờ" hide="false" formatCell="" width="80" HtextAlign="0"
+		VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="33" />
+
+<coldgrfunction tblColName="DQTV" title="DQTV" hide="false" formatCell="" width="80" HtextAlign="0"
+		VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="34" />
+
+      <coldgrfunction tblColName="PCCC" title="PCCC" hide="false" formatCell="" width="80" HtextAlign="0"
+		VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="35" />
+		</dgrchucvu>
+	</controls>
+</form>

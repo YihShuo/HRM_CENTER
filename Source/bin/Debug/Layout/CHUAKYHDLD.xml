@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<form>
+	<attributes>
+		
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+      <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+   <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+      <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+  <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+      <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+   <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+      <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	 <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    </attributes>
+
+	<controls>
+		<dgrchucvu>
+   <coldgrhoso tblColName="STT" title="STT" hide="false" formatCell="" width="30"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1" />
+
+   <coldgrhoso tblColName="MA" title="Số Thẻ" hide="false" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2" />
+
+      <coldgrhoso tblColName="TEN" title="Họ Tên" hide="false" formatCell="" width="190"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3" />
+
+
+      <coldgrhoso tblColName="DONVI" title="Đơn Vị" hide="false" formatCell="" width="80"
+      HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4" />
+
+      
+      <coldgrhoso tblColName="NGAYVAO" title="Ngày Vào" hide="FALSE" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5" />
+
+      <coldgrhoso tblColName="TENCV" title="Tên công việc" hide="FALSE" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="6" />
+
+      <coldgrhoso tblColName="MACV" title="Mã công việc" hide="true" formatCell="" width="70"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="7" />
+
+
+      <coldgrhoso tblColName="TENCVU" title="Tên Chức Vụ" hide="false" formatCell="" width="80"
+       HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="8" />
+
+      <coldgrhoso tblColName="BBTT" title="BB_Trước" hide="FALSE" formatCell="" width="60"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="9" />
+
+      <coldgrhoso tblColName="BBA" title="BB_A" hide="false" formatCell="" width="50"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="10" />
+
+    <coldgrhoso tblColName="BBB" title="BB_B" hide="false" formatCell="" width="50"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="11" />
+
+      <coldgrhoso tblColName="BBC" title="BB_C" hide="false" formatCell="" width="50"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="12" />
+
+  <coldgrhoso tblColName="RO" title="RO" hide="false" formatCell="" width="50"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="13" />
+
+  <coldgrhoso tblColName="OM" title="OM" hide="false" formatCell="" width="50"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="14" />
+
+      <coldgrhoso tblColName="HESO" title="Hệ Số" hide="false" formatCell="" width="50"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="15" />
+
+  <coldgrhoso tblColName="LUONGCB" title="Lương cơ bản" hide="false" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="16" />
+
+  <coldgrhoso tblColName="LUONGTOITHIEU" title="Lương tối thiểu" hide="false" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="17" />
+
+   <coldgrhoso tblColName="TCCV" title="Trợ cấp C.Việc" hide="false" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="18" />
+
+      <coldgrhoso tblColName="TCKHAC" title="Phụ Cấp Khác" hide="false" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="19" />
+
+      <coldgrhoso tblColName="TCCM" title="Trợ cấp C.M" hide="false" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="20" />
+
+  <coldgrhoso tblColName="TCHM" title="Trợ cấp HM" hide="TRUE" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="21" />
+
+  <coldgrhoso tblColName="HD_TroCapQAQIP" title="QAQIP" hide="TRUE" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="22" />
+
+  <coldgrhoso tblColName="HD_TrocapThoRap" title="Thợ Rập" hide="TRUE" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="23" />
+
+  <coldgrhoso tblColName="HD_TrocapHSE" title="HSE" hide="TRUE" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="24" />
+
+  <coldgrhoso tblColName="HD_TCHOTRODONGPHUC" title="Đồng Phục" hide="TRUE" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="25" />
+
+  <coldgrhoso tblColName="HD_TCCHAMLOGIADINH" title="CL Gia đình" hide="TRUE" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="26" />
+
+  <coldgrhoso tblColName="HD_TROCAPMOITRUONG" title="Trợ cấp MT" hide="false" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="27" />
+
+
+ <coldgrhoso tblColName="HD_KHONGHUONGCHUYENCAN" title="Không hưởng CC" hide="TRUE" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="28" />
+
+
+
+      <coldgrhoso tblColName="TCUD" title="Trợ cấp UD" hide="false" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="29" />
+
+  <coldgrhoso tblColName="TCNN" title="Trợ cấp NN" hide="false" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="30" />
+			
+ <coldgrhoso tblColName="PHUCLOI" title="Phúc lợi" hide="false" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="31" />
+
+  <coldgrhoso tblColName="HTNG" title="HTNG" hide="false" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="32" />
+
+ <coldgrhoso tblColName="DQTV" title="DQTV" hide="false" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="33" />
+
+  <coldgrhoso tblColName="PCCC" title="PCCC" hide="false" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="34" />
+				
+			
+			
+
+ <coldgrhoso tblColName="BANGL" title="Bảng Lương" hide="TRUE" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="35" />
+
+ <coldgrhoso tblColName="TENBANGL" title="Tên Bảng Lương" hide="TRUE" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="36" />
+
+
+ <coldgrhoso tblColName="TENNGACH" title="Tên Ngạch" hide="TRUE" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="37" />
+
+
+ <coldgrhoso tblColName="NGACH" title="Ngạch" hide="TRUE" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="38" />
+
+ <coldgrhoso tblColName="BAC" title="Bậc" hide="TRUE" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="39" />
+
+
+  <coldgrhoso tblColName="BL" title="Bậc Lương" hide="false" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="40" />
+
+  <coldgrhoso tblColName="CHONBL" title="Chọn BL" hide="TRUE" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="41" />
+
+  <coldgrhoso tblColName="BHXH" title="BHXH" hide="TRUE" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="42" />
+
+  <coldgrhoso tblColName="BHYT" title="BHYT" hide="TRUE" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="43" />
+
+      <coldgrhoso tblColName="BHTN" title="BHTN" hide="TRUE" formatCell="" width="90"
+       HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="44" />
+
+  <coldgrhoso tblColName="CVDH" title="CV DH" hide="TRUE" formatCell="" width="90"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="45" />
+
+     <coldgrhoso tblColName="TUNGAY" title="Ngày ký" hide="false" formatCell="" width="70"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="46" />
+
+      <coldgrhoso tblColName="DENNGAY" title="Ngày hết hạn" hide="false" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="47" />
+
+      <coldgrhoso tblColName="CBVP" title="CBVP" hide="false" formatCell="" width="80"
+      HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="48" />
+
+      <coldgrhoso tblColName="CBTS" title="CBTS" hide="false" formatCell="" width="80"
+      HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="49" />
+
+      <coldgrhoso tblColName="BBNT" title="BBNT" hide="false" formatCell="" width="80"
+      HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="50" />
+
+      <coldgrhoso tblColName="BBHT" title="BBHT" hide="false" formatCell="" width="80"
+      HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="51" />
+
+      <coldgrhoso tblColName="BBTHANG" title="BBTHANG" hide="false" formatCell="" width="80"
+      HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="52" />
+
+ <coldgrhoso tblColName="HD_BAC1" title="Bậc 1" hide="false" formatCell="" width="80"
+      HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="53" />
+
+ <coldgrhoso tblColName="HD_BAC2" title="Bậc 2" hide="false" formatCell="" width="80"
+      HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="54" />
+
+ <coldgrhoso tblColName="HD_BAC3" title="Bâc 3" hide="false" formatCell="" width="80"
+      HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="55" />
+
+          </dgrchucvu>
+	</controls>
+</form>

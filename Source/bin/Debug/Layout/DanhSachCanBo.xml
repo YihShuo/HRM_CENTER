@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<form>
+	<attributes>
+		
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+ 		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+   <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+<frmA name="tên thuộc tính" value="giá trị thiết lập" />		
+  </attributes>
+
+	<controls>
+		<dgrchucvu>
+
+      <coldgrphiendich tblColName="STT" title="STT" hide="FALSE" formatCell="" width="50"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1" />
+
+      <coldgrphiendich tblColName="TEN" title="Họ Tên 姓名" hide="false" formatCell="" width="200"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2" />
+
+   			  <coldgrphiendich tblColName="MA" title="Số Thẻ 工號" hide="false" formatCell="" width="100"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3" />
+
+
+     			 <coldgrphiendich tblColName="DONVI" title="Đơn Vị 單位" hide="false" formatCell="" width="110"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4" />
+      			
+     			 <coldgrphiendich tblColName="NGAYVAO" title="Ngày Vào 進廠日期" hide="false" formatCell="" width="140"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5" />
+
+ 			<coldgrphiendich tblColName="NGAYBONHIEM" title="Ngày Bổ Nhiệm 昇職日期" hide="false" formatCell="" width="145"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="6" />
+
+ 			<coldgrphiendich tblColName="CV_MA" title="Công việc" hide="false" formatCell="" width="140"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="7" />
+
+ 			<coldgrphiendich tblColName="CV_TEN" title="Tên Công Việc" hide="false" formatCell="" width="140"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="8" />
+
+ 			<coldgrphiendich tblColName="CHUCVU" title="Chức Vụ 職務" hide="false" formatCell="" width="140"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="9" />
+
+	<coldgrphiendich tblColName="TRINHDO" title="Học vấn" hide="false" formatCell="" width="140"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="10" />
+
+	<coldgrphiendich tblColName="CHUYENMON" title="Chuyên môn" hide="false" formatCell="" width="140"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="11" />
+
+			<coldgrphiendich tblColName="NAMNU" title="Nam/Nữ 男/女" hide="false" formatCell="" width="110"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="12" />
+
+      			<coldgrphiendich tblColName="GHICHU" title="Ghi Chú 備註" hide="false" formatCell="" width="160"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="13" />
+
+     
+
+
+    </dgrchucvu>
+	</controls>
+</form>

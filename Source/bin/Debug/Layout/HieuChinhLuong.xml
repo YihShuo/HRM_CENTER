@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<form>
+	<attributes>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+                               <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+                               <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+  </attributes>
+	<controls>
+    
+		<dgrMayChamCong>
+
+      <coldgrChamcongmain tblColName="1" title="" hide="false" formatCell="" width="34" HtextAlign="2" VtextAlign="2" HtitAlign="2" VtitAlign="0" positionCol="1"/>
+ 
+      <coldgrChamcongmain tblColName="NV_MA" title="Số Thẻ" hide="false" formatCell="" width="100" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="2"/>
+
+      <coldgrChamcongmain tblColName="NV_TEN" title="Họ Tên" hide="false" formatCell="" width="180" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3"/>
+    
+      <coldgrChamcongmain tblColName="T_MA" title="Tháng" hide="false" formatCell="" width="125" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="4"/>
+		
+      <coldgrChamcongmain tblColName="L_LUONGCHINH" title="Mức Lương" hide="false" formatCell="" width="150" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="5"/>
+
+<coldgrChamcongmain tblColName="L_PHUCAPKHAC" title="Phụ Cấp" hide="false" formatCell="" width="100" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="6"/>
+
+<coldgrChamcongmain tblColName="L_CONGHS1" title="Công HS1" hide="false" formatCell="" width="90" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="7"/>
+
+<coldgrChamcongmain tblColName="L_CONGHS15" title="Phụ Cấp" hide="true" formatCell="" width="120" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="8"/>
+
+<coldgrChamcongmain tblColName="L_CONGHS2" title="Công HS2" hide="false" formatCell="" width="90" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="9"/>
+
+<coldgrChamcongmain tblColName="L_CONGHS3" title="Công HS2" hide="true" formatCell="" width="150" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="11"/>
+
+      <coldgrChamcongmain tblColName="L_CONGCADEM" title="" hide="true" formatCell="" width="34" HtextAlign="2" VtextAlign="2" HtitAlign="2" VtitAlign="0" positionCol="12"/>
+ 
+      <coldgrChamcongmain tblColName="L_NGUNGVIEC" title="Số Thẻ" hide="true" formatCell="" width="150" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="13"/>
+
+      <coldgrChamcongmain tblColName="L_NGHIP" title="Họ Tên" hide="true" formatCell="" width="250" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="14"/>
+    
+      <coldgrChamcongmain tblColName="L_NGHIR" title="Tháng" hide="true" formatCell="" width="125" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="15"/>
+		
+      <coldgrChamcongmain tblColName="L_NGHIRO" title="Mức Lương" hide="true" formatCell="" width="200" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="16"/>
+
+<coldgrChamcongmain tblColName="L_NGHIOM" title="Phụ Cấp" hide="true" formatCell="" width="120" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="17"/>
+
+<coldgrChamcongmain tblColName="L_NGHITS" title="Công HS1" hide="true" formatCell="" width="150" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="18"/>
+
+<coldgrChamcongmain tblColName="L_NGHIKHAMTHAI" title="Công HS2" hide="true" formatCell="" width="150" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="19"/>
+
+
+<coldgrChamcongmain tblColName="L_TAMUNG" title="Công HS2" hide="true" formatCell="" width="150" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="20"/>
+
+<coldgrChamcongmain tblColName="L_SOPHANCOM" title="Công HS2" hide="true" formatCell="" width="150" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="21"/>
+
+
+
+<coldgrChamcongmain tblColName="L_BHYT" title="Công HS2" hide="true" formatCell="" width="150" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="22"/>
+
+<coldgrChamcongmain tblColName="L_BHXH" title="Công HS2" hide="true" formatCell="" width="150" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="23"/>
+      	
+    </dgrMayChamCong>
+	</controls>
+</form>

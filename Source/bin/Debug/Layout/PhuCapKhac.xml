@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<form>
+	<attributes>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		
+  </attributes>
+	<controls>
+    
+		<dgrMayChamCong>
+
+      <coldgrChamcongmain tblColName="1" title="" hide="false" formatCell="" width="39" HtextAlign="2" VtextAlign="2" HtitAlign="2" VtitAlign="0" positionCol="1"/>
+
+      <coldgrChamcongmain tblColName="2" title="" hide="false" formatCell="" width="34" HtextAlign="2" VtextAlign="2" HtitAlign="2" VtitAlign="0" positionCol="2"/>
+
+      <coldgrChamcongmain tblColName="3" title="" hide="false" formatCell="" width="34" HtextAlign="2" VtextAlign="2" HtitAlign="2" VtitAlign="0" positionCol="3"/>
+ 
+      <coldgrChamcongmain tblColName="NV_MA" title="Số Thẻ" hide="false" formatCell="" width="100" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="4"/>
+
+      <coldgrChamcongmain tblColName="NV_TEN" title="Họ Tên" hide="false" formatCell="" width="180" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5"/>
+    
+      <coldgrChamcongmain tblColName="T_MA" title="Tháng" hide="false" formatCell="" width="150" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="6"/>
+		
+      <coldgrChamcongmain tblColName="LPC_MA" title="Số Tiền" hide="TRUE" formatCell="" width="50" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="7"/>
+
+      <coldgrChamcongmain tblColName="LPC_TEN" title="Loại Phụ Cấp" hide="false" formatCell="" width="150" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="8"/>
+
+      <coldgrChamcongmain tblColName="PC_SOTIEN" title="Số Tiền" hide="false" formatCell="" width="150" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="9"/>
+
+     	
+    </dgrMayChamCong>
+	</controls>
+</form>

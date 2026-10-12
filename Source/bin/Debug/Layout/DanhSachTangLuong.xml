@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<form>
+	<attributes>
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+        <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+        <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	 <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+        <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	</attributes>
+
+	<controls>
+		<dgrchucvu>
+			
+			<coldgrtieuchuan tblColName="NV_MA" title="Số thẻ" hide="false" formatCell="" width="50"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1" />
+
+			<coldgrtieuchuan tblColName="NV_TEN" title="Họ Tên" hide="false" formatCell="" width="190"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2" />
+
+			<coldgrtieuchuan tblColName="DV_MA" title="Đơn vị" hide="FALSE" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3" />
+
+			<coldgrtieuchuan tblColName="T_MA" title="Tháng" hide="FALSE" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4" />
+
+     			<coldgrtieuchuan tblColName="NV_Ngayvao" title="Ngày vào" hide="false" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5" />
+			
+			<coldgrtieuchuan tblColName="HD_NgayKy" title="Ngày ký" hide="false" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="6" />
+
+                        <coldgrtieuchuan tblColName="CVU_TEN" title="Chức vụ" hide="false" formatCell="" width="120"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="7" />
+
+<coldgrtieuchuan tblColName="DHNN" title="DHNN" hide="TRUE" formatCell="" width="50"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="8" />
+<coldgrtieuchuan tblColName="KHCC" title="KHCC" hide="TRUE" formatCell="" width="50"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="9" />
+
+			<coldgrtieuchuan tblColName="BACLUONGCU" title="Bậc lương cũ" hide="false" formatCell="" width="70"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="10" />
+
+			<coldgrtieuchuan tblColName="HESOCU" title="Hệ số cũ" hide="false" formatCell="" width="50"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="11" />
+
+                       <coldgrtieuchuan tblColName="LUONGCBCU" title="Lương CB cũ" hide="true" formatCell="" width="70"
+                                HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="12" />
+
+                       <coldgrtieuchuan tblColName="TCCMCU" title="TCCMCU" hide="false" formatCell="" width="70"
+                                HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="13" />
+      
+                       <coldgrtieuchuan tblColName="TCCVCU" title="TCCVCU" hide="false" formatCell="" width="70"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="14" />
+
+                       <coldgrtieuchuan tblColName="TCNNCU" title="TCNNCU" hide="false" formatCell="" width="70"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="15" />
+
+			<coldgrtieuchuan tblColName="TCUDMAYCU" title="TCUDMAYCU" hide="false" formatCell="" width="70"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="16" />
+
+			<coldgrtieuchuan tblColName="TCQAQIPCU" title="TCQAQIPCU" hide="FALSE" formatCell="" width="70"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="17" />
+
+     		        <coldgrtieuchuan tblColName="TCThoRapCU" title="TCThoRapCU" hide="false" formatCell="" width="70"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="18" />
+
+			<coldgrtieuchuan tblColName="TCHSECU" title="TCHSECU" hide="false" formatCell="" width="70"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="19" />
+
+			<coldgrtieuchuan tblColName="TCCBVPCU" title="TCCBVPCU" hide="false" formatCell="" width="70"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="20" />
+
+                        <coldgrtieuchuan tblColName="TCCBTSCU" title="TCCBTSCU" hide="true" formatCell="" width="70"
+                                HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="21" />
+
+                       <coldgrtieuchuan tblColName="TCKHACCU" title="TCKHACCU" hide="false" formatCell="" width="70"
+                                HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="22" />
+      
+                        <coldgrtieuchuan tblColName="TCHMPTCU" title="TCHMPTCU" hide="false" formatCell="" width="70"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="23" />
+			
+		       <coldgrtieuchuan tblColName="TCHOTRODONGPHUCCU" title="TCHOTRODONGPHUCCU" hide="false" formatCell="" width="70"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="24" />
+
+			<coldgrtieuchuan tblColName="TCCHAMLOGIADINHCU" title="TCCHAMLOGIADINHCU" hide="false" formatCell="" width="70"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="25" />
+
+			<coldgrtieuchuan tblColName="TCBBTHANGCU" title="TCBBTHANGCU" hide="FALSE" formatCell="" width="70"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="26" />
+
+     			<coldgrtieuchuan tblColName="TCBBNCU" title="TCBBNCU" hide="false" formatCell="" width="70"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="27" />
+
+			<coldgrtieuchuan tblColName="TCMOITRUONGCU" title="TCMOITRUONGCU" hide="false" formatCell="" width="70"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="28" />
+
+<coldgrtieuchuan tblColName="TCHTNGCU" title="TCHTNGCU" hide="false" formatCell="" width="70"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="29" />
+
+<coldgrtieuchuan tblColName="TCDQTVCU" title="TCDQTVCU" hide="false" formatCell="" width="70"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="30" />
+
+<coldgrtieuchuan tblColName="TCPCCCCU" title="TCPCCCCU" hide="false" formatCell="" width="70"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="31" />
+
+			<coldgrtieuchuan tblColName="TONGLUONGCU" title="TONGLUONGCU" hide="false" formatCell="" width="70"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="32" />
+
+			<coldgrtieuchuan tblColName="HESOMOI" title="HESOMOI" hide="false" formatCell="" width="70"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="33" />
+
+                       <coldgrtieuchuan tblColName="BACLUONGMOI" title="BACLUONGMOI" hide="true" formatCell="" width="70"
+                               HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="34" />
+
+                       <coldgrtieuchuan tblColName="LUONGCBMOI" title="LUONGCBMOI" hide="false" formatCell="" width="70"
+                              HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="35" />
+      
+                       <coldgrtieuchuan tblColName="TCCMMOI" title="TCCMMOI" hide="false" formatCell="" width="70"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="36" />
+			
+		       <coldgrtieuchuan tblColName="TCCVMOI" title="TCCVMOI" hide="false" formatCell="" width="70"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="37" />
+
+			<coldgrtieuchuan tblColName="TCNNMOI" title="TCNNMOI" hide="false" formatCell="" width="70"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="38" />
+
+			<coldgrtieuchuan tblColName="TCUDMAYMOI" title="Trợ cấp UDMAYMOI" hide="FALSE" formatCell="" width="70"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="39" />
+
+     			<coldgrtieuchuan tblColName="TCQAQIPMOI" title="TCQAQIPMOI" hide="false" formatCell="" width="70"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="40" />
+
+			<coldgrtieuchuan tblColName="TCThoRapMOI" title="TCThoRapMOI" hide="false" formatCell="" width="70"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="41" />
+
+			<coldgrtieuchuan tblColName="TCHSEMOI" title="TCHSEMOI" hide="false" formatCell="" width="70"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="42" />
+
+			<coldgrtieuchuan tblColName="TCCBVPMOI" title="TCCBVPMOI" hide="false" formatCell="" width="70"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="43" />
+
+                        <coldgrtieuchuan tblColName="TCCBTSMOI" title="TCCBTSMOI" hide="true" formatCell="" width="70"
+                                HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="44" />
+
+                       <coldgrtieuchuan tblColName="TCKHACMOI" title="TCKHACMOI" hide="false" formatCell="" width="70"
+                                HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="45" />
+      
+                       <coldgrtieuchuan tblColName="TCHMPTMOI" title="TCHMPTMOI" hide="false" formatCell="" width="70"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="46" />
+			
+		       <coldgrtieuchuan tblColName="TCHOTRODONGPHUCMOI" title="TCHOTRODONGPHUCMOI" hide="false" formatCell="" width="70"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="47" />
+
+			<coldgrtieuchuan tblColName="TCCHAMLOGIADINHMOI" title="TCCHAMLOGIADINHMOI" hide="false" formatCell="" width="70"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="48" />
+
+			<coldgrtieuchuan tblColName="TCBBTHANGMOI" title="TCBBTHANGMOI" hide="FALSE" formatCell="" width="70"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="49" />
+
+     		       <coldgrtieuchuan tblColName="TCBBNMOI" title="TCBBNMOI" hide="false" formatCell="" width="70"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="50" />
+
+			<coldgrtieuchuan tblColName="TCMOITRUONGMOI" title="TCMOITRUONGMOI" hide="false" formatCell="" width="70"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="51" />
+
+<coldgrtieuchuan tblColName="TCHTNGMOI" title="TCHTNGMOI" hide="false" formatCell="" width="70"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="52" />
+
+<coldgrtieuchuan tblColName="TCDQTVMOI" title="TCDQTVMOI" hide="false" formatCell="" width="70"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="53" />
+
+<coldgrtieuchuan tblColName="TCPCCCMOI" title="TCPCCCMOI" hide="false" formatCell="" width="70"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="54" />
+
+			<coldgrtieuchuan tblColName="TONGLUONGMOI" title="TONGLUONGMOI" hide="false" formatCell="" width="70"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="55" />
+
+			<coldgrtieuchuan tblColName="TONGPHUCAPBH" title="TONGPHUCAPBH" hide="false" formatCell="" width="70"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="56" />
+
+                        <coldgrtieuchuan tblColName="TONGLUONGBH" title="TONGLUONGBH" hide="true" formatCell="" width="70"
+                                HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="57" />
+
+                        <coldgrtieuchuan tblColName="TONGCL" title="Tổng CL" hide="false" formatCell="" width="70"
+                                 HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="58" />
+			
+		        <coldgrtieuchuan tblColName="GHICHU" title="Ghi chú" hide="false" formatCell="" width="70"
+                                   HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="59" />
+
+	</dgrchucvu>
+	</controls>
+</form>

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<form>
+	<attributes>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+                <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+                <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+	</attributes>
+<controls>
+	<dgrMayChamCong>
+
+                <coldgrcongviec tblColName="3" title="" hide="false" formatCell="" width="30" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="0"/>
+ 
+		<coldgrcongviec tblColName="NV_TEN" title="Họ Tên" hide="false" formatCell="" width="160" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1"/>
+
+    		<coldgrcongviec tblColName="NV_MA" title="Số Thẻ" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2"/>
+
+
+		<coldgrcongviec tblColName="DV_MA" title="ĐƠN VỊ" hide="false" formatCell="" width="80" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3"/>
+		<coldgrcongviec tblColName="NV_NGAYVAO" title="NGÀY VÀO" hide="false" formatCell="" width="80" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4"/>
+
+
+
+		<coldgrcongviec tblColName="NAM" title="Năm" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5"/>
+
+		<coldgrcongviec tblColName="THANG1" title="Tháng 1" hide="false" formatCell="" width="70" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="6"/>
+
+		<coldgrcongviec tblColName="THANG2" title="Tháng 2" hide="false" formatCell="" width="70" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="7"/>
+
+		<coldgrcongviec tblColName="THANG3" title="Tháng 3" hide="false" formatCell="" width="70" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="8"/>
+
+		<coldgrcongviec tblColName="THANG4" title="Tháng 4" hide="false" formatCell="" width="70" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="9"/>
+
+		<coldgrcongviec tblColName="THANG5" title="Tháng 5" hide="false" formatCell="" width="70" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="10"/>
+
+		<coldgrcongviec tblColName="THANG6" title="Tháng 6" hide="false" formatCell="" width="70" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="11"/>
+
+		<coldgrcongviec tblColName="THANG7" title="Tháng 7" hide="false" formatCell="" width="70" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="12"/>
+
+		<coldgrcongviec tblColName="THANG8" title="Tháng 8" hide="false" formatCell="" width="70" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="13"/>
+
+		<coldgrcongviec tblColName="THANG9" title="Tháng 9" hide="false" formatCell="" width="70" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="14"/>
+
+		<coldgrcongviec tblColName="THANG10" title="Tháng 10" hide="false" formatCell="" width="80" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="15"/>
+
+		<coldgrcongviec tblColName="THANG11" title="Tháng 11" hide="false" formatCell="" width="80" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="16"/>
+
+		<coldgrcongviec tblColName="THANG12" title="Tháng 12" hide="false" formatCell="" width="80" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="17"/>
+
+		<coldgrcongviec tblColName="FLAG" title="FLAG" hide="TRUE" formatCell="" width="70" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="18"/>
+					
+
+	</dgrMayChamCong>
+	</controls>
+</form>

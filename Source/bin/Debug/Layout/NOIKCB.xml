@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<form>
+	<attributes>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		
+	</attributes>
+	<controls>
+		<dgrMayChamCong>
+
+			<colNKCB tblColName="MA" title="Mã" hide="false" formatCell="" width="400" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1"/>
+
+			<colNKCB tblColName="TEN" title="Tên" hide="false" formatCell="" width="600" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2"/>     					
+					
+		</dgrMayChamCong>
+	</controls>
+</form>

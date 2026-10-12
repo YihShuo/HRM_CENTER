@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<form>
+	<attributes>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+
+
+	</attributes>
+	<controls>
+		<dgrMayChamCong>
+			<coldgrMayChamCong tblColName="NGAY" title="Ngày" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="0"/>
+
+			<coldgrMayChamCong tblColName="X_MA_" title="XƯỞNG 廠別" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1"/>
+
+			<coldgrMayChamCong tblColName="N_MA" title="NGÀNH 部門" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2"/>
+
+			<coldgrMayChamCong tblColName="N_TEN_TAIWAN" title="TÊN NGÀNH TAIWAN 中文部門名字" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3"/>
+
+			<coldgrMayChamCong tblColName="DUOI20T" title="DƯỚI 20 TUỔI 歲以下"  hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4"/>
+
+			<coldgrMayChamCong tblColName="TU21_23T" title="21-23 TUỔI/21-23歲" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5"/>
+
+			<coldgrMayChamCong tblColName="TU24_26T" title="24-26 TUỔI/24-26歲" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="6"/>
+
+			<coldgrMayChamCong tblColName="TU27_29T" title="27-29 TUỔI/27-29歲" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="7"/>
+
+			<coldgrMayChamCong tblColName="TU30_35T" title="30-35 TUỔI/30-35歲" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="8"/>
+
+			<coldgrMayChamCong tblColName="TU35T_TROLEN" title="TRÊN 35 TUỔI/35歲以上" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="9"/>
+
+			<coldgrMayChamCong tblColName="TONGCONG" title="TỔNG CỘNG 合計" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="10"/>
+
+			
+			
+		</dgrMayChamCong>
+	</controls>
+</form>

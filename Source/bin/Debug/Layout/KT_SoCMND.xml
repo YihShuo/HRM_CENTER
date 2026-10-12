@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<form>
+	<attributes>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		
+	</attributes>
+	<controls>
+		<dgrMayChamCong>
+			
+			<coldgrMayChamCong tblColName="NV_Ten" title="Họ tên" hide="false" formatCell="" width="180" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1"/>
+
+			<coldgrMayChamCong tblColName="NV_Ma" title="Số thẻ" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2"/>
+
+			<coldgrMayChamCong tblColName="DV_MA" title="Đơn vị" hide="false" formatCell="" width="90" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3"/>
+
+			<coldgrMayChamCong tblColName="NV_Thuongtru" title="Địa chỉ" hide="false" formatCell="" width="250" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4"/>
+
+			<coldgrMayChamCong tblColName="NV_Ngayvao" title="Ngày vào" hide="false" formatCell="" width="80" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5"/>
+
+			<coldgrMayChamCong tblColName="TV_NgayThoiViec" title="Ngày thôi việc" hide="false" formatCell="" width="80" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="6"/>
+
+			<coldgrMayChamCong tblColName="LTV_Ten" title="Loại thôi việc" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="7"/>
+
+			<coldgrMayChamCong tblColName="TV_LyDo" title="Lý do thôi việc" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="8"/>
+
+		</dgrMayChamCong>
+	</controls>
+</form>

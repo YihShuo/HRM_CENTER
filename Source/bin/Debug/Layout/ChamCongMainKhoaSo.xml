@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<form>
+	<attributes>
+	
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+	  <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+	
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+
+  </attributes>
+	<controls>
+    
+		<dgrMayChamCong>
+
+      
+      <coldgrChamcongmainKhoaSo tblColName="DV_MA" title="Đơn Vị" hide="false" formatCell="" width="60" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4"/>
+
+      <coldgrChamcongmainKhoaSo tblColName="NV_MA" title="Mã số" hide="false" formatCell="" width="60" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5"/>
+
+      <coldgrChamcongmainKhoaSo tblColName="NV_TEN" title="Tên nhân viên" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="6"/>
+
+      <coldgrChamcongmainKhoaSo tblColName="QT_NGAY" title="Ngày" hide="false" formatCell="" width="75" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="7"/>
+		
+      <coldgrChamcongmainKhoaSo tblColName="GIOVAO" title="Giờ vào" hide="false" formatCell="" width="60" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="8"/>
+
+      <coldgrChamcongmainKhoaSo tblColName="GIORA" title="Giờ ra" hide="false" formatCell="" width="60" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="9"/>
+
+      
+      <coldgrChamcongmainKhoaSo tblColName="MACA" title="Mã Ca" hide="false" formatCell="" width="55" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="10"/>
+
+      <coldgrChamcongmainKhoaSo tblColName="GIOVAOTAY" title="Vào tay" hide="false" formatCell="" width="60" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="11"/>
+
+      <coldgrChamcongmainKhoaSo tblColName="GIORATAY" title="Ra tay" hide="false" formatCell="" width="60" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="12"/>
+
+
+     
+      
+      <coldgrChamcongmainKhoaSo tblColName="NGHIVAO" title="Nghỉ vào" hide="true" formatCell="" width="60" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="13"/>
+
+      <coldgrChamcongmainKhoaSo tblColName="NGHIRA" title="Nghỉ ra" hide="true" formatCell="" width="60" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="14"/>
+
+      <coldgrChamcongmainKhoaSo tblColName="CC_GIOBINHTHUONG" title="L.Thường" hide="false" formatCell="" width="60" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="15"/>
+
+      <coldgrChamcongmainKhoaSo tblColName="CC_GIOTANGCA" title="T ca" hide="false" formatCell="" width="60" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="16"/>
+
+      <coldgrChamcongmainKhoaSo tblColName="CC_GIOLAMDEM" title="L.Đêm" hide="false" formatCell="" width="60" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="17"/>
+
+      <coldgrChamcongmainKhoaSo tblColName="CC_HESONGAYCONG" title="Hệ số" hide="false" formatCell="" width="50" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="18"/>
+
+      <coldgrChamcongmainKhoaSo tblColName="NP_Ma" title="Nghỉ phép" hide="false" formatCell="" width="60" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="19"/>
+
+      <coldgrChamcongmainKhoaSo tblColName="CC_DITRE" title="Đi trễ" hide="false" formatCell="" width="50" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="20"/>
+
+      <coldgrChamcongmainKhoaSo tblColName="CC_QUENQUETTHE" title="Quên QT" hide="false" formatCell="" width="80" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="21"/>
+
+<coldgrChamcongmainKhoaSo tblColName="CC_SUATAN" title="Bữa Ăn" hide="false" formatCell="" width="97" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="22"/>
+
+		
+    </dgrMayChamCong>
+	</controls>
+</form>

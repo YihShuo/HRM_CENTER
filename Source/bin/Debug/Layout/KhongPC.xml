@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<form>
+	<attributes>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		
+  </attributes>
+	<controls>
+    
+		<dgrMayChamCong>
+
+      <coldgrChamcongmain tblColName="3" title="" hide="false" formatCell="" width="39" HtextAlign="2" VtextAlign="2" HtitAlign="2" VtitAlign="0" positionCol="1"/>
+
+      <coldgrChamcongmain tblColName="NV_MA" title="Số Thẻ" hide="false" formatCell="" width="100" HtextAlign="2" VtextAlign="2" HtitAlign="2" VtitAlign="0" positionCol="2"/>
+
+      <coldgrChamcongmain tblColName="NV_TEN" title="Họ Tên" hide="false" formatCell="" width="180" HtextAlign="0" VtextAlign="2" HtitAlign="2" VtitAlign="0" positionCol="3"/>
+ 
+      <coldgrChamcongmain tblColName="NV_PCChuyencan" title="Chuyên Cần" hide="false" formatCell="" width="100" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="4"/>
+
+      <coldgrChamcongmain tblColName="NV_PCMoitruong" title="Môi Trường" hide="false" formatCell="" width="100" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5"/>
+    
+      <coldgrChamcongmain tblColName="NV_PCTrachnhiem" title="Trách Nhiệm" hide="false" formatCell="" width="100" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="6"/>
+		
+      <coldgrChamcongmain tblColName="NV_PCKhac" title="Phụ Cấp Khác" hide="false" formatCell="" width="100" HtextAlign="2" VtextAlign="2" HtitAlign="0" VtitAlign="0" positionCol="7"/>
+
+     	
+    </dgrMayChamCong>
+	</controls>
+</form>

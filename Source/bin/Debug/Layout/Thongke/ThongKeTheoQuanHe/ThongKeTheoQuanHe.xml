@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<form>
+  <attributes>
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+  </attributes>
+
+  <controls>
+    <dgrchucvu>
+      <colthongketheomqh tblColName="SOTHE" title="SỐ THẺ" hide="false" formatCell="" width="120"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1" />
+
+      <colthongketheomqh tblColName="HOTEN" title="HỌ TÊN" hide="false" formatCell="" width="160"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2" />
+
+      <colthongketheomqh tblColName="DONVI" title="ĐƠN VỊ" hide="false" formatCell="" width="120"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3" />
+
+      <colthongketheomqh tblColName="GIOITINH" title="GIỚI TÍNH" hide="false" formatCell="" width="100"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4" />
+
+      <colthongketheomqh tblColName="NGAYSINH" title="NGÀY SINH" hide="false" formatCell="" width="140"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5" />
+
+      <colthongketheomqh tblColName="QUANHE" title="QUAN HỆ" hide="true" formatCell="" width="140"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="6" />
+
+      <colthongketheomqh tblColName="STT" title="STT" hide="true" formatCell="" width="100"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="7" />
+
+      <colthongketheomqh tblColName="TENQUANHE" title="HỌ TÊN QH" hide="false" formatCell="" width="160"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="8" />
+
+      <colthongketheomqh tblColName="NGAYSINH_QH" title="NGÀY SINH QH" hide="false" formatCell="" width="140"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="9" />
+
+      <colthongketheomqh tblColName="TENTHUONGGOI" title="TÊN THƯỜNG GỌI" hide="true" formatCell="" width="160"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="12" />
+
+      <colthongketheomqh tblColName="NGHENGHIEP_QH" title="NGHỀ NGHIỆP" hide="true" formatCell="" width="140"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="11" />
+
+      <colthongketheomqh tblColName="NOICONGTAC" title="NƠI CÔNG TÁC" hide="true" formatCell="" width="160"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="10" />
+
+      <colthongketheomqh tblColName="DIACHI_QH" title="ĐỊA CHỈ" hide="true" formatCell="" width="200"
+       HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="13" />
+
+      <colthongketheomqh tblColName="SOCMND_QH" title="SỐ CMND  QH" hide="true" formatCell="" width="100"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="14" />
+
+      <colthongketheomqh tblColName="NGAYCAP_QH" title="NGÀY CẤP QH" hide="true" formatCell="" width="140"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="15" />
+
+      <colthongketheomqh tblColName="NOICAP_QH" title="NƠI CẤP" hide="true" formatCell="" width="160"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="16" />
+
+      <colthongketheomqh tblColName="SOTHE_QH" title="SỐ THẺ QH" hide="true" formatCell="" width="120"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="17" />
+
+      <colthongketheomqh tblColName="QH_COLAMVIEC" title="QH CÓ LÀM VIỆC" hide="true" formatCell="" width="100"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="18" />
+
+      <colthongketheomqh tblColName="TUOI_QH" title="TUỔI  QH" hide="false" formatCell="" width="140"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="19" />
+    </dgrchucvu>
+  </controls>
+</form>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<form>
+	<attributes>
+		
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	</attributes>
+	<controls>
+		<dgrchucvu>
+      <coldgrhoso tblColName="STT" title="STT" hide="false" formatCell="" width="50"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1" />
+
+			<coldgrhoso tblColName="DV_MA" title="Đơn vị" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2" />
+
+      <coldgrhoso tblColName="DV_TEN" title="Đơn vị" hide="false" formatCell="" width="150"
+  HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3" />
+      
+	  <coldgrhoso tblColName="CO1" title="Số lượng có 1 con" hide="false" formatCell="" width="100"
+							HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4" />
+			
+	  <coldgrhoso tblColName="CO2" title="Số lượng có từ 2 con" hide="false" formatCell="" width="180"
+							HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5" />
+			
+      <coldgrhoso tblColName="SANHDOI" title="Số lượng sanh đôi" hide="false" formatCell="" width="180"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="6" />
+
+      <coldgrhoso tblColName="THAISAN1C" title="Thai sản (1con)" hide="true" formatCell="" width="180"
+  HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="7" />
+      
+      <coldgrhoso tblColName="THAISAN2C" title="Thai sản (từ 2con)" hide="true" formatCell="" width="180"
+  HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="8" />
+      
+      <coldgrhoso tblColName="THAISANSD" title="Thai sản (sanh đôi)" hide="true" formatCell="" width="180"
+  HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="9" />
+      
+      <coldgrhoso tblColName="TS" title="Thai sản" hide="false" formatCell="" width="180"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="10" />
+
+			<coldgrhoso tblColName="TONGCON" title="Tổng số con trợ cấp" hide="false" formatCell="" width="180"
+			  HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="11" />
+
+			<coldgrhoso tblColName="TONGTIEN" title="Tổng tiền" hide="false" formatCell="" width="180"
+			  HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="12" />
+      
+      <coldgrhoso tblColName="TONGTIEN_BOTS" title="Tổng tiền (bỏ thai sản)" hide="false" formatCell="" width="180"
+    HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="13" />	
+	     </dgrchucvu>
+	</controls>
+</form>

@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<form>
+	<attributes>
+		
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+        <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+
+	</attributes>
+
+	<controls>
+		<dgrchucvu>
+   <coldgrhoso tblColName="STT" title="STT" hide="false" formatCell="" width="50"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1" />
+			
+   <coldgrhoso tblColName="2" title="XÓA" hide="true" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2" />
+
+   <coldgrhoso tblColName="3" title="CHECK" hide="false" formatCell="" width="50"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3" />
+
+   <coldgrhoso tblColName="MA" title="Số Thẻ" hide="false" formatCell="" width="80"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4" />
+
+   <coldgrhoso tblColName="TEN" title="Họ Tên" hide="false" formatCell="" width="220"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5" />
+			
+   <coldgrhoso tblColName="NV_NGAYSINH" title="Ngày sinh" hide="false" formatCell="" width="100"
+					  HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="6" />
+			
+			<coldgrhoso tblColName="NV_NAMSINH" title="Chỉ có năm sinh" hide="true" formatCell="" width="100"
+					  HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="7" />
+
+			<coldgrhoso tblColName="CONGVIEC" title="Công việc" hide="false" formatCell="" width="150"
+			   HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="8" />
+		
+			
+      <coldgrhoso tblColName="DONVI" title="Đơn Vị" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="9" />
+
+			<coldgrhoso tblColName="CHUCVU" title="Chức vụ" hide="false" formatCell="" width="150"
+			   HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="10" />
+      
+      <coldgrhoso tblColName="NGAYVAO" title="Ngày Vào" hide="false" formatCell="" width="100"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="11" />
+
+      <coldgrhoso tblColName="BDAU_MANGTHAI" title="Ngày mang thai" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="12" />
+
+	  <coldgrhoso tblColName="SOLANMT" title="Lần mang thai" hide="false" formatCell="" width="150"
+		   HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="13" />
+
+	  <coldgrhoso tblColName="VE_15H30" title="Về 15h30" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="14" />
+			
+	  <coldgrhoso tblColName="DUSINH" title="Dự sinh" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="15" />
+			
+   	  <coldgrhoso tblColName="NGAYBD_TT7" title="Bắt đầu TTT7" hide="false" formatCell="" width="150"
+			    HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="16" />
+			
+	 <coldgrhoso tblColName="NGAYKT_TT7" title="Kết thúc TTT7" hide="false" formatCell="" width="150"
+			    HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="17" />
+
+	<coldgrhoso tblColName="NGAYBDST" title="Bắt đầu sảy thai" hide="false" formatCell="" width="150"
+ 			   HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="18" />
+			
+	<coldgrhoso tblColName="NGAYKTST" title="Kết thúc sảy thai" hide="false" formatCell="" width="150"
+					   HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="19" />		
+		</dgrchucvu>
+	</controls>
+</form>

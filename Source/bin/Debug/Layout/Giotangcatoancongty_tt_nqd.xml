@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<form>
+  <attributes>
+    
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>              
+  </attributes>
+  <controls>
+    <dgrngaynghi>
+      
+           <coldgrgiotangca tblColName="TEN" title="Họ tên" hide="false" formatCell="" width="200" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1"/>
+      <coldgrgiotangca tblColName="SOTHE" title="Số thẻ" hide="false" formatCell="center" width="90" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2"/>
+	  <coldgrgiotangca tblColName="DONVI" title="Đơn vị" hide="false" formatCell="" width="90" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3"/>
+	  <coldgrgiotangca tblColName="NGAYVAO" title="Ngày vào" hide="false" formatCell="" width="90" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4"/>
+	  <coldgrgiotangca tblColName="CV_TEN" title="Công việc" hide="false" formatCell="" width="90" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5"/>
+      <coldgrgiotangca tblColName="NAM" title="Năm" hide="true" formatCell="" width="90" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="6"/>
+      <coldgrgiotangca tblColName="XUONG" title="Xưởng" hide="false" formatCell="" width="90" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="7"/>
+      <coldgrgiotangca tblColName="TC1" title="Tăng ca T1" hide="false" formatCell="" width="90" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="8"/>
+     <coldgrgiotangca tblColName="TC2" title="Tăng ca T2" hide="false" formatCell="" width="90" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="9"/>
+     <coldgrgiotangca tblColName="TC3" title="Tăng ca T3" hide="false" formatCell="" width="90" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="10"/>	
+     <coldgrgiotangca tblColName="TC4" title="Tăng ca T4" hide="false" formatCell="" width="90" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="11"/>
+    <coldgrgiotangca tblColName="TC5" title="Tăng ca T5" hide="false" formatCell="" width="90" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="12"/>
+    <coldgrgiotangca tblColName="TC6" title="Tăng ca T6" hide="true" formatCell="" width="90" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="13"/>
+    <coldgrgiotangca tblColName="TC7" title="Tăng ca T7" hide="true" formatCell="" width="90" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="14"/>
+    <coldgrgiotangca tblColName="TC8" title="Tăng ca T8" hide="true" formatCell="" width="90" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="15"/>
+   <coldgrgiotangca tblColName="TC9" title="Tăng ca T9" hide="true" formatCell="" width="90" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="16"/>
+  <coldgrgiotangca tblColName="TC10" title="Tăng ca T10" hide="true" formatCell="" width="90" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="17"/>
+  <coldgrgiotangca tblColName="TC11" title="Tăng ca T11" hide="true" formatCell="" width="90" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="18"/>
+  <coldgrgiotangca tblColName="TC12" title="Tăng ca T12" hide="true" formatCell="" width="90" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="19"/>
+ <coldgrgiotangca tblColName="TONGGTC" title="Tổng Giờ Tăng Ca" hide="false" formatCell="" width="120" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="20"/>
+ <coldgrgiotangca tblColName="STT" title="STT" hide="false" formatCell="" width="50" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="0"/>
+    
+    
+    </dgrngaynghi>
+  </controls>
+</form>

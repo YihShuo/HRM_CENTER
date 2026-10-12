@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<form>
+	<attributes>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+    <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	  <frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	</attributes>
+	<controls>
+		<dgrchucvu>
+
+			<coldgrchucvu tblColName="DV_MA" title="Mã Đơn Vị" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1" />
+			
+			<coldgrchucvu tblColName="DV_TEN" title="Tên Đơn Vị" hide="false" formatCell="" width="200"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2" />
+			
+			<coldgrchucvu tblColName="N_MA" title="Mã Ngành" hide="true" formatCell="" width="100"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3" />
+      
+      <coldgrchucvu tblColName="N_TEN" title="Tên Ngành" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4" />
+      
+      <coldgrchucvu tblColName="X_MA_" title="Mã Nhà Xưởng" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5" />
+      
+      <coldgrchucvu tblColName="X_TEN" title="Tên Nhà Xưởng" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="6" />
+
+      <coldgrchucvu tblColName="DV_LocBB" title="Trạng thái không sử dụng" hide="false" formatCell="" width="150"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="7" />
+
+      <coldgrchucvu tblColName="DV_TV" title="Là loại đơn vị nghỉ việc" hide="false" formatCell="" width="150"
+      HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="8" />
+      
+      <coldgrchucvu tblColName="QT_SOMAY1" title="QT Số Máy 1" hide="true" formatCell="" width="200"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="9" />
+      
+      <coldgrchucvu tblColName="QT_SOMAY2" title="QT Số Máy 2" hide="true" formatCell="" width="200"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="10" />
+      
+      <coldgrchucvu tblColName="TS_BIENCHE" title="Biên chế" hide="true" formatCell="" width="200"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="11" />
+
+      <coldgrchucvu tblColName="THUTU" title="Thứ Tự" hide="true" formatCell="" width="200"
+       HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="12" />
+		   <coldgrchucvu tblColName="KHU" title="Khu" hide="true" formatCell="" width="200"
+       HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="13" />
+      		  <coldgrchucvu tblColName="Khoi" title="Khối" hide="false" formatCell="" width="200"
+       HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="14" />
+		</dgrchucvu>
+	</controls>
+</form>

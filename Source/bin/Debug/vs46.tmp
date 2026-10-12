@@ -1,0 +1,84 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+HRMSolution
+</name>
+</assembly>
+<members>
+<member name="M:TongHop.objKiemTraPhepNam.setvalueDonVi(System.String,System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ gán giá trị khi thao tác trên toàn đơn vị
+ </summary>
+</member><member name="M:TongHop.objKiemTraPhepNam.setbackvalue(System.String,System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ hàm lấy giá trị cũ trước khi sửa/xóa (dòng đang active)
+ </summary>
+</member><member name="P:TongHop.PrintRibbonControllerResources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:TongHop.PrintRibbonControllerResources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:TongHop.PrintRibbonControllerResources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:TongHop.objHDLD.TCCONGVIEC">
+</member><member name="M:TongHop.clsDKiemTraPhepNam.DeleteInfoAuto(TongHop.objKiemTraPhepNam)">
+	<summary>
+ xóa tự động khi không kết nối dl TS và mang thai
+ </summary>
+</member><member name="P:TongHop.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:TongHop.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:TongHop.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:TongHop.frmCBCNV_VayVonNganHang.Tabletemp">
+ Người tạo: Trân
+ Ngày tạo: 22/11/2013
+ Nội dung: Tạo mới form vay vốn ngân hàng
+ Ngày hiệu chỉnh: 26/11/2013,20/02/2014
+ Người hiệu chỉnh: Trân
+ Nội dung: thêm cột ngày vay vốn, lọc trên lưới theo xưởng,đơn vi hiện 2 loại
+ 20/2/2014: thêm tìm kiếm theo số tài khoản bắt sự kiện enter
+ thêm cột ngày vay vốn. 23/04/2014: những người đã hoàn vốn rồi đc vay tiếp.
+ chặn sự kiện khi đang tìm theo số tài khoản thì không gọi tìm số cmnd
+
+</member><member name="M:TongHop.frmCapNhatHoSoNhanSu.DoiDinhDangNgay(System.String)">
+	<summary>
+ Đổi định dạng từ lưới lên datetimepicker
+ </summary>
+	<param name="sNgay"></param>
+	<returns> ngày kiểu chuỗi theo định dạng yyyy/MM/dd</returns>
+</member><member name="P:TongHop.XRDesignRibbonControllerResources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:TongHop.XRDesignRibbonControllerResources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:TongHop.XRDesignRibbonControllerResources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:TongHop.clsBKiemTraPhepNam.DeleteAuTo(TongHop.objKiemTraPhepNam)">
+	<summary>
+ hàm xóa tự động khi nhập phép TS mà số lần MT không kết nối số lần TS
+ </summary>
+</member>
+</members>
+</doc>

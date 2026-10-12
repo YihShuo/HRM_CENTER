@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<form>
+	<attributes>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập"/>
+	</attributes>
+	<controls>
+		<dgrngaynghi>
+			<coldgrcvnhanvien tblColName="DV_MA" title="Mã Đơn Vị" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1"/>
+			<coldgrcvnhanvien tblColName="NV_MA" title="Mã Nhân Viên" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4"/>
+			<coldgrcvnhanvien tblColName="NV_NGAYVAO" title="Ngày Vào" hide="false" formatCell="" width="150" HtextAlign="3" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3"/>
+			<coldgrcvnhanvien tblColName="D_NAMEEN" title="Department" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2"/>
+			<coldgrcvnhanvien tblColName="F_NAMEEN" title="Function" hide="false" formatCell="" width="150" HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5"/>
+		</dgrngaynghi>
+	</controls>
+</form>

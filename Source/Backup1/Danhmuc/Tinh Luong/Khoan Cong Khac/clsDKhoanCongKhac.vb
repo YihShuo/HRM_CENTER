@@ -1,0 +1,126 @@
+Imports Microsoft.VisualBasic.CompilerServices
+Imports System
+Imports System.Data
+Imports System.Windows.Forms
+Imports VsHRM.VsHRM.VsDAL
+Public Class clsDKhoanCongKhac
+    Inherits DALSQL
+    ' Methods
+
+
+    Public Function LoadDS(ByVal obj As objKhoanCongKhac) As DataTable
+        Dim table As DataTable
+        Dim strSQL As String = ""
+
+        'Load danh sach don vi
+        If obj.ChonBang = 1 Then
+            strSQL = ("select DV_MA, (DV_MA+' - '+DV_TEN) AS TEN_DV FROM ST_DONVI WHERE  DV_MA <> 'CNM' AND DV_LOCBB = 0 ORDER BY DV_MA")
+        End If
+
+        'Load danh sach nhan vien theo don vi
+        If obj.ChonBang = 2 Then
+
+            If obj.DonVi = "TCT" Then
+                strSQL = " SELECT NULL AS [1],"
+                strSQL = strSQL + " CONVERT(BIT,'0') AS [2],"
+                strSQL = strSQL + " NULL AS [3],"
+                strSQL = strSQL + " ST_NHANVIEN.NV_MA,"
+                strSQL = strSQL + " NV_TEN,"
+                strSQL = strSQL + " T_MA,"
+                strSQL = strSQL + " SOTIEN"
+                strSQL = strSQL + " FROM ST_NHANVIEN LEFT JOIN ST_KHOANCONGKHAC ON ST_NHANVIEN.NV_MA = ST_KHOANCONGKHAC.NV_MA AND T_MA = '" + obj.NamThang + "'"
+                strSQL = strSQL + " INNER JOIN ST_DONVI ON ST_NHANVIEN.DV_MA = ST_DONVI.DV_MA AND ST_DONVI.DV_LOCBB = 0"
+                strSQL = strSQL + " WHERE ST_NHANVIEN.NV_MA NOT IN (SELECT NV_MA FROM ST_NHANVIENTHOIVIEC )"
+                strSQL = strSQL + " AND ST_DONVI.DV_TV <>1"
+                strSQL = strSQL + " ORDER BY ST_NHANVIEN.NV_MA"
+            Else
+                strSQL = "  SELECT NULL AS [1],"
+                strSQL = strSQL + " CONVERT(BIT,'0') AS [2],"
+                strSQL = strSQL + " NULL AS [3],"
+                strSQL = strSQL + " ST_NHANVIEN.NV_MA,"
+                strSQL = strSQL + " NV_TEN,"
+                strSQL = strSQL + " T_MA,"
+                strSQL = strSQL + " SOTIEN"
+                strSQL = strSQL + " FROM ST_NHANVIEN LEFT JOIN ST_KHOANCONGKHAC ON ST_NHANVIEN.NV_MA = ST_KHOANCONGKHAC.NV_MA AND T_MA = '" + obj.NamThang + "'"
+                strSQL = strSQL + " WHERE ST_NHANVIEN.DV_MA = '" + obj.DonVi + "' AND ST_NHANVIEN.NV_MA NOT IN (SELECT NV_MA FROM ST_NHANVIENTHOIVIEC ) ORDER BY ST_NHANVIEN.NV_MA"
+            End If
+        End If
+
+        If obj.ChonBang = 8 Then
+            strSQL = "SELECT * FROM ST_THANG ORDER BY T_MA"
+        End If
+
+        If obj.ChonBang = 3 Then
+            strSQL = "SELECT * FROM ST_KHOANCONGKHAC WHERE NV_MA = '" + obj.NV_MA + "' AND T_MA = '" + obj.NamThang + "'"
+        End If
+
+        Try
+            table = Me.getTableSQL(strSQL)
+        Catch exception1 As Exception
+            ProjectData.SetProjectError(exception1)
+            Dim exception As Exception = exception1
+            MessageBox.Show(exception.Message)
+            table = Nothing
+            ProjectData.ClearProjectError()
+        End Try
+        Return table
+    End Function
+    Public Function QuoteString(ByVal s As String) As String
+        Return s.Replace("'", "''")
+    End Function
+
+    Public Function UpdateInfo(ByVal obj As objKhoanCongKhac) As Boolean
+        Dim flag As Boolean
+        Dim strSQL As String
+        If obj.ChonBang = 1 Then
+            strSQL = "UPDATE ST_KHOANCONGKHAC  SET NGUOICAPNHAT= N'" & Me.QuoteString(obj.NGUOICN) & "',NGAYCAPNHAT=N'" & Me.QuoteString(obj.NGAYCN) & "',SOTIEN = " & Me.QuoteString(obj.SoTien) & " WHERE NV_MA = '" & Me.QuoteString(obj.NV_MA) & "' AND	T_MA =  '" & Me.QuoteString(obj.NamThang) & "'"
+        End If
+        If obj.ChonBang = 2 Then
+            'strSQL = "UPDATE [ST_GIOQUETTHE_]   SET [CC_SUATAN] = " + obj.ChamCom + " WHERE [QT_NGAY] = '" + obj.Ngay + "' AND	[NV_MA] =  '" + obj.NV_MA + "'"
+        End If
+        '= "BEGIN TRANSACTION" & ChrW(13) & ChrW(10)
+        'strSQL = ((((strSQL & "SET TRANSACTION ISOLATION LEVEL SERIALIZABLE" & ChrW(13) & ChrW(10)) & String.Concat(New String() {"UPDATE [ST_GIOQUETTHE_]   SET [QT_GIOVAOTAY] = " + obj.GioVaoTay + " ,[QT_GIORATAY] = " + obj.GioRaTay + " ,[CA_MA] = '" + obj.CA_Ma + "' WHERE [QT_NGAY] = '" + obj.Ngay + "' AND	[NV_MA] =  '" + obj.NV_MA + "'"}) & " " & ChrW(13) & ChrW(10)) & "if(@@ERROR<>0)" & ChrW(13) & ChrW(10)) & "ROLLBACK TRANSACTION" & ChrW(13) & ChrW(10) & "COMMIT TRANSACTION")
+        Try
+            flag = Me.execSQL(strSQL)
+        Catch exception1 As Exception
+            ProjectData.SetProjectError(exception1)
+            Dim exception As Exception = exception1
+            MessageBox.Show(exception.Message)
+            flag = False
+            ProjectData.ClearProjectError()
+        End Try
+        Return flag
+    End Function
+
+    Public Function DeleteInfo(ByVal obj As objKhoanCongKhac) As Boolean
+        Dim flag As Boolean
+        Dim strSQL, strSQLThaoTac As String
+        strSQL = "DELETE ST_KHOANCONGKHAC WHERE NV_MA ='" & Me.QuoteString(obj.NV_MA) & "'AND T_MA = '" & Me.QuoteString(obj.NamThang) & "' "
+
+        strSQLThaoTac = "DELETE ST_KHOANCONGKHAC WHERE NV_MA =''" & Me.QuoteString(obj.NV_MA) & "''AND T_MA = ''" & Me.QuoteString(obj.NamThang) & "'' "
+
+        Dim strSQL1 As String
+        strSQL1 = ("INSERT INTO jell_TacDong([ThoiDiem] ,[HanhDong],[Ten_DangNhap]) values(N'" & Me.QuoteString(obj.NGAYCN) & "',N'" & strSQLThaoTac & "',N'" & Me.QuoteString(obj.NGUOICN) & "')")
+        flag = Me.execSQL(strSQL1)
+        Return Me.execSQL(strSQL)
+    End Function
+
+    Public Function InsertInfo(ByVal obj As objKhoanCongKhac) As Boolean
+        Dim flag As Boolean
+        Dim strSQL As String
+        If obj.ChonBang = 1 Then
+            strSQL = ("INSERT INTO ST_KHOANCONGKHAC([NV_MA],[T_MA],[SOTIEN], NGAYTAO, NGUOITAO) values(N'" & Me.QuoteString(obj.NV_MA) & "',N'" & Me.QuoteString(obj.NamThang) & "'," & Me.QuoteString(obj.SoTien) & ",N'" & Me.QuoteString(obj.NGAYTAO) & "',N'" & Me.QuoteString(obj.NGUOITAO) & "')")
+        End If
+        Try
+            flag = Me.execSQL(strSQL)
+        Catch exception1 As Exception
+            ProjectData.SetProjectError(exception1)
+            Dim exception As Exception = exception1
+            MessageBox.Show(exception.Message, "Th" & ChrW(244) & "ng b" & ChrW(225) & "o")
+            flag = False
+            ProjectData.ClearProjectError()
+        End Try
+        Return flag
+    End Function
+
+End Class

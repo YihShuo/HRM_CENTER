@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<form>
+	<attributes>
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+		<frmA name="tên thuộc tính" value="giá trị thiết lập" />
+	
+	</attributes>
+	<controls>
+		<dgrchucvu>
+      			<coldgrkhongphep  tblColName="X_MA_" title="Xưởng" hide="false" formatCell="" width="60"
+     				 HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1" />
+
+
+    			  <coldgrkhongphep  tblColName="NAM" title="Năm" hide="false" formatCell="" width="60"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="1" />
+
+			<coldgrkhongphep  tblColName="THANG" title="Tháng" hide="false" formatCell="" width="60"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="2" />
+
+			<coldgrkhongphep  tblColName="SLBQHIENDIEN" title="Số Lượng Bình Quân Hiện Diện" hide="false" formatCell="" width="180"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="3" />
+
+			<coldgrkhongphep  tblColName="SLBQVANGMAT" title="Số Lượng Bình Quân Vắng Mặt"   hide="false" formatCell="" width="180"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="4" />
+			
+			<coldgrkhongphep  tblColName="SLBQVANGMATKHONGPHEP" title="Số Lượng Bình Quân Vắng Không Phép"   hide="false" formatCell="" width="220"
+				HtextAlign="0" VtextAlign="0" HtitAlign="0" VtitAlign="0" positionCol="5" />
+						
+		</dgrchucvu>
+	</controls>
+</form>
